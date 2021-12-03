@@ -1,0 +1,182 @@
+[barney_stupid_mules]
+{
+	[text*]
+	{
+		choice = buy_packmule;
+		screen_text = "Gosh, look at these stupid mules. They're the most stupid animals I've ever seen. They're like dullfish, but as a mule... Man, I'm glad I'm not a mule.";
+	  f scroll_rate = 20.000000;
+	}
+}
+[fergie_hardly_working]
+{
+	[text*]
+	{
+		screen_text = "Sorry, I'm very busy today... managing and delegating and stuff.";
+	  f scroll_rate = 20.000000;
+	}
+}
+[fred_working_hard]
+{
+	[text*]
+	{
+		screen_text = "Sorry, I'm very busy today, working hard.";
+	  f scroll_rate = 20.000000;
+	}
+}
+[hippie_water]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		screen_text = "Empty your mind. Be formless, shapeless. Like water.";
+	  f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		choice = more;
+	  i order = 1;
+		screen_text = "Now, you put water into a cup - it becomes the cup. You put water into a bottle and it becomes the bottle. You put in a teapot, it becomes the teapot. 
+Water can flow, or it can crash. ";
+	  f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		screen_text = "Be water, my friend!";
+	  f scroll_rate = 20.000000;
+	}
+}
+[meg_guide]
+{
+	[text*]
+	{
+		screen_text = "Hello, stranger!
+What can I do for you?
+You want to do some shopping? Well, there's the Smiths (or Smitties, if you want), and of course Trisha, our village hag. I suppose they're out working, as people do who are not as beautiful as me.";
+	  f scroll_rate = 20.000000;
+	}
+}
+[mr_smith_shop]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		screen_text = "Hi, I'm Mister Smith (or Smittie, if you want). I'm the smith here.";
+	  f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		choice = more;
+	  i order = 1;
+		screen_text = "Do you know the history of Lord Hovart?
+He was Lord of Ehland back in the old days, and reigned brutally until our grandparents revolted and overthrew him. He was hanged on the little hill southeast from here, and then buried there...
+The Old Man was alive back then.";
+	  f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		choice = shop;
+		screen_text = "I can sell you what I have here. For the fancier stuff you have to go to my wife.";
+	  f scroll_rate = 20.000000;
+	}
+}
+[mrs_smith_shop]
+{
+	[text*]
+	{
+		choice = shop;
+		screen_text = "Did my old dad tell you about old Lord Hovart? Oh dear.
+And even if it's true - I got a business to run here! Quality has its price. Have a look!
+...My hubby might have things more suitable for you tho...";
+	  f scroll_rate = 20.000000;
+	}
+}
+[quest_fulfilled]
+{
+	[text*]
+	{
+		screen_text = "Thank you so much for making Ehland safe again!
+Finally I can sleep in peace again.";
+	  f scroll_rate = 20.000000;
+	}
+}
+[quest_guide]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		screen_text = "Welcome to Ehland, dear traveller.
+It's small but it's ours - and we wouldn't want to live anywhere else.";
+	  f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		choice = more;
+	  i order = 1;
+		screen_text = "The people here might be a bit funny but they're all good folks.
+If you want to buy something, have a look at the armor & weaponry store of my daughter and her hubby out to the west of Eh village. Trisha our village hag is also out there somewhere today.";
+	  f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		choice = more;
+	  i order = 2;
+		screen_text = "But don't go out too far - it's not safe! The dead are walking out there... I fear the old Lord Hovart himself has risen! Stay away from his grave hill!";
+	  f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		choice = more;
+	  i order = 3;
+		screen_text = "Unfortunately my daughter does not see the need to confront him, or even just to lower prices for adventurous travellers as you...
+The rest of the village isn't very useful either, good folks as they are.";
+	  f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		choice = more;
+	  i order = 4;
+		screen_text = "If you want to help me but don't have cash, I know there must be a lot of money stored in the Old Tunnel...
+You could go there through Ehwood forest, just go west from here.
+Should be doable for a strong adventurer like you are. I'd recommend take a good bow with you though.";
+	  f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		activate_quest* = hovart,0;
+	  b quest_dialogue = true;
+		screen_text = "If you want to help an old man sleep in peace again... I would be very happy if you could bring old Hovart back to the dead where he belongs.";
+	  f scroll_rate = 20.000000;
+	}
+}
+[trisha_colours]
+{
+	[text*]
+	{
+		choice = more;
+	  i order = 0;
+		screen_text = "What I'm doing here? 
+I'm collecting colours, of course!";
+	  f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		choice = more;
+	  i order = 1;
+		screen_text = "I had a dream last night - of the old Lord Hovart rising from his grave - and there were spiders and worse - and a creature of darkness...
+I saw them all walking around on Hovart hill.
+
+Maybe the Old Man is right!
+Or maybe his stories have just confused me...
+Anyways I'm not going there.";
+	  f scroll_rate = 20.000000;
+	}
+	[text*]
+	{
+		choice = shop;
+		screen_text = "Hey, wanna by some of my magic stuff?";
+	  f scroll_rate = 20.000000;
+	}
+}

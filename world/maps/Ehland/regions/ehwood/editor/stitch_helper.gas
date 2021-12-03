@@ -1,0 +1,14 @@
+[stitch_helper_data]
+{
+	source_region_guid = 0x00000002;
+	source_region_name = ehwood;
+	[t:stitch_editor,n:eh]
+	{
+		dest_region = eh;
+		[node_ids]
+		{
+			0x00000001 = 0x4D82FF26,2;
+			0x00000002 = 0x0B425690,2;
+		}
+	}
+}

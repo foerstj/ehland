@@ -1,0 +1,176 @@
+[t:door_grs_peasant_left,n:0x0010007c]
+{
+	[placement]
+	{
+	  q orientation = 0,0.986286,0,-0.165048;
+	  p position = 1.28011,-3.64833,-3.61152,0xacdd2b6c;
+	}
+}
+[t:door_grs_peasant_left,n:0x00100084]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.990269,0,-0.139172;
+	  p position = 0.938679,-2.98968,-3.22624,0x717a4ce7;
+	}
+}
+[t:sign_glb_01,n:0x001000d0]
+{
+	[common]
+	{
+		screen_name = "Eastend";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.00872645,0,0.999962;
+	  p position = 16.3843,5.6,-46.9448,0x5ed2be61;
+	}
+}
+[t:sign_glb_01,n:0x00100551]
+{
+	[common]
+	{
+		screen_name = "Ehwood";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.00872645,0,0.999962;
+	  p position = 16.399,5.3931,-46.9873,0x5ed2be61;
+	}
+}
+[t:sign_glb_01,n:0x00100036]
+{
+	[common]
+	{
+		screen_name = "Westend";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.00872645,0,0.999962;
+	  p position = 17.0744,5.55154,-37.1779,0x1754c4a5;
+	}
+}
+[t:sign_glb_01,n:0x00100552]
+{
+	[common]
+	{
+		screen_name = "Ehwood";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.00872645,0,0.999962;
+	  p position = 17.0731,5.30531,-37.2252,0x1754c4a5;
+	}
+}
+[t:door_grs_peasant_left,n:0x00100086]
+{
+	[placement]
+	{
+	  q orientation = 0,0.986286,0,-0.165048;
+	  p position = 1.26906,-3.64833,-3.62414,0xf9fff5a8;
+	}
+}
+[t:sign_glb_01,n:0x00100554]
+{
+	[common]
+	{
+		screen_name = "Eh";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.999962,0,-0.00872656;
+	  p position = -1.49494,5.24521e-006,-1.70253,0x22c2c228;
+	}
+}
+[t:sign_glb_01,n:0x00100557]
+{
+	[common]
+	{
+		screen_name = "Ehwood";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.00872645,0,0.999962;
+	  p position = -1.68551,-0.23981,-1.63893,0x22c2c228;
+	}
+}
+[t:sign_glb_01,n:0x00100559]
+{
+	[common]
+	{
+		screen_name = "Eh";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.999962,0,-0.00872656;
+	  p position = 2.65703,-0.0826411,3.56355,0x46a51e58;
+	}
+}
+[t:sign_glb_01,n:0x0010055a]
+{
+	[common]
+	{
+		screen_name = "Ehwood";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.00872645,0,0.999962;
+	  p position = 2.47907,-0.3,3.57608,0x46a51e58;
+	}
+}
+[t:sign_glb_01,n:0x001005ae]
+{
+	[common]
+	{
+		screen_name = "Hovart hill";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.71325,0,0.700909;
+	  p position = 2.64427,-0.3,3.51439,0x46a51e58;
+	}
+}
+[t:sign_glb_01,n:0x001000ce]
+{
+	[common]
+	{
+		screen_name = "Southend";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.00872645,0,0.999962;
+	  p position = 15.2746,5.69619,-42.5625,0x38e47228;
+	}
+}
+[t:door_grs_peasant_left,n:0x0010009d]
+{
+	[placement]
+	{
+	  q orientation = 0,0.986286,0,-0.165048;
+	  p position = 1.25996,-3.7414,-3.68855,0xb15fda80;
+	}
+}
+[t:sign_glb_01,n:0x001005ad]
+{
+	[common]
+	{
+		screen_name = "Hovart hill";
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.390731,0,0.920505;
+	  p position = 0.384315,0,1.0552,0x34c62a7a;
+	}
+}
+[t:sign_glb_01,n:0x001000d2]
+{
+	[common]
+	{
+		screen_name = "Northend";
+	}
+	[placement]
+	{
+	  q orientation = 0,0.700909,0,0.71325;
+	  p position = 2.62507,-0.0499353,-1.38272,0xc9a80f3c;
+	}
+}

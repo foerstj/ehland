@@ -1,0 +1,11 @@
+[t:region,n:region]
+{
+	created = schlepptop,jonnie;
+	description = "The village of Ehland";
+  x guid = 0x00000001;
+	lastmodified = AMÉLIE,johan;
+	name = eh;
+	notes = none;
+  x scid_range = 0x00000001;
+	se_version = 1.10.0.0327 (msqa:2002.08.0701);
+}

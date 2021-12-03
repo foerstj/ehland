@@ -1,0 +1,17 @@
+[quests]
+{
+	[hovart]
+	{
+		quest_image = b_gui_ig_mnu_quest;
+		screen_name = Kill Lord Hovart (again);
+		victory_sample = s_e_level_up_quest;
+		[*]
+		{
+			address = world:maps:ehland:regions:eh:conversations:quest_guide;
+			description = Make Hovart dead again! Hint: Go west through Ehwood forest and find money for equipment in the Old Tunnel. Find Hovart in the southeast of Eh.;
+		  i order = 0;
+		  b required_update = true;
+			speaker = Old Man;
+		}
+	}
+}

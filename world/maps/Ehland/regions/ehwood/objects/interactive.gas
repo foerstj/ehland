@@ -1,0 +1,34 @@
+[t:sign_glb_01,n:0x0020001c]
+{
+	[common]
+	{
+		screen_name = "Eh via Old Tunnel";
+	}
+	[placement]
+	{
+	  p position = -2.3533,0,1.53335,0xca4e87cb;
+	}
+}
+[t:sign_glb_01,n:0x0020002a]
+{
+	[common]
+	{
+		screen_name = "Eh";
+	}
+	[placement]
+	{
+	  q orientation = 0,-1,0,-1.49012e-007;
+	  p position = -2.17093,-0.2283,1.534,0xca4e87cb;
+	}
+}
+[t:door_glb_crypt_01,n:0x00200011]
+{
+	[door_basic]
+	{
+	  b use_toggle = true;
+	}
+	[placement]
+	{
+	  p position = -0.0069294,-1.5,0.0476379,0x42cc4d7c;
+	}
+}
