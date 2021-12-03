@@ -39,7 +39,7 @@
 			  f azimuth = 0.610000;
 			  f distance = 25.000000;
 			  f orbit = -0.310000;
-				position = 2.322724,0.000003,3.452358,0x7995BF4F;
+				position = -0.575150,0.000003,-0.941087,0x7995BF4F;
 			}
 		}
 		[start_position]
