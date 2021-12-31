@@ -587,8 +587,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.983255,0,0.182235;
-	  p position = 1.85747,-3,-3.18398,0x717a4ce7;
+	  q orientation = 0,0.990268,0,0.139173;
+	  p position = 1.90742,-3,-3.06201,0x717a4ce7;
 	}
 }
 [t:bush_grs_rhod_01,n:0x00100021]
