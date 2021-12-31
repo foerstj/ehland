@@ -9805,8 +9805,8 @@
 {
 	[placement]
 	{
-	  q orientation = -0.707107,0,0,0.707107;
-	  p position = -3.49418,3.9734,0.914212,0x702e528e;
+	  q orientation = -0.5,-0.5,-0.5,0.5;
+	  p position = -1.10507,1.6734,2.30075,0xb25d960a;
 	}
 }
 [t:mushrooms_cav_05,n:0x001002fa]
