@@ -23,7 +23,7 @@
 		{
 		}
 	}
-	[t:start_group,n:flaris]
+	[t:start_group,n:eh]
 	{
 	  b default = true;
 		description = "The nice little village of Ehland";
