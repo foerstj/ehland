@@ -195,6 +195,8 @@
 	  f scale_base = 3;
 	}
 }
+
+// These are derived from cave mushrooms but used outdoors -> use glb texture
 [t:template,n:mushroom_eh_pink_med]
 {
     specializes = mushrooms_cav_04_base;
@@ -203,6 +205,7 @@
 	{
 	  b does_block_camera = true;
 	  f scale_base = 3;
+		textures:0 = b_i_glb_mushrooms-01;
 	}
 }
 [t:template,n:mushroom_eh_white_delicate_lg]
@@ -213,6 +216,7 @@
 	{
 	  b does_block_camera = true;
 	  f scale_base = 3;
+		textures:0 = b_i_glb_mushrooms-01;
 	}
 }
 [t:template,n:mushroom_eh_red_med]
@@ -223,6 +227,7 @@
 	{
 	  b does_block_camera = true;
 	  f scale_base = 3;
+		textures:0 = b_i_glb_mushrooms-01;
 	}
 }
 [t:template,n:mushroom_eh_tan_squat_med]
@@ -233,5 +238,6 @@
 	{
 	  b does_block_camera = true;
 	  f scale_base = 3;
+		textures:0 = b_i_glb_mushrooms-01;
 	}
 }
