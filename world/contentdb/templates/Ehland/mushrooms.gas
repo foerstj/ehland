@@ -1,0 +1,237 @@
+// Original templates copied & suffixed with _base
+[t:template,n:mushroom_glb_06_base]
+{
+	category_name = "foliage";
+	doc = "shroom_red_xlg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.8;
+		lodfi_upper = 1;
+		model = m_i_glb_mushrooms-06;
+		[textures]
+		{
+			0 = b_i_glb_mushrooms-02;
+		}
+	}
+}
+[t:template,n:mushroom_glb_07_base]
+{
+	category_name = "foliage";
+	doc = "shroom_prpl_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.65;
+		lodfi_upper = 1;
+		model = m_i_glb_mushrooms-07;
+		[textures]
+		{
+			0 = b_i_glb_mushrooms-02;
+		}
+	}
+}
+[t:template,n:mushroom_glb_08_base]
+{
+	category_name = "foliage";
+	doc = "shroom_teal_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.65;
+		lodfi_upper = 1;
+		model = m_i_glb_mushrooms-08;
+		[textures]
+		{
+			0 = b_i_glb_mushrooms-02;
+		}
+	}
+}
+[t:template,n:mushroom_glb_09_base]
+{
+	category_name = "foliage";
+	doc = "shroom_lime_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.65;
+		lodfi_upper = 1;
+		model = m_i_glb_mushrooms-09;
+		[textures]
+		{
+			0 = b_i_glb_mushrooms-02;
+		}
+	}
+}
+[t:template,n:mushroom_glb_10_base]
+{
+	category_name = "foliage";
+	doc = "shroom_tan_med";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.65;
+		lodfi_upper = 1;
+		model = m_i_glb_mushrooms-10;
+		[textures]
+		{
+			0 = b_i_glb_mushrooms-02;
+		}
+	}
+}
+[t:template,n:mushrooms_cav_04_base]
+{
+	category_name = "foliage";
+	doc = "shroom_pink_med";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.25;
+		lodfi_upper = 0.6;
+		model = m_i_cav_mushrooms-04;
+		[textures]
+		{
+			0 = b_i_cav_mushrooms-01;
+		}
+	}
+}
+[t:template,n:mushrooms_cav_05_base]
+{
+	category_name = "foliage";
+	doc = "shroom_white_delicate_lg";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.25;
+		lodfi_upper = 0.6;
+		model = m_i_cav_mushrooms-05;
+		[textures]
+		{
+			0 = b_i_cav_mushrooms-01;
+		}
+	}
+}
+[t:template,n:mushrooms_cav_06_base]
+{
+	category_name = "foliage";
+	doc = "shroom_red_med";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.25;
+		lodfi_upper = 0.6;
+		model = m_i_cav_mushrooms-06;
+		[textures]
+		{
+			0 = b_i_cav_mushrooms-01;
+		}
+	}
+}
+[t:template,n:mushrooms_cav_07_base]
+{
+	category_name = "foliage";
+	doc = "shroom_tan_squat_med";
+	specializes = non_interactive_nonblocking;
+	[aspect]
+	{
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.4;
+		model = m_i_cav_mushrooms-07;
+		[textures]
+		{
+			0 = b_i_cav_mushrooms-01;
+		}
+	}
+}
+
+// Own templates: mushrooms bigger and fading
+[t:template,n:mushroom_eh_red_xlg]
+{
+    specializes = mushroom_glb_06_base;
+
+	[aspect]
+	{
+	  b does_block_camera = true;
+	  f scale_base = 3;
+	}
+}
+[t:template,n:mushroom_eh_prpl_lg]
+{
+    specializes = mushroom_glb_07_base;
+
+	[aspect]
+	{
+	  b does_block_camera = true;
+	  f scale_base = 3;
+	}
+}
+[t:template,n:mushroom_eh_teal_lg]
+{
+    specializes = mushroom_glb_08_base;
+
+	[aspect]
+	{
+	  b does_block_camera = true;
+	  f scale_base = 3;
+	}
+}
+[t:template,n:mushroom_eh_lime_lg]
+{
+    specializes = mushroom_glb_09_base;
+
+	[aspect]
+	{
+	  b does_block_camera = true;
+	  f scale_base = 3;
+	}
+}
+[t:template,n:mushroom_eh_tan_med]
+{
+    specializes = mushroom_glb_10_base;
+
+	[aspect]
+	{
+	  b does_block_camera = true;
+	  f scale_base = 3;
+	}
+}
+[t:template,n:mushroom_eh_pink_med]
+{
+    specializes = mushrooms_cav_04_base;
+
+	[aspect]
+	{
+	  b does_block_camera = true;
+	  f scale_base = 3;
+	}
+}
+[t:template,n:mushroom_eh_white_delicate_lg]
+{
+    specializes = mushrooms_cav_05_base;
+
+	[aspect]
+	{
+	  b does_block_camera = true;
+	  f scale_base = 3;
+	}
+}
+[t:template,n:mushroom_eh_red_med]
+{
+    specializes = mushrooms_cav_06_base;
+
+	[aspect]
+	{
+	  b does_block_camera = true;
+	  f scale_base = 3;
+	}
+}
+[t:template,n:mushroom_eh_tan_squat_med]
+{
+    specializes = mushrooms_cav_07_base;
+
+	[aspect]
+	{
+	  b does_block_camera = true;
+	  f scale_base = 3;
+	}
+}
