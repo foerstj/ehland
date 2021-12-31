@@ -3,7 +3,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.986286,0,-0.165048;
-	  p position = 1.28011,-3.64833,-3.61152,0xacdd2b6c;
+	  p position = 1.25006,-3.64833,-3.65475,0xacdd2b6c;
 	}
 }
 [t:door_grs_peasant_left,n:0x00100084]
