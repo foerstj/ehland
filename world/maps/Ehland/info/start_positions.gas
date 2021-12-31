@@ -4,12 +4,12 @@
 	{
 	  b default = false;
 		description = "The woods of Eh";
-	  b dev_only = false;
+	  b dev_only = true;
 	  i id = 1698464;
 		screen_name = "Ehwood";
 		[start_position]
 		{
-		  i id = 9;
+		  i id = 1;
 			position = -0.641647,0.000000,1.454514,0x547B4AC2;
 			[camera]
 			{
