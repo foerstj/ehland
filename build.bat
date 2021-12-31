@@ -21,7 +21,7 @@ if %errorlevel% neq 0 pause
 :: Compile main resource file
 rmdir /S /Q "%tmp%\Bits"
 robocopy "%doc_ds%\Bits\world\ai" "%tmp%\Bits\world\ai" /E
-robocopy "%doc_ds%\Bits\world\contentdb" "%tmp%\Bits\world\contentdb" /E
+robocopy "%doc_ds%\Bits\world\contentdb\templates\%map_cs%" "%tmp%\Bits\world\contentdb\templates\%map_cs%" /E
 robocopy "%doc_ds%\Bits\world\global" "%tmp%\Bits\world\global" /E
 %tc%\RTC.exe -source "%tmp%\Bits" -out "%ds%\Resources\%map_cs%.dsres" -copyright "CC-BY-SA 2021" -title "%map_cs%" -author "Johannes Förstner"
 if %errorlevel% neq 0 pause
