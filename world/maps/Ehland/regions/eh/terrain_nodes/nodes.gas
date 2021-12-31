@@ -6760,14 +6760,14 @@
 	}
 	[t:snode,n:0x54f740e1]
 	{
-	  b bounds_camera = true;
+	  b bounds_camera = false;
 	  b camera_fade = false;
 	  x guid = 0x54F740E1;
 	  x mesh_guid = 0x00000670;
 	  x nodelevel = 0xFFFFFFFF;
 	  x nodeobject = 0xFFFFFFFF;
 	  x nodesection = 0x00000001;
-	  b occludes_camera = false;
+	  b occludes_camera = true;
 	  b occludes_light = true;
 		texsetabbr = grs01;
 		[door*]
@@ -16307,7 +16307,7 @@
 	}
 	[t:snode,n:0xde683172]
 	{
-	  b bounds_camera = true;
+	  b bounds_camera = false;
 	  b camera_fade = false;
 	  x guid = 0xDE683172;
 	  x mesh_guid = 0x0000066F;

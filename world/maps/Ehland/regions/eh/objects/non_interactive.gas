@@ -9801,14 +9801,6 @@
 	  p position = 0.995015,0,0.991493,0x7f4b8610;
 	}
 }
-[t:fan_gob_01,n:0x001000b1]
-{
-	[placement]
-	{
-	  q orientation = -0.5,-0.5,-0.5,0.5;
-	  p position = -1.10507,1.6734,2.30075,0xb25d960a;
-	}
-}
 [t:mushrooms_cav_05,n:0x001002fa]
 {
 	[aspect]
@@ -9852,6 +9844,14 @@
 	{
 	  q orientation = 0,1,0,-8.9407e-008;
 	  p position = -0.890904,-2.3,0.825567,0xb25d960a;
+	}
+}
+[t:fan_gob_01,n:0x001000b1]
+{
+	[placement]
+	{
+	  q orientation = -0.5,-0.5,-0.5,0.5;
+	  p position = -1.10507,1.6734,2.30075,0xb25d960a;
 	}
 }
 [t:flowers_grs_08,n:0x0010002e]
