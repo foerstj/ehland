@@ -1,0 +1,157 @@
+[t:0x0407,n:text]
+{
+    // Barney
+	[0x0000]
+	{
+		from = "Gosh, look at these stupid mules. They're the most stupid animals I've ever seen. They're like dullfish, but as a mule... Man, I'm glad I'm not a mule.";
+		to = "";
+	}
+
+    // Fergie
+	[0x0000]
+	{
+		from = "Sorry, I'm very busy today... managing and delegating and stuff.";
+		to = "";
+	}
+    // Fred
+	[0x0000]
+	{
+		from = "Sorry, I'm very busy today, working hard.";
+		to = "";
+	}
+
+    // Hippie channeling Bruce Lee
+	[0x0000]
+	{
+		from = "Empty your mind. Be formless, shapeless. Like water.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Be water, my friend!";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Now, you put water into a cup - it becomes the cup. You put water into a bottle and it becomes the bottle. You put in a teapot, it becomes the teapot.\nWater can flow, or it can crash.";
+		to = "";
+	}
+
+    // Beauty Meg guiding
+	[0x0000]
+	{
+		from = "Hello, stranger!\nWhat can I do for you?\nYou want to do some shopping? Well, there's the Smiths (or Smitties, if you want), and of course Trisha, our village hag. I suppose they're out working, as people do who are not as beautiful as me.";
+		to = "";
+	}
+
+    // Mr Smith shop
+	[0x0000]
+	{
+		from = "Hi, I'm Mister Smith (or Smittie, if you want). I'm the smith here.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Do you know the history of Lord Hovart?\nHe was Lord of Ehland back in the old days, and reigned brutally until our grandparents revolted and overthrew him. He was hanged on the little hill southeast from here, and then buried there...\nThe Old Man was alive back then.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "I can sell you what I have here. For the fancier stuff you have to go to my wife.";
+		to = "";
+	}
+
+    // Mrs Smith shop
+	[0x0000]
+	{
+		from = "Did my old dad tell you about old Lord Hovart? Oh dear.\nAnd even if it's true - I got a business to run here! Quality has its price. Have a look!\n...My hubby might have things more suitable for you tho...";
+		to = "";
+	}
+
+    // Old Man quest char
+	[0x0000]
+	{
+		from = "Welcome to Ehland, dear traveller.\nIt's small but it's ours - and we wouldn't want to live anywhere else.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "The people here might be a bit funny but they're all good folks.\nIf you want to buy something, have a look at the armor & weaponry store of my daughter and her hubby out to the west of Eh village. Trisha our village hag is also out there somewhere today.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "But don't go out too far - it's not safe! The dead are walking out there... I fear the old Lord Hovart himself has risen! Stay away from his grave hill!";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Unfortunately my daughter does not see the need to confront him, or even just to lower prices for adventurous travellers as you...\nThe rest of the village isn't very useful either, good folks as they are.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "If you want to help me but don't have cash, I know there must be a lot of money stored in the Old Tunnel...\nYou could go there through Ehwood forest, just go west from here.\nShould be doable for a strong adventurer like you are. I'd recommend take a good bow with you though.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "If you want to help an old man sleep in peace again... I would be very happy if you could bring old Hovart back to the dead where he belongs.";
+		to = "";
+	}
+    // quest fulfilled:
+	[0x0000]
+	{
+		from = "Thank you so much for making Ehland safe again!\nFinally I can sleep in peace again.";
+		to = "";
+	}
+
+    // Trisha the village hag
+	[0x0000]
+	{
+		from = "What I'm doing here?\nI'm collecting colours, of course!";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "I had a dream last night - of the old Lord Hovart rising from his grave - and there were spiders and worse - and a creature of darkness...\nI saw them all walking around on Hovart hill.\n\nMaybe the Old Man is right!\nOr maybe his stories have just confused me...\nAnyways I'm not going there.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Hey, wanna by some of my magic stuff?";
+		to = "";
+	}
+
+    // Lauryn companion
+	[0x0000]
+	{
+		from = "Hello, traveller!\nAre you an adventurer, looking for fame and fortune? Perfect timing, Lord Hovart has arisen from the dead to take revenge on our peaceful village - it's true, I've seen him at his grave on Hovart hill! That tightwad Mrs. Smith won't lend me any of her good armors, and my pocket money isn't enough, so I want to find the money hidden in the Old Tunnel. It's a secret the Old Man has told me about once.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Wanna go together? To be honest, I'm afraid of spiders... and the woods are full of them!";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Pff then not!";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Yay let's go!";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Wait, what?";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "No hard feelings mate... Wanna go together again?";
+		to = "";
+	}
+}

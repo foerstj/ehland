@@ -1,0 +1,38 @@
+[t:0x0407,n:text]
+{
+    // Map
+	[0x0000]
+	{
+		from = "A nice little patch of land in the middle of nowhere.";
+		to = "";
+	}
+
+    // Quest
+	[0x0000]
+	{
+		from = "Kill Lord Hovart (again)";
+		to = "";
+	}
+
+    // Start pos
+	[0x0000]
+	{
+		from = "Eh";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "The nice little village of Ehland";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Ehwood";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "The woods of Eh";
+		to = "";
+	}
+}

@@ -1,0 +1,71 @@
+[t:0x0407,n:text]
+{
+    // Places / signs
+	[0x0000]
+	{
+		from = "Eastend";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Westend";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Northend";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Southend";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Hovart hill";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Eh via Old Tunnel";
+		to = "";
+	}
+
+    // Characters
+	[0x0000]
+	{
+		from = "Old Man";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Mr. Smith (or smittie, if you want)";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Mrs. Smith (or Smittie, if you want)";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Happy Hippie";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Trisha the village hag";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Well Pixie";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Meg the village beauty";
+		to = "";
+	}
+}
