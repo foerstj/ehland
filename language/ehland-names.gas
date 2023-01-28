@@ -4,68 +4,68 @@
 	[0x0000]
 	{
 		from = "Eastend";
-		to = "";
+		to = "Ostend";
 	}
 	[0x0000]
 	{
 		from = "Westend";
-		to = "";
+		to = "Westend";
 	}
 	[0x0000]
 	{
 		from = "Northend";
-		to = "";
+		to = "Nordend";
 	}
 	[0x0000]
 	{
 		from = "Southend";
-		to = "";
+		to = "Südend";
 	}
 	[0x0000]
 	{
 		from = "Hovart hill";
-		to = "";
+		to = "Hovarthügel";
 	}
 	[0x0000]
 	{
 		from = "Eh via Old Tunnel";
-		to = "";
+		to = "Eh via Alter Tunnel";
 	}
 
     // Characters
 	[0x0000]
 	{
 		from = "Old Man";
-		to = "";
+		to = "Alter Mann";
 	}
 	[0x0000]
 	{
 		from = "Mr. Smith (or smittie, if you want)";
-		to = "";
+		to = "Herr Schmied (oder Schmidt, wenn du willst)";
 	}
 	[0x0000]
 	{
 		from = "Mrs. Smith (or Smittie, if you want)";
-		to = "";
+		to = "Frau Schmied (oder Schmidt, wenn du willst)";
 	}
 	[0x0000]
 	{
 		from = "Happy Hippie";
-		to = "";
+		to = "Happy Hippie";
 	}
 	[0x0000]
 	{
 		from = "Trisha the village hag";
-		to = "";
+		to = "Trisha die Dorfhexe";
 	}
 	[0x0000]
 	{
 		from = "Well Pixie";
-		to = "";
+		to = "Brunnenfee";
 	}
 	[0x0000]
 	{
 		from = "Meg the village beauty";
-		to = "";
+		to = "Meg die Dorfschönheit";
 	}
 }

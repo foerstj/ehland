@@ -24,17 +24,19 @@
 	[0x0000]
 	{
 		from = "Empty your mind. Be formless, shapeless. Like water.";
-		to = "";
+		to = "Empty your mind. Be formless, shapeless. Like water.";
 	}
 	[0x0000]
 	{
 		from = "Be water, my friend!";
-		to = "";
+		to = "Be water, my friend!";
 	}
 	[0x0000]
 	{
-		from = "Now, you put water into a cup - it becomes the cup. You put water into a bottle and it becomes the bottle. You put in a teapot, it becomes the teapot.\nWater can flow, or it can crash.";
-		to = "";
+		from = "Now, you put water into a cup - it becomes the cup. You put water into a bottle and it becomes the bottle. You put in a teapot, it becomes the teapot.
+Water can flow, or it can crash.";
+		to = "Now, you put water into a cup - it becomes the cup. You put water into a bottle and it becomes the bottle. You put in a teapot, it becomes the teapot.
+Water can flow, or it can crash.";
 	}
 
     // Beauty Meg guiding
