@@ -1,28 +1,5 @@
 [start_positions]
 {
-	[t:start_group,n:ehwood]
-	{
-	  b default = false;
-		description = "The woods of Eh";
-	  b dev_only = true;
-	  i id = 1698464;
-		screen_name = "Ehwood";
-		[start_position]
-		{
-		  i id = 1;
-			position = -0.641647,0.000000,1.454514,0x547B4AC2;
-			[camera]
-			{
-			  f azimuth = 0.785398;
-			  f distance = 20.000000;
-			  f orbit = 0.000000;
-				position = -0.641647,0.000000,1.454514,0x547B4AC2;
-			}
-		}
-		[world_levels]
-		{
-		}
-	}
 	[t:start_group,n:eh]
 	{
 	  b default = true;
@@ -124,6 +101,29 @@
 			  f distance = 20.000000;
 			  f orbit = 0.000000;
 				position = 2.856631,0.000002,0.221405,0xCB38AD64;
+			}
+		}
+		[world_levels]
+		{
+		}
+	}
+	[t:start_group,n:ehwood]
+	{
+	  b default = false;
+		description = "The woods of Eh";
+	  b dev_only = true;
+	  i id = 1698464;
+		screen_name = "Ehwood";
+		[start_position]
+		{
+		  i id = 1;
+			position = -0.641647,0.000000,1.454514,0x547B4AC2;
+			[camera]
+			{
+			  f azimuth = 0.785398;
+			  f distance = 20.000000;
+			  f orbit = 0.000000;
+				position = -0.641647,0.000000,1.454514,0x547B4AC2;
 			}
 		}
 		[world_levels]
