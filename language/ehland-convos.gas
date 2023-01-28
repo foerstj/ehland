@@ -73,39 +73,51 @@ Water can flow, or it can crash.";
     // Old Man quest char
 	[0x0000]
 	{
-		from = "Welcome to Ehland, dear traveller.\nIt's small but it's ours - and we wouldn't want to live anywhere else.";
-		to = "";
+		from = "Welcome to Ehland, dear traveller.
+It's small but it's ours - and we wouldn't want to live anywhere else.";
+		to = "Willkommen in Ehland, werte Reisende.
+Es ist klein aber unser - und wir würden nirgendwo sonst leben wollen.";
 	}
 	[0x0000]
 	{
-		from = "The people here might be a bit funny but they're all good folks.\nIf you want to buy something, have a look at the armor & weaponry store of my daughter and her hubby out to the west of Eh village. Trisha our village hag is also out there somewhere today.";
-		to = "";
+		from = "The people here might be a bit funny but they're all good folks.
+If you want to buy something, have a look at the armor & weaponry store of my daughter and her hubby out to the west of Eh village. Trisha our village hag is also out there somewhere today.";
+		to = "Die Menschen hier mögen ein wenig seltsam sein, aber es sind alles gutmütige Leute.
+Wenn Ihr etwas kaufen wollt, werft einen Blick in den Rüstungs- & Waffenladen meiner Tochter und ihres Gatten draußen im Westen von Dorf Eh. Trisha unsere Dorfhexe ist heute auch irgendwo da draußen.";
 	}
 	[0x0000]
 	{
 		from = "But don't go out too far - it's not safe! The dead are walking out there... I fear the old Lord Hovart himself has risen! Stay away from his grave hill!";
-		to = "";
+		to = "Doch geht nicht zu weit hinaus - es ist nicht sicher! Die Toten laufen dort draußen herum... Ich fürchte, der alte Lord Hovart selbst ist wieder auf den Beinen! Haltet euch von seinem Grabhügel fern!";
 	}
 	[0x0000]
 	{
-		from = "Unfortunately my daughter does not see the need to confront him, or even just to lower prices for adventurous travellers as you...\nThe rest of the village isn't very useful either, good folks as they are.";
-		to = "";
+		from = "Unfortunately my daughter does not see the need to confront him, or even just to lower prices for adventurous travellers as you...
+The rest of the village isn't very useful either, good folks as they are.";
+		to = "Leider sieht meine Tochter nicht ein, ihn zu stellen, oder doch zumindest ihre Preise zu senken für wagemutige Reisende wie Euch...
+Der Rest des Dorfes ist auch nicht sonderlich nützlich, so gutmütig sie auch sind.";
 	}
 	[0x0000]
 	{
-		from = "If you want to help me but don't have cash, I know there must be a lot of money stored in the Old Tunnel...\nYou could go there through Ehwood forest, just go west from here.\nShould be doable for a strong adventurer like you are. I'd recommend take a good bow with you though.";
-		to = "";
+		from = "If you want to help me but don't have cash, I know there must be a lot of money stored in the Old Tunnel...
+You could go there through Ehwood forest, just go west from here.
+Should be doable for a strong adventurer like you are. I'd recommend take a good bow with you though.";
+		to = "Wenn Ihr mir helfen mögt aber kein Geld habt, ich weiß von einem Schatz im Alten Tunnel...
+Ihr könntet durch den Ehwald dorthin gelangen, geht einfach nach Westen von hier aus.
+Sollte machbar sein für einen starken Abenteurer wie Ihr es seid. Ich würde allerdings empfehlen einen guten Bogen mitzunehmen.";
 	}
 	[0x0000]
 	{
 		from = "If you want to help an old man sleep in peace again... I would be very happy if you could bring old Hovart back to the dead where he belongs.";
-		to = "";
+		to = "Wenn Ihr einem alten Mann helfen mögt, wieder ruhig schlafen zu können... Ich wäre sehr glücklich, wenn ihr den alten Hovart zurück ins Jenseits befördert, wo er hingehört.";
 	}
     // quest fulfilled:
 	[0x0000]
 	{
-		from = "Thank you so much for making Ehland safe again!\nFinally I can sleep in peace again.";
-		to = "";
+		from = "Thank you so much for making Ehland safe again!
+Finally I can sleep in peace again.";
+		to = "Vielen Dank, dass Ihr Ehland wieder sicher gemacht habt!
+Endlich kann ich wieder ruhig schlafen.";
 	}
 
     // Trisha the village hag
