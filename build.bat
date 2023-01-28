@@ -15,7 +15,7 @@ set tc=..\TankCreator
 :: Compile map file
 rmdir /S /Q "%tmp%\Bits"
 robocopy "%doc_ds%\Bits\world\maps\%map%" "%tmp%\Bits\world\maps\%map%" /E
-%tc%\RTC.exe -source "%tmp%\Bits" -out "%ds%\Maps\%map_cs%.dsmap" -copyright "CC-BY-SA 2021" -title "%map_cs%" -author "Johannes Förstner"
+%tc%\RTC.exe -source "%tmp%\Bits" -out "%ds%\Maps\%map_cs%.dsmap" -copyright "CC-BY-SA 2023" -title "%map_cs%" -author "Johannes Förstner"
 if %errorlevel% neq 0 pause
 
 :: Compile main resource file
@@ -23,7 +23,13 @@ rmdir /S /Q "%tmp%\Bits"
 robocopy "%doc_ds%\Bits\world\ai" "%tmp%\Bits\world\ai" /E
 robocopy "%doc_ds%\Bits\world\contentdb\templates\%map%" "%tmp%\Bits\world\contentdb\templates\%map%" /E
 robocopy "%doc_ds%\Bits\world\global" "%tmp%\Bits\world\global" /E
-%tc%\RTC.exe -source "%tmp%\Bits" -out "%ds%\Resources\%map_cs%.dsres" -copyright "CC-BY-SA 2021" -title "%map_cs%" -author "Johannes Förstner"
+%tc%\RTC.exe -source "%tmp%\Bits" -out "%ds%\Resources\%map_cs%.dsres" -copyright "CC-BY-SA 2023" -title "%map_cs%" -author "Johannes Förstner"
+if %errorlevel% neq 0 pause
+
+:: Compile German language resource file
+rmdir /S /Q "%tmp%\Bits"
+robocopy "%doc_ds%\Bits\language" "%tmp%\Bits\language" %map%-* /S
+%tc%\RTC.exe -source "%tmp%\Bits" -out "%ds%\Resources\%map_cs%-de.dsres" -copyright "CC-BY-SA 2023" -title "%map_cs%" -author "Johannes Förstner"
 if %errorlevel% neq 0 pause
 
 :: Cleanup
