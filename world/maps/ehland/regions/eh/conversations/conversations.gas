@@ -36,8 +36,8 @@
 	{
 		choice = more;
 	  i order = 1;
-		screen_text = "Now, you put water into a cup - it becomes the cup. You put water into a bottle and it becomes the bottle. You put in a teapot, it becomes the teapot. 
-Water can flow, or it can crash. ";
+		screen_text = "Now, you put water into a cup - it becomes the cup. You put water into a bottle and it becomes the bottle. You put in a teapot, it becomes the teapot.
+Water can flow, or it can crash.";
 	  f scroll_rate = 20.000000;
 	}
 	[text*]
@@ -157,7 +157,7 @@ Should be doable for a strong adventurer like you are. I'd recommend take a good
 	{
 		choice = more;
 	  i order = 0;
-		screen_text = "What I'm doing here? 
+		screen_text = "What I'm doing here?
 I'm collecting colours, of course!";
 	  f scroll_rate = 20.000000;
 	}
