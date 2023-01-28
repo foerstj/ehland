@@ -1,10 +1,10 @@
 :: This script is supposed to be executed from your DS installation folder.
 :: TankCreator is expected to be in a sibling dir.
 
+:: map name
+set map=ehland
 :: map name, case sensitive
 set map_cs=Ehland
-:: map name, lowercase
-set map=ehland
 :: path of DSLOA documents dir (where Bits are)
 set doc_ds=%USERPROFILE%\Documents\Dungeon Siege
 :: path of DS installation
