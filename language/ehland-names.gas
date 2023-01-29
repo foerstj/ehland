@@ -28,8 +28,34 @@
 	}
 	[0x0000]
 	{
+		from = "Here lieth Hovart, ye olde bag of dirte. Rest in peace, but rest!";
+		to = "Hier lieget Hovart, jener alte Sack Drecks. Ruhet in Frieden, aber ruhet!";
+	}
+	[0x0000]
+	{
 		from = "Eh via Old Tunnel";
 		to = "Eh via Alter Tunnel";
+	}
+	[0x0000]
+	{
+		from = "Welcome to Eh!";
+		to = "Willkommen in Eh!";
+	}
+    // Houses
+	[0x0000]
+	{
+		from = "Beauty of Eh";
+		to = "Schönheit von Eh";
+	}
+	[0x0000]
+	{
+		from = "Old Man's house";
+		to = "Haus des Alten Mannes";
+	}
+	[0x0000]
+	{
+		from = "The Happy Hippie";
+		to = "Der Happy Hippie";
 	}
 
     // Characters
@@ -60,12 +86,78 @@
 	}
 	[0x0000]
 	{
-		from = "Well Pixie";
-		to = "Brunnenfee";
+		from = "Fergie";
+		to = "Fergie";
+	}
+	[0x0000]
+	{
+		from = "Fred";
+		to = "Fred";
 	}
 	[0x0000]
 	{
 		from = "Meg the village beauty";
 		to = "Meg die Dorfschönheit";
+	}
+	[0x0000]
+	{
+		from = "Lauryn";
+		to = "Lauryn";
+	}
+	[0x0000]
+	{
+		from = "Barney";
+		to = "Barnie";
+	}
+	[0x0000]
+	{
+		from = "Well Pixie";
+		to = "Brunnenfee";
+	}
+    // Animals
+	[0x0000]
+	{
+		from = "Molly";
+		to = "Molli";
+	}
+	[0x0000]
+	{
+		from = "Milly";
+		to = "Millie";
+	}
+	[0x0000]
+	{
+		from = "Mary";
+		to = "Marie";
+	}
+	[0x0000]
+	{
+		from = "Moo";
+		to = "Muh";
+	}
+	[0x0000]
+	{
+		from = "Piggy Strange";
+		to = "Piggy Strange";
+	}
+	[0x0000]
+	{
+		from = "Porky";
+		to = "Schinken";
+	}
+	[0x0000]
+	{
+		from = "Miss Piggy";
+		to = "Miss Piggy";
+	}
+	[0x0000]
+	{
+		from = "Old Fartie";
+		to = "Alter Furzer";
+	}
+	[0x0000]
+	{
+		from = "Hello Piggy";
+		to = "Hello Piggy";
 	}
 }

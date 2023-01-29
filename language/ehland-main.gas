@@ -3,6 +3,11 @@
     // Map
 	[0x0000]
 	{
+		from = "Ehland";
+		to = "Ehland";
+	}
+	[0x0000]
+	{
 		from = "A nice little patch of land in the middle of nowhere.";
 		to = "Ein nettes Fleckchen Erde irgendwo im Nirgendwo.";
 	}
