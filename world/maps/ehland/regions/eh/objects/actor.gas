@@ -2291,6 +2291,10 @@
 	{
 		alignment = aa_good;
 	}
+	[aspect]
+	{
+	  b is_selectable = true;
+	}
 	[common]
 	{
 	  b rollover_display = true;
@@ -2311,6 +2315,10 @@
 	[actor]
 	{
 		alignment = aa_good;
+	}
+	[aspect]
+	{
+	  b is_selectable = true;
 	}
 	[common]
 	{
