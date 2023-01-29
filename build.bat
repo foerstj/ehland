@@ -5,7 +5,7 @@
 set map=ehland
 :: map name, case sensitive
 set map_cs=Ehland
-:: path of DSLOA documents dir (where Bits are)
+:: path of DS documents dir (where Bits are)
 set doc_ds=%USERPROFILE%\Documents\Dungeon Siege
 :: path of DS installation
 set ds=.

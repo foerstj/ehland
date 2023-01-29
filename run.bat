@@ -3,7 +3,7 @@
 
 :: map name, lowercase
 set map=ehland
-:: path of DSLOA documents dir (where Bits are)
+:: path of DS documents dir (where Bits are)
 set doc_ds=%USERPROFILE%\Documents\Dungeon Siege
 :: path of DS installation
 set ds=.
@@ -14,7 +14,7 @@ call "%doc_ds%\Bits\build.bat" %*
 ::pause
 
 :: Run it!
-"%ds%\DSLOA.exe" nointro=true map=%map%
+"%ds%\DungeonSiege.exe" nointro=true map=%map%
 
 :: Cleanup resources so as not to confuse Siege Editor
 call "%doc_dsloa%\Bits\cleanup.bat" %*
