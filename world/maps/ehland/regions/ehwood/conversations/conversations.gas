@@ -1,4 +1,4 @@
-[lauryn_accept]
+[lauryn_accept_have_money]
 {
 	[text*]
 	{
@@ -32,6 +32,15 @@ Are you an adventurer, looking for fame and fortune? Perfect timing, Lord Hovart
 	  f scroll_rate = 20.000000;
 	}
 }
+[lauryn_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Wanna go together? To be honest, I'm afraid of spiders... and the woods are full of them!";
+	  f scroll_rate = 20.000000;
+	}
+}
 [lauryn_reject]
 {
 	[text*]
@@ -40,7 +49,7 @@ Are you an adventurer, looking for fame and fortune? Perfect timing, Lord Hovart
 	  f scroll_rate = 20.000000;
 	}
 }
-[lauryn_rejoin]
+[lauryn_disband_rejoin]
 {
 	[text*]
 	{

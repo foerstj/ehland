@@ -22,8 +22,9 @@
 	{
 		[conversations]
 		{
-			* = lauryn_accept;
+			* = lauryn_accept_have_money;
 			* = lauryn_disband;
+			* = lauryn_disband_rejoin;
 			* = lauryn_join;
 			* = lauryn_reject;
 			* = lauryn_rejoin;
@@ -43,7 +44,7 @@
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\ehland\actors\good\job_talk_lauryn.skrit;
+		jat_talk = world\ai\jobs\ehland\actors\good\job_talk_companion.skrit?namespace=lauryn&oid=0x200015;
 	}
 	[placement]
 	{
