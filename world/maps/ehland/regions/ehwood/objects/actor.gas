@@ -43,7 +43,7 @@
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\actors\good\job_talk_lauryn.skrit;
+		jat_talk = world\ai\jobs\ehland\actors\good\job_talk_lauryn.skrit;
 	}
 	[placement]
 	{

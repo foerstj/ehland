@@ -20,7 +20,7 @@ if %errorlevel% neq 0 pause
 
 :: Compile main resource file
 rmdir /S /Q "%tmp%\Bits"
-robocopy "%doc_ds%\Bits\world\ai" "%tmp%\Bits\world\ai" /E
+robocopy "%doc_ds%\Bits\world\ai\jobs\%map%" "%tmp%\Bits\world\ai\jobs\%map%" /E
 robocopy "%doc_ds%\Bits\world\contentdb\templates\%map%" "%tmp%\Bits\world\contentdb\templates\%map%" /E
 robocopy "%doc_ds%\Bits\world\global" "%tmp%\Bits\world\global" /E
 %tc%\RTC.exe -source "%tmp%\Bits" -out "%ds%\Resources\%map_cs%.dsres" -copyright "CC-BY-SA 2023" -title "%map_cs%" -author "Johannes Förstner"
