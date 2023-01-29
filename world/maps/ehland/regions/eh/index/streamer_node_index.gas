@@ -275,6 +275,7 @@
   x * = 0xACDD2B6C;
   x * = 0xAE9371B6;
   x * = 0xAFA99D94;
+  x * = 0xAFD30B5C;
   x * = 0xAFF070A9;
   x * = 0xB1529097;
   x * = 0xB15FDA80;
@@ -377,7 +378,6 @@
   x * = 0xF9BE9BE8;
   x * = 0xF9FFF5A8;
   x * = 0xFA34B177;
-  x * = 0xFAB52C12;
   x * = 0xFAC8F83F;
   x * = 0xFB38E2F3;
   x * = 0xFB8FABDD;
