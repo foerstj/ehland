@@ -3,7 +3,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.165048,0,-0.986286;
-	  p position = 1.25006,-3.64833,-3.65475,0xacdd2b6c;
+	  p position = 1.25006,-3.64833,-3.65475,0xACDD2B6C;
 	}
 }
 [t:door_grs_peasant_right,n:0x00100084]
@@ -11,7 +11,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.139172,0,0.990269;
-	  p position = 0.938679,-2.98968,-3.22624,0x717a4ce7;
+	  p position = 0.938679,-2.98968,-3.22624,0x717A4CE7;
 	}
 }
 [t:sign_glb_01,n:0x001000d0]
@@ -23,7 +23,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.00872645,0,0.999962;
-	  p position = 16.3843,5.6,-46.9448,0x5ed2be61;
+	  p position = 16.3843,5.6,-46.9448,0x5ED2BE61;
 	}
 }
 [t:sign_glb_01,n:0x00100551]
@@ -35,7 +35,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.00872645,0,0.999962;
-	  p position = 16.399,5.3931,-46.9873,0x5ed2be61;
+	  p position = 16.399,5.3931,-46.9873,0x5ED2BE61;
 	}
 }
 [t:sign_glb_01,n:0x00100036]
@@ -47,7 +47,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.00872645,0,0.999962;
-	  p position = 17.0744,5.55154,-37.1779,0x1754c4a5;
+	  p position = 17.0744,5.55154,-37.1779,0x1754C4A5;
 	}
 }
 [t:sign_glb_01,n:0x00100552]
@@ -59,7 +59,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.00872645,0,0.999962;
-	  p position = 17.0731,5.30531,-37.2252,0x1754c4a5;
+	  p position = 17.0731,5.30531,-37.2252,0x1754C4A5;
 	}
 }
 [t:door_grs_peasant_right,n:0x00100086]
@@ -67,7 +67,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.165048,0,-0.986286;
-	  p position = 1.26906,-3.64833,-3.62414,0xf9fff5a8;
+	  p position = 1.26906,-3.64833,-3.62414,0xF9FFF5A8;
 	}
 }
 [t:sign_glb_01,n:0x00100554]
@@ -79,7 +79,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.999962,0,-0.00872656;
-	  p position = -1.49494,5.24521e-006,-1.70253,0x22c2c228;
+	  p position = -1.49494,5.24521e-06,-1.70253,0x22C2C228;
 	}
 }
 [t:sign_glb_01,n:0x00100557]
@@ -91,7 +91,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.00872645,0,0.999962;
-	  p position = -1.68551,-0.23981,-1.63893,0x22c2c228;
+	  p position = -1.68551,-0.23981,-1.63893,0x22C2C228;
 	}
 }
 [t:sign_glb_01,n:0x00100559]
@@ -103,7 +103,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.999962,0,-0.00872656;
-	  p position = 2.65703,-0.0826411,3.56355,0x46a51e58;
+	  p position = 2.65703,-0.0826411,3.56355,0x46A51E58;
 	}
 }
 [t:sign_glb_01,n:0x0010055a]
@@ -115,7 +115,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.00872645,0,0.999962;
-	  p position = 2.47907,-0.3,3.57608,0x46a51e58;
+	  p position = 2.47907,-0.3,3.57608,0x46A51E58;
 	}
 }
 [t:sign_glb_01,n:0x001005ae]
@@ -127,7 +127,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.71325,0,0.700909;
-	  p position = 2.64427,-0.3,3.51439,0x46a51e58;
+	  p position = 2.64427,-0.3,3.51439,0x46A51E58;
 	}
 }
 [t:sign_glb_01,n:0x001000ce]
@@ -139,7 +139,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.00872645,0,0.999962;
-	  p position = 15.2746,5.69619,-42.5625,0x38e47228;
+	  p position = 15.2746,5.69619,-42.5625,0x38E47228;
 	}
 }
 [t:door_grs_peasant_right,n:0x0010009d]
@@ -147,7 +147,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.165048,0,-0.986286;
-	  p position = 1.25996,-3.7414,-3.68855,0xb15fda80;
+	  p position = 1.25996,-3.7414,-3.68855,0xB15FDA80;
 	}
 }
 [t:sign_glb_01,n:0x001005ad]
@@ -159,7 +159,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.390731,0,0.920505;
-	  p position = 0.384315,0,1.0552,0x34c62a7a;
+	  p position = 0.384315,0.0,1.0552,0x34C62A7A;
 	}
 }
 [t:sign_glb_01,n:0x001000d2]
@@ -171,6 +171,6 @@
 	[placement]
 	{
 	  q orientation = 0,0.700909,0,0.71325;
-	  p position = 2.62507,-0.0499353,-1.38272,0xc9a80f3c;
+	  p position = 2.62507,-0.0499353,-1.38272,0xC9A80F3C;
 	}
 }
