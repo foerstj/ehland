@@ -1,8 +1,16 @@
-[barney_stupid_mules]
+[barney_has_packmules]
 {
 	[text*]
 	{
 		choice = buy_packmule;
+		screen_text = "Gosh, look at these stupid mules. They're the most stupid animals I've ever seen. They're like dullfish, but as a mule... Man, I'm glad I'm not a mule.";
+	  f scroll_rate = 20.000000;
+	}
+}
+[barney_no_packmules]
+{
+	[text*]
+	{
 		screen_text = "Gosh, look at these stupid mules. They're the most stupid animals I've ever seen. They're like dullfish, but as a mule... Man, I'm glad I'm not a mule.";
 	  f scroll_rate = 20.000000;
 	}
