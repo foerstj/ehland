@@ -44,6 +44,7 @@
 	0x0000061f = t_xxx_flr_08x08-v1;
 	0x00000620 = t_xxx_flr_08x08-v2;
 	0x00000621 = t_xxx_flr_08x08-v3;
+	0x0000062d = t_xxx_flr_brdr-strght-08x04-a;
 	0x00000633 = t_xxx_flr_fountain-a;
 	0x0000066f = t_xxx_flr_sundial-a;
 	0x00000670 = t_xxx_flr_well-a;

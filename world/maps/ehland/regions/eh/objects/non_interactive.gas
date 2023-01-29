@@ -3985,7 +3985,7 @@
 {
 	[placement]
 	{
-	  p position = 3.90461,0,-0.248894,0x22c2c228;
+	  p position = 3.92422,0,0.777451,0x22c2c228;
 	}
 }
 [t:mushroom_eh_tan_squat_med,n:0x00100556]
@@ -3997,7 +3997,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.382683,0,0.92388;
-	  p position = -3.88572,0,0.0922089,0x22c2c228;
+	  p position = -3.92299,0,0.661842,0x22c2c228;
 	}
 }
 [t:groundcover_grs_08,n:0x0010030f]
@@ -6913,8 +6913,8 @@
 {
 	[placement]
 	{
-	  q orientation = 0,1,0,0;
-	  p position = 2.10235,2.86102e-006,1.30335,0x5ecf6fd1;
+	  q orientation = 0,0.92388,0,-0.382683;
+	  p position = 3.92575,0,0.794884,0x5ecf6fd1;
 	}
 }
 [t:foliage_grs_01,n:0x001004a3]
@@ -6925,8 +6925,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,0.275637,0,0.961262;
-	  p position = -3.97277,-9.53674e-007,-1.4802,0x5ecf6fd1;
+	  q orientation = 0,0.874619,0,0.48481;
+	  p position = -3.65719,0,-1.93872,0x5f47eadf;
 	}
 }
 [t:mushroom_eh_teal_lg,n:0x00100550]
@@ -10024,5 +10024,17 @@
 	{
 	  q orientation = 0,0.707107,0,0.707107;
 	  p position = -3.30066,0,-1.82877,0x4213a67d;
+	}
+}
+[t:mushroom_eh_tan_squat_med,n:0x00100218]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.948047;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.92388,0,0.382683;
+	  p position = -3.95242,0,1.06092,0x5ecf6fd1;
 	}
 }
