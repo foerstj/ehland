@@ -2271,13 +2271,13 @@
 	{
 		[conversations]
 		{
-			* = quest_fulfilled;
-			* = quest_guide;
+			* = quest_activate;
+			* = quest_complete;
 		}
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\ehland\actors\good\job_talk_old_man.skrit;
+		jat_talk = world\ai\jobs\ehland\actors\good\job_talk_quest.skrit?quest=hovart;
 	}
 	[placement]
 	{

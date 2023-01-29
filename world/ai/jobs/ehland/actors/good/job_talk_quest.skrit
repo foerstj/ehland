@@ -7,6 +7,9 @@ Goid	m_Target$;
 #include "k_job_c_mcp_fidget_utils"
 #include "k_job_c_talk_utils"
 
+property    string  namespace$  = "quest"   doc = "Namespace for conversations and flags";
+property    string  quest$                  doc = "Name of the quest";
+
 startup state STARTUP$
 {
 }
@@ -39,38 +42,28 @@ state Talk$
 				StartFidgetIfRequired$();
 			}
 		}
-		-> Exiting$:	OnWorldMessage( WE_ANIM_DONE ) =
-		{
-			if( m_Go$.Mind.ActorAutoFidgets )
-			{
-				StartFidgetIfRequired$();
-			}
-		}
+	}
+	
+	trigger OnWorldMessage$( WE_ANIM_DONE )
+	{
+		TryAnim$('talk');
 	}
 
 	event OnEnterState$
 	{
-		if (Victory.IsQuestCompleted("hovart"))
+		if ( Victory.IsQuestCompleted( quest$ ) )
 		{
-			m_Go$.GetConversation.RSSelectConversation( "quest_fulfilled" );
+			m_Go$.GetConversation.RSSelectConversation( MakeStringF( "%s_complete", namespace$ ) );
 		}
-		else
-		{
-			m_Go$.GetConversation.RSSelectConversation( "quest_guide" );
+        else
+        {
+			m_Go$.GetConversation.RSSelectConversation( MakeStringF( "%s_activate", namespace$ ) );
 		}
-
-		if( m_Go$.Mind.ActorAutoFidgets )
-		{
-			StartFidgetIfRequired$();
-		}
-
+		TryAnim$('talk');
 		m_Go$.GetConversation.RSActivateDialogue();
 	}
 }
 
-
-////////////////////////////////////////////////////////////////////////////////
-//	finish blabbing
 state Exiting$
 {
 	event OnEnterState$

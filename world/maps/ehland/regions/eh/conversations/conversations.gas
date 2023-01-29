@@ -92,7 +92,7 @@ And even if it's true - I got a business to run here! Quality has its price. Hav
 	  f scroll_rate = 20.000000;
 	}
 }
-[quest_fulfilled]
+[quest_complete]
 {
 	[text*]
 	{
@@ -101,7 +101,7 @@ Finally I can sleep in peace again.";
 	  f scroll_rate = 20.000000;
 	}
 }
-[quest_guide]
+[quest_activate]
 {
 	[text*]
 	{
