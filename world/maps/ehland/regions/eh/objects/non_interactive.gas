@@ -238,11 +238,15 @@
 	[placement]
 	{
 	  q orientation = -0.675442,0.666534,-0.236076,0.209233;
-	  p position = 2.90307,5.16567,-1.01321,0xacdd2b6c;
+	  p position = 2.90307,5.2873,-1.01321,0xacdd2b6c;
 	}
 }
 [t:mill_glb_gear_02,n:0x00100095]
 {
+	[aspect]
+	{
+	  b does_block_camera = true;
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
@@ -512,12 +516,16 @@
 	}
 	[placement]
 	{
-	  q orientation = 3.16101e-008,-2.10734e-008,0.707107,0.707107;
+	  q orientation = -0.707107,0.707107,5.08653e-007,-6.77975e-007;
 	  p position = -2.05198,4.96162,-0.45512,0x717a4ce7;
 	}
 }
 [t:mill_glb_gear_02,n:0x00100093]
 {
+	[aspect]
+	{
+	  b does_block_camera = true;
+	}
 	[placement]
 	{
 	  q orientation = 0,1,0,0;
@@ -1861,7 +1869,7 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,-0.85264,0,-0.522498;
+	  q orientation = 0,0.85264,0,0.522498;
 	  p position = 11.4242,6.21261,-47.4848,0x1754c4a5;
 	}
 }
@@ -2183,12 +2191,16 @@
 	}
 	[placement]
 	{
-	  q orientation = 0.5,0.5,0.5,0.5;
-	  p position = 3.86854,4.68086,-0.654842,0xf9fff5a8;
+	  q orientation = -0.5,0.5,0.5,-0.5;
+	  p position = 3.86854,4.8197,-0.654842,0xf9fff5a8;
 	}
 }
 [t:mill_glb_gear_02,n:0x0010008f]
 {
+	[aspect]
+	{
+	  b does_block_camera = true;
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
@@ -9158,8 +9170,8 @@
 	}
 	[placement]
 	{
-	  q orientation = -0.5,-0.5,0.5,0.5;
-	  p position = 0.289,6.86772,0.6889,0x4366deb8;
+	  q orientation = -0.5,0.5,-0.5,0.5;
+	  p position = 0.170244,6.86772,0.578213,0x4366deb8;
 	}
 }
 [t:trough_grs_hay,n:0x0010006f]
@@ -9180,6 +9192,10 @@
 }
 [t:mill_glb_gear_02,n:0x0010008d]
 {
+	[aspect]
+	{
+	  b does_block_camera = true;
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
@@ -9857,12 +9873,16 @@
 	}
 	[placement]
 	{
-	  q orientation = 0.707107,0.707107,-1.48789e-007,-1.23504e-007;
-	  p position = 1.34377,6.31557,-1.21946,0x8815cb11;
+	  q orientation = 6.69131e-007,-8.38453e-007,0.707107,-0.707107;
+	  p position = 1.34377,6.54524,-1.21946,0x8815cb11;
 	}
 }
 [t:mill_glb_gear_02,n:0x001000c1]
 {
+	[aspect]
+	{
+	  b does_block_camera = true;
+	}
 	[placement]
 	{
 	  p position = 1.33155,1.77023,-1.25207,0x8815cb11;
