@@ -6,7 +6,7 @@
 	}
 	[placement]
 	{
-	  p position = -2.3533,0.0,1.53335,0xCA4E87CB;
+	  p position = -2.3533,0,1.53335,0xca4e87cb;
 	}
 }
 [t:sign_glb_01,n:0x0020002a]
@@ -18,7 +18,7 @@
 	[placement]
 	{
 	  q orientation = 0,-1,0,-1.49012e-007;
-	  p position = -2.17093,-0.2283,1.534,0xCA4E87CB;
+	  p position = -2.17093,-0.2283,1.534,0xca4e87cb;
 	}
 }
 [t:door_glb_crypt_01,n:0x00200011]
@@ -29,6 +29,6 @@
 	}
 	[placement]
 	{
-	  p position = -0.0069294,-1.5,0.0476379,0x42CC4D7C;
+	  p position = -0.0069294,-1.5,0.0476379,0x42cc4d7c;
 	}
 }
