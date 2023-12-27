@@ -13,7 +13,6 @@
 	}
 	[mind]
 	{
-	  b actor_auto_fidgets = false;
 		jat_talk = world\ai\jobs\common\job_talk.skrit;
 	}
 	[placement]
