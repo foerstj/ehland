@@ -105,6 +105,14 @@
 		}
 		[world_levels]
 		{
+			[elite]
+			{
+			  i required_level = 83;
+			}
+			[veteran]
+			{
+			  i required_level = 54;
+			}
 		}
 	}
 	[t:start_group,n:ehwood]
