@@ -2200,7 +2200,7 @@
 	  p position = -4.39175,-1.75,-3.62777,0x4366deb8;
 	}
 }
-[t:smithy_liorne,n:0x001001c6]
+[t:merchant_shopkeeper,n:0x001001c6]
 {
 	[common]
 	{
