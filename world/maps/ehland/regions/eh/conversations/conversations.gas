@@ -153,8 +153,8 @@ Should be doable for a strong adventurer like you are. I'd recommend take a good
 	}
 	[text*]
 	{
-		activate_quest* = hovart,0;
-	  b quest_dialogue = true;
+		activate_quest* = hovart;
+		quest_dialogue = true;
 		screen_text = "If you want to help an old man sleep in peace again... I would be very happy if you could bring old Hovart back to the dead where he belongs.";
 	  f scroll_rate = 20.000000;
 	}
