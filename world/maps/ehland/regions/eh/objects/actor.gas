@@ -2216,7 +2216,7 @@
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\ehland\actors\good\job_talk_mule_merchant.skrit?namespace=barney;
+		jat_talk = world\ai\jobs\ehland\actors\good\job_talk_mule_merchant.skrit?namespace=barney&talk_anim=;
 	}
 	[placement]
 	{
