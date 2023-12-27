@@ -16,6 +16,8 @@
 	}
 	[common]
 	{
+		dev_instance_text = "SP";
+	  b is_multi_player = false;
 		screen_name = "Lauryn";
 	}
 	[conversation]
@@ -50,6 +52,49 @@
 	{
 	  q orientation = 0,0.923879,0,0.382683;
 	  p position = 1.04125,0,-1.16601,0x992e7012;
+	}
+}
+[t:ulora,n:0x002003b0]
+{
+	[aspect]
+	{
+	  f max_life = 49;
+	  f max_mana = 30;
+	  f scale_multiplier = 0.8;
+	}
+	[common]
+	{
+		dev_instance_text = "MP";
+	  b is_single_player = false;
+		screen_name = "Lauryn";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = lauryn_mp;
+		}
+	}
+	[inventory]
+	{
+		[equipment]
+		{
+			es_chest = bd_sl_f_g_c_fun;
+			es_feet = bo_bo_le_f_g_c_avg;
+		}
+		[other]
+		{
+			il_main = he_ca_le_avg;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.923879,0,0.382683;
+	  p position = 0.942233,0,-1.10697,0x992e7012;
 	}
 }
 [t:phrak_piercer,n:0x002001ec]

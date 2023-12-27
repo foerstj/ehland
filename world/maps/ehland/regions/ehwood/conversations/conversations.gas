@@ -14,6 +14,15 @@
 	  f scroll_rate = 20.000000;
 	}
 }
+[lauryn_disband_rejoin]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "No hard feelings mate... Wanna go together again?";
+	  f scroll_rate = 20.000000;
+	}
+}
 [lauryn_join]
 {
 	[text*]
@@ -32,6 +41,14 @@ Are you an adventurer, looking for fame and fortune? Perfect timing, Lord Hovart
 	  f scroll_rate = 20.000000;
 	}
 }
+[lauryn_reject]
+{
+	[text*]
+	{
+		screen_text = "Pff then not!";
+	  f scroll_rate = 20.000000;
+	}
+}
 [lauryn_rejoin]
 {
 	[text*]
@@ -41,20 +58,14 @@ Are you an adventurer, looking for fame and fortune? Perfect timing, Lord Hovart
 	  f scroll_rate = 20.000000;
 	}
 }
-[lauryn_reject]
+[lauryn_mp]
 {
 	[text*]
 	{
-		screen_text = "Pff then not!";
-	  f scroll_rate = 20.000000;
-	}
-}
-[lauryn_disband_rejoin]
-{
-	[text*]
-	{
-		choice = potential_member;
-		screen_text = "No hard feelings mate... Wanna go together again?";
+		activate_quest* = hovart,0;
+	  i order = 0;
+		screen_text = "Hello, traveller!
+Are you an adventurer, looking for fame and fortune? Perfect timing, Lord Hovart has arisen from the dead to take revenge on our peaceful village - it's true, I've seen him at his grave on Hovart hill! That tightwad Mrs. Smith won't lend me any of her good armors, and my pocket money isn't enough, so I want to find the money hidden in the Old Tunnel. It's a secret the Old Man has told me about once.";
 	  f scroll_rate = 20.000000;
 	}
 }
