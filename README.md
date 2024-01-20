@@ -9,11 +9,13 @@ The map is set in Ehland, a handful of islands floating in the sky. Lord Hovart 
 The map is NOT intended to fit into DS lore. It makes no sense that Lord Hovart is buried in Ehland. Please ignore.
 
 
-## Installation
+## Installation & Compatibility
 
 - To install, simply put the .dsmap file in the Maps folder and the .dsres files in the Resources folder.\
   Or put them all in the DSLOA folder if you use DSLOA.
+- The "de" and "es" .dsres files contain translations into German and Spanish, which will be picked up if you have a German or Spanish installation.
 - To uninstall, simply remove the files again :)
+- No known incompatibilities.
 
 
 ## Attribution
