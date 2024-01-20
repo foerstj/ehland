@@ -35,7 +35,8 @@
 	{
 		from = "Now, you put water into a cup - it becomes the cup. You put water into a bottle and it becomes the bottle. You put in a teapot, it becomes the teapot.
 Water can flow, or it can crash.";
-		to = "Si pones agua en una taza, se convierte en la taza. Si pones agua en una botella se convierte en la botella. Si la pones en una tetera se convierte en la tetera. El agua puede fluir o puede golpear.";
+		to = "Si pones agua en una taza, se convierte en la taza. Si pones agua en una botella se convierte en la botella. Si la pones en una tetera se convierte en la tetera.
+El agua puede fluir o puede golpear.";
 	}
 
     // Beauty Meg guiding
