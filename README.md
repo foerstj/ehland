@@ -11,7 +11,9 @@ The map is NOT intended to fit into DS lore. It makes no sense that Lord Hovart 
 
 ## Installation
 
-Simply put the .dsmap file in the Maps folder and the .dsres files in the Resources folder. Or put them all in the DSLOA folder if you use DSLOA.
+- To install, simply put the .dsmap file in the Maps folder and the .dsres files in the Resources folder.\
+  Or put them all in the DSLOA folder if you use DSLOA.
+- To uninstall, simply remove the files again :)
 
 
 ## Attribution
