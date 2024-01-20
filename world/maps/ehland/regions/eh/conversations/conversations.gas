@@ -184,7 +184,7 @@ Anyways I'm not going there.";
 	[text*]
 	{
 		choice = shop;
-		screen_text = "Hey, wanna by some of my magic stuff?";
+		screen_text = "Hey, wanna buy some of my magic stuff?";
 	  f scroll_rate = 20.000000;
 	}
 }

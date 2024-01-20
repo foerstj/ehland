@@ -157,7 +157,7 @@ De todos modos no voy a ir allí.";
 	}
 	[0x0000]
 	{
-		from = "Hey, wanna by some of my magic stuff?";
+		from = "Hey, wanna buy some of my magic stuff?";
 		to = "Oye, ¿quieres comprar algunas de mis cosas mágicas?";
 	}
 

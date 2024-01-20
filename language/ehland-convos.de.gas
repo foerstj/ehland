@@ -157,7 +157,7 @@ Ich geh da jedenfalls nicht hin.";
 	}
 	[0x0000]
 	{
-		from = "Hey, wanna by some of my magic stuff?";
+		from = "Hey, wanna buy some of my magic stuff?";
 		to = "Hey, magst du was von meinen Zaubersachen kaufen?";
 	}
 
