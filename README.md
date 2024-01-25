@@ -1,6 +1,7 @@
 # Ehland
-
 A little map for Dungeon Siege 1.
+
+FOSS, CC-BY-SA.
 
 This was my first completed Dungeon Siege map. It features two regions, one quest, and various NPCs (among others, a magic shop, a smith shop, a mule seller, and a companion). It's basically a demo map for the main elements a map needs, plus proof-of-concept for some creative use of terrain.
 
@@ -8,16 +9,12 @@ The map is set in Ehland, a handful of islands floating in the sky. Lord Hovart 
 
 The map is NOT intended to fit into DS lore. It makes no sense that Lord Hovart is buried in Ehland. Please ignore.
 
-
 ## Installation & Compatibility
-
 - To install, simply put the .dsmap file in the Maps folder and the .dsres files in the Resources folder.\
   Or put them all in the DSLOA folder if you use DSLOA.
 - The "de" and "es" .dsres files are optional and contain translations into German and Spanish, which will be picked up if you have a German or Spanish installation.
 - To uninstall, simply remove the files again :)
 - No known incompatibilities.
 
-
 ## Attribution
-
 Spanish translation by Nekurrot25.
