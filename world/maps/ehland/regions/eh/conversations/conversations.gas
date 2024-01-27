@@ -15,6 +15,14 @@
 	  f scroll_rate = 20.000000;
 	}
 }
+[barney_mp]
+{
+	[text*]
+	{
+		screen_text = "Gosh, look at these stupid mules. They're the most stupid animals I've ever seen. They're like dullfish, but as a mule... Man, I'm glad I'm not a mule.";
+	  f scroll_rate = 20.000000;
+	}
+}
 [fergie_hardly_working]
 {
 	[text*]

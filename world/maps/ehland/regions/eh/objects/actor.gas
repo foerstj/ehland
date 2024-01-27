@@ -2203,6 +2203,8 @@
 {
 	[common]
 	{
+		dev_instance_text = "SP";
+	  b is_multi_player = false;
 		screen_name = "Barney";
 	}
 	[conversation]
@@ -2329,5 +2331,30 @@
 	{
 	  q orientation = 0,0.92388,0,0.382683;
 	  p position = 3.02644,9.53674e-007,-0.897203,0x54f740e1;
+	}
+}
+[t:merchant_shopkeeper,n:0x0010028d]
+{
+	[common]
+	{
+		dev_instance_text = "MP";
+	  b is_single_player = false;
+		screen_name = "Barney";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = barney_mp;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\ehland\actors\good\job_talk_npc.skrit?talk_anim=;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,-0.707107;
+	  p position = 0.958981,-1.75,-2.82185,0x4366deb8;
 	}
 }
