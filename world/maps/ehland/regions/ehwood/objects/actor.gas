@@ -46,7 +46,7 @@
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\ehland\actors\good\job_talk_companion.skrit?namespace=lauryn&oid=0x200015;
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_companion.skrit?namespace=lauryn&oid=0x200015;
 	}
 	[placement]
 	{

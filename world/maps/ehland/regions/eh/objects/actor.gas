@@ -2217,7 +2217,7 @@
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\ehland\actors\good\job_talk_mule_merchant.skrit?namespace=barney&talk_anim=;
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_mule_merchant.skrit?namespace=barney&talk_anim=;
 	}
 	[placement]
 	{
@@ -2283,7 +2283,7 @@
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\ehland\actors\good\job_talk_quest.skrit?quest=hovart;
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_quest.skrit?quest=hovart;
 	}
 	[placement]
 	{
@@ -2350,7 +2350,7 @@
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\ehland\actors\good\job_talk_npc.skrit?talk_anim=;
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit?talk_anim=;
 	}
 	[placement]
 	{
