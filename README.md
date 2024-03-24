@@ -20,3 +20,36 @@ The map is NOT intended to fit into DS lore. It makes no sense that Lord Hovart 
 
 ## Attribution
 Spanish translation by Nekurrot25.
+
+## Changelog
+Changes in 1.1:
+- Moved propeller of toolshed
+- Unbounded camera for some nodes
+- Moved a door to make it path-findable; make doors open to the outside
+- Define own templates for mushrooms, for better support of Wintermod
+- Auto-size mushrooms
+- Some internal cleanups
+
+Changes in 1.2:
+- Added German translation (separate optional .dsres file)
+- Make well fairies readable
+- Make vanes rotate in same direction as gears; gears fade to alpha
+- Fix unfitting path node
+- Minor terrain fixes and concealments
+- Fix lighting of plants along ledges by moving them a bit
+- Fix lighting of airgap tunnel: does not occlude light, is not lit by daylight itself
+- Use generic talk skrits from my other projects; thereby fixing crash when you tried to buy the third of Barney's two mules
+
+Changes in 1.3:
+- Added Veteran & Elite world levels!
+- Make Lauryn non-hireable in multiplayer
+- Removed 1 bad camera block
+- Fix Hovart quest image & replay dialog
+- Doubled precipitation
+- Fix Meg not moving
+- Updated generic talk skrits used by Old Man, Barney & Lauryn - makes them face the player
+- Internal: Use non-itemshop actors for Meg & Barney
+
+Changes in 1.3.1:
+- Added Spanish translation
+- Fixed a typo
