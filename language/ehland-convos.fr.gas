@@ -1,0 +1,197 @@
+[t:0x040c,n:text]
+{
+    // Barney
+	[0x0000]
+	{
+		from = "Gosh, look at these stupid mules. They're the most stupid animals I've ever seen. They're like dullfish, but as a mule... Man, I'm glad I'm not a mule.";
+		to = "Schau dir nur diese strohdummen Maulesel an. Es sind die dümmsten Tiere die ich je gesehen habe. Wie Dummfische, nur als Maulesel... Mann, bin ich froh dass ich kein Maulesel bin.";
+	}
+
+    // Fergie
+	[0x0000]
+	{
+		from = "Sorry, I'm very busy today... managing and delegating and stuff.";
+		to = "Entschuldigt, ich bin heute sehr beschäftigt... mit Verwaltung und Delegierung und solchen Dingen.";
+	}
+    // Fred
+	[0x0000]
+	{
+		from = "Sorry, I'm very busy today, working hard.";
+		to = "Entschuldigt, ich bin heute sehr beschäftigt, ich muss hart arbeiten.";
+	}
+
+    // Hippie channeling Bruce Lee
+	[0x0000]
+	{
+		from = "Empty your mind. Be formless, shapeless. Like water.";
+		to = "Empty your mind. Be formless, shapeless. Like water.";
+	}
+	[0x0000]
+	{
+		from = "Be water, my friend!";
+		to = "Be water, my friend!";
+	}
+	[0x0000]
+	{
+		from = "Now, you put water into a cup - it becomes the cup. You put water into a bottle and it becomes the bottle. You put in a teapot, it becomes the teapot.
+Water can flow, or it can crash.";
+		to = "Now, you put water into a cup - it becomes the cup. You put water into a bottle and it becomes the bottle. You put in a teapot, it becomes the teapot.
+Water can flow, or it can crash.";
+	}
+
+    // Beauty Meg guiding
+	[0x0000]
+	{
+		from = "Hello, stranger!
+What can I do for you?
+You want to do some shopping? Well, there's the Smiths (or Smitties, if you want), and of course Trisha, our village hag. I suppose they're out working, as people do who are not as beautiful as me.";
+		to = "Hallo, Fremdling!
+Was kann ich für Euch tun?
+Wollt Ihr etwas Shopping gehen? Nun, es gibt hier die Schmieds (oder Schmidts, wenn Ihr wollt), und natürlich Trisha, unsere Dorfhexe. Ich nehme an, sie sind draußen am arbeiten, wie es Leute tun die nicht so schön sind wie ich.";
+	}
+
+    // Mr Smith shop
+	[0x0000]
+	{
+		from = "Hi, I'm Mister Smith (or Smittie, if you want). I'm the smith here.";
+		to = "Hi, ich bin Herr Schmied (oder Schmidt, wenn du willst). Ich bin der Schmied hier.";
+	}
+	[0x0000]
+	{
+		from = "Do you know the history of Lord Hovart?
+He was Lord of Ehland back in the old days, and reigned brutally until our grandparents revolted and overthrew him. He was hanged on the little hill southeast from here, and then buried there...
+The Old Man was alive back then.";
+		to = "Kennst du die Geschichte von Lord Hovart?
+Er war Herr von Ehland in früheren Tagen, und regierte brutal bis unsere Großeltern revoltierten und ihn stürzten. Er wurde auf dem kleinen Hügel südöstlich von hier gehängt, und dann dort begraben...
+Der Alte Mann hat es noch miterlebt.";
+	}
+	[0x0000]
+	{
+		from = "I can sell you what I have here. For the fancier stuff you have to go to my wife.";
+		to = "Ich kann dir verkaufen was ich hier habe. Für die schickeren Sachen musst du zu meiner Frau gehen.";
+	}
+
+    // Mrs Smith shop
+	[0x0000]
+	{
+		from = "Did my old dad tell you about old Lord Hovart? Oh dear.
+And even if it's true - I got a business to run here! Quality has its price. Have a look!
+...My hubby might have things more suitable for you tho...";
+		to = "Hat dir mein alter Vati von Lord Hovart erzählt? Oh je.
+Und selbst wenn es stimmt - ich habe hier ein Geschäft zu führen! Qualität hat ihren Preis. Schau es dir gerne an!
+...Mein Männe hat allerdings wahrscheinlich eher passendere Dinge für dich...";
+	}
+
+    // Old Man quest char
+	[0x0000]
+	{
+		from = "Welcome to Ehland, dear traveller.
+It's small but it's ours - and we wouldn't want to live anywhere else.";
+		to = "Willkommen in Ehland, werte Reisende.
+Es ist klein aber unser - und wir würden nirgendwo sonst leben wollen.";
+	}
+	[0x0000]
+	{
+		from = "The people here might be a bit funny but they're all good folks.
+If you want to buy something, have a look at the armor & weaponry store of my daughter and her hubby out to the west of Eh village. Trisha our village hag is also out there somewhere today.";
+		to = "Die Menschen hier mögen ein wenig seltsam sein, aber es sind alles gutmütige Leute.
+Wenn Ihr etwas kaufen wollt, werft einen Blick in den Rüstungs- & Waffenladen meiner Tochter und ihres Gatten draußen im Westen von Dorf Eh. Trisha unsere Dorfhexe ist heute auch irgendwo da draußen.";
+	}
+	[0x0000]
+	{
+		from = "But don't go out too far - it's not safe! The dead are walking out there... I fear the old Lord Hovart himself has risen! Stay away from his grave hill!";
+		to = "Doch geht nicht zu weit hinaus - es ist nicht sicher! Die Toten laufen dort draußen herum... Ich fürchte, der alte Lord Hovart selbst ist wieder auf den Beinen! Haltet euch von seinem Grabhügel fern!";
+	}
+	[0x0000]
+	{
+		from = "Unfortunately my daughter does not see the need to confront him, or even just to lower prices for adventurous travellers as you...
+The rest of the village isn't very useful either, good folks as they are.";
+		to = "Leider sieht meine Tochter nicht ein, ihn zu stellen, oder doch zumindest ihre Preise zu senken für wagemutige Reisende wie Euch...
+Der Rest des Dorfes ist auch nicht sonderlich nützlich, so gutmütig sie auch sind.";
+	}
+	[0x0000]
+	{
+		from = "If you want to help me but don't have cash, I know there must be a lot of money stored in the Old Tunnel...
+You could go there through Ehwood forest, just go west from here.
+Should be doable for a strong adventurer like you are. I'd recommend take a good bow with you though.";
+		to = "Wenn Ihr mir helfen mögt aber kein Geld habt, ich weiß von einem Schatz im Alten Tunnel...
+Ihr könntet durch den Ehwald dorthin gelangen, geht einfach nach Westen von hier aus.
+Sollte machbar sein für einen starken Abenteurer wie Ihr es seid. Ich würde allerdings empfehlen einen guten Bogen mitzunehmen.";
+	}
+	[0x0000]
+	{
+		from = "If you want to help an old man sleep in peace again... I would be very happy if you could bring old Hovart back to the dead where he belongs.";
+		to = "Wenn Ihr einem alten Mann helfen mögt, wieder ruhig schlafen zu können... Ich wäre sehr glücklich, wenn ihr den alten Hovart zurück ins Jenseits befördert, wo er hingehört.";
+	}
+    // quest fulfilled:
+	[0x0000]
+	{
+		from = "Thank you so much for making Ehland safe again!
+Finally I can sleep in peace again.";
+		to = "Vielen Dank, dass Ihr Ehland wieder sicher gemacht habt!
+Endlich kann ich wieder ruhig schlafen.";
+	}
+
+    // Trisha the village hag
+	[0x0000]
+	{
+		from = "What I'm doing here?
+I'm collecting colours, of course!";
+		to = "Was ich hier mache?
+Ich sammle Farben, natürlich!";
+	}
+	[0x0000]
+	{
+		from = "I had a dream last night - of the old Lord Hovart rising from his grave - and there were spiders and worse - and a creature of darkness...
+I saw them all walking around on Hovart hill.
+
+Maybe the Old Man is right!
+Or maybe his stories have just confused me...
+Anyways I'm not going there.";
+		to = "Ich hatte einen Traum letzte Nacht - vom alten Lord Hovart wie er aus seinem Grabe stieg - und da waren Spinnen und Schlimmeres - und eine Kreatur der Dunkelheit...
+Ich sah sie alle auf dem Hovarthügel herumlaufen.
+
+Vielleicht hat der Alte Mann recht!
+Oder seine Geschichten haben mich nur verwirrt...
+Ich geh da jedenfalls nicht hin.";
+	}
+	[0x0000]
+	{
+		from = "Hey, wanna buy some of my magic stuff?";
+		to = "Hey, magst du was von meinen Zaubersachen kaufen?";
+	}
+
+    // Lauryn companion
+	[0x0000]
+	{
+		from = "Hello, traveller!
+Are you an adventurer, looking for fame and fortune? Perfect timing, Lord Hovart has arisen from the dead to take revenge on our peaceful village - it's true, I've seen him at his grave on Hovart hill! That tightwad Mrs. Smith won't lend me any of her good armors, and my pocket money isn't enough, so I want to find the money hidden in the Old Tunnel. It's a secret the Old Man has told me about once.";
+		to = "Hallo da, Reisender!
+Bist du ein Abenteurer auf der Suche nach Ruhm und Reichtum? Perfektes Timing, Lord Hovart ist von den Toten auferstanden um Rache an unserem friedlichen Dorf zu nehmen - es ist wahr, ich habe ihn an seinem Grab auf dem Hovarthügel gesehen! Diese geizige Frau Schmied leiht mir keine ihrer guten Rüstungen, und mein Taschengeld reicht dafür nicht, also will ich den Schatz finden, der im Alten Tunnel versteckt ist. Es ist ein Geheimnis, von dem mir der Alte Mann einmal erzählt hat.";
+	}
+	[0x0000]
+	{
+		from = "Wanna go together? To be honest, I'm afraid of spiders... and the woods are full of them!";
+		to = "Sollen wir zusammen gehen? Um ehrlich zu sein, habe ich Angst vor Spinnen... und der Wald ist voll davon!";
+	}
+	[0x0000]
+	{
+		from = "Pff then not!";
+		to = "Dann halt nicht!";
+	}
+	[0x0000]
+	{
+		from = "Yay let's go!";
+		to = "Au ja, los geht's!";
+	}
+	[0x0000]
+	{
+		from = "Wait, what?";
+		to = "Bitte was?";
+	}
+	[0x0000]
+	{
+		from = "No hard feelings mate... Wanna go together again?";
+		to = "Alles gut, mann... Sollen wir wieder zusammen gehen?";
+	}
+}
