@@ -19,7 +19,8 @@ The map is NOT intended to fit into DS lore. It makes no sense that Lord Hovart 
 - No known incompatibilities.
 
 ## Attribution
-Spanish translation by Nekurrot25.
+- Spanish translation by Nekurrot25.
+- French translation by Jayijato.
 
 ## Changelog
 Changes in 1.1:
@@ -53,3 +54,9 @@ Changes in 1.3:
 Changes in 1.3.1:
 - Added Spanish translation
 - Fixed a typo
+
+Changes in 1.4:
+- Prevented Barney from selling mules in multiplayer
+- Added French translation
+- Same naming convention for translation files as in my other projects
+- Internal: installed minibits, de-duped mesh ranges
