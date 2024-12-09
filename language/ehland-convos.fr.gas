@@ -78,7 +78,7 @@ Le vieil homme le voyait encore.";
 And even if it's true - I got a business to run here! Quality has its price. Have a look!
 ...My hubby might have things more suitable for you tho...";
 		to = "Mon vieux père t'a-t-il parlé de Lord Hovart ? Oh cher.
-Et même si c'est vrai, j'ai une entreprise à gérer ici ! La qualité a son prix. N'hésitez pas à y jeter un oeil !
+Et même si c'est vrai, j'ai une entreprise à gérer ici! La qualité a son prix. N'hésitez pas à y jeter un oeil !
 ...Mon mari a probablement des choses plus adaptées pour vous cependant...";
 	}
 
@@ -128,7 +128,7 @@ Cela devrait être faisable pour un aventurier fort comme vous. Cependant, je re
 	{
 		from = "Thank you so much for making Ehland safe again!
 Finally I can sleep in peace again.";
-		to = "Merci d'avoir rendu Ehland à nouveau sûr !
+		to = "Merci d'avoir rendu Ehland à nouveau sûr!
 Je peux enfin dormir à nouveau paisiblement.";
 	}
 
@@ -166,7 +166,7 @@ De toute façon, je n'y vais pas.";
 	{
 		from = "Hello, traveller!
 Are you an adventurer, looking for fame and fortune? Perfect timing, Lord Hovart has arisen from the dead to take revenge on our peaceful village - it's true, I've seen him at his grave on Hovart hill! That tightwad Mrs. Smith won't lend me any of her good armors, and my pocket money isn't enough, so I want to find the money hidden in the Old Tunnel. It's a secret the Old Man has told me about once.";
-		to = "Bonjour, voyageur !
+		to = "Bonjour, voyageur!
 Êtes-vous un aventurier en quête de gloire et de fortune ? Le timing est parfait, Lord Hovart est ressuscité d'entre les morts pour se venger de notre paisible village - c'est vrai, je l'ai vu sur sa tombe sur Hovart Hill ! Cette avare forgeronne ne me prêtera aucune de ses bonnes armures et je n'ai pas assez d'argent de poche pour l'acquérir, alors je veux trouver le trésor caché dans le Vieux Tunnel. C'est un secret dont le Vieil Homme m'a parlé un jour.";
 	}
 	[0x0000]

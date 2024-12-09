@@ -82,7 +82,7 @@
 	[0x0000]
 	{
 		from = "Trisha the village hag";
-		to = ""Trisha la sorcière du village"";
+		to = "Trisha la sorcière du village";
 	}
 	[0x0000]
 	{
