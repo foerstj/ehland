@@ -4,7 +4,7 @@
 	description = "The village of Ehland";
   x guid = 0x00000001;
 	lastmodified = FLUPSNPUPS,flups;
-  x mesh_range = 0x00000000;
+  x mesh_range = 0x00000001;
 	name = eh;
 	notes = none;
   x scid_range = 0x00000001;
