@@ -9,19 +9,19 @@
 	[0x0000]
 	{
 		from = "A nice little patch of land in the middle of nowhere.";
-		to = "Ein nettes Fleckchen Erde irgendwo im Nirgendwo.";
+		to = "Un joli petit coin au milieu de nulle part.";
 	}
 
     // Quest
 	[0x0000]
 	{
 		from = "Kill Lord Hovart (again)";
-		to = "Töte Lord Hovart (nochmal)";
+		to = "Tuer Lord Hovart (encore)";
 	}
     [0x0000]
 	{
 		from = "Make Hovart dead again! Hint: Go west through Ehwood forest and find money for equipment in the Old Tunnel. Find Hovart in the southeast of Eh.";
-		to = "Make Hovart dead again! Tipp: Geh nach Westen durch den Ehwald und finde Geld für Ausrüstung im Alten Tunnel. Finde Hovart im Südosten von Eh.";
+		to = "Faites à nouveau mourir Hovart ! Astuce : allez vers l'ouest à travers la forêt d'Ehwood et trouvez de l'argent pour acheter du matériel dans le vieux tunnel. Trouvez Hovart au sud-est d'Eh.";
 	}
 
     // Start pos
@@ -33,16 +33,16 @@
 	[0x0000]
 	{
 		from = "The nice little village of Ehland";
-		to = "Das nette kleine Dörfchen von Ehland";
+		to = "Le joli petit village d'Ehland";
 	}
 	[0x0000]
 	{
 		from = "Ehwood";
-		to = "Ehwald";
+		to = "Ehwood";
 	}
 	[0x0000]
 	{
 		from = "The woods of Eh";
-		to = "Der Wald von Eh";
+		to = "La forêt de Eh";
 	}
 }

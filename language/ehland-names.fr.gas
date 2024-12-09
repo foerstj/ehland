@@ -4,85 +4,85 @@
 	[0x0000]
 	{
 		from = "Eastend";
-		to = "Ostend";
+		to = "Extrémité Est";
 	}
 	[0x0000]
 	{
 		from = "Westend";
-		to = "Westend";
+		to = "Extrémité ouest";
 	}
 	[0x0000]
 	{
 		from = "Northend";
-		to = "Nordend";
+		to = "Extrémité nord";
 	}
 	[0x0000]
 	{
 		from = "Southend";
-		to = "Südend";
+		to = "Extrémité sud";
 	}
 	[0x0000]
 	{
 		from = "Hovart hill";
-		to = "Hovarthügel";
+		to = "Colline de Hovart";
 	}
 	[0x0000]
 	{
 		from = "Here lieth Hovart, ye olde bag of dirte. Rest in peace, but rest!";
-		to = "Hier lieget Hovart, jener alte Sack Drecks. Ruhet in Frieden, aber ruhet!";
+		to = "Ici repose Hovart, ce vieux sac de terre. Repose en paix, mais repose-toi !";
 	}
 	[0x0000]
 	{
 		from = "Eh via Old Tunnel";
-		to = "Eh via Alter Tunnel";
+		to = "Eh via le vieux tunnel";
 	}
 	[0x0000]
 	{
 		from = "Welcome to Eh!";
-		to = "Willkommen in Eh!";
+		to = "Bienvenue a Eh!";
 	}
     // Houses
 	[0x0000]
 	{
 		from = "Beauty of Eh";
-		to = "Schönheit von Eh";
+		to = "Beauté de Eh";
 	}
 	[0x0000]
 	{
 		from = "Old Man's house";
-		to = "Haus des Alten Mannes";
+		to = "Maison du vieil homme";
 	}
 	[0x0000]
 	{
 		from = "The Happy Hippie";
-		to = "Der Happy Hippie";
+		to = "Le hippie heureux";
 	}
 
     // Characters
 	[0x0000]
 	{
 		from = "Old Man";
-		to = "Alter Mann";
+		to = "vieillard";
 	}
 	[0x0000]
 	{
 		from = "Mr. Smith (or smittie, if you want)";
-		to = "Herr Schmied (oder Schmidt, wenn du willst)";
+		to = "M. Smith (ou Smittie, si vous préférez)";
 	}
 	[0x0000]
 	{
 		from = "Mrs. Smith (or Smittie, if you want)";
-		to = "Frau Schmied (oder Schmidt, wenn du willst)";
+		to = "Mrs. Smith (ou Smittie, si vous préférez))";
 	}
 	[0x0000]
 	{
 		from = "Happy Hippie";
-		to = "Happy Hippie";
+		to = "Joyeux hippie";
 	}
 	[0x0000]
 	{
 		from = "Trisha the village hag";
-		to = "Trisha die Dorfhexe";
+		to = ""Trisha la sorcière du village"";
 	}
 	[0x0000]
 	{
@@ -97,7 +97,7 @@
 	[0x0000]
 	{
 		from = "Meg the village beauty";
-		to = "Meg die Dorfschönheit";
+		to = "Meg la beauté du village";
 	}
 	[0x0000]
 	{
@@ -107,28 +107,28 @@
 	[0x0000]
 	{
 		from = "Barney";
-		to = "Barnie";
+		to = "Barney";
 	}
 	[0x0000]
 	{
 		from = "Well Pixie";
-		to = "Brunnenfee";
+		to = "Fée de la fontaine";
 	}
     // Animals
 	[0x0000]
 	{
 		from = "Molly";
-		to = "Molli";
+		to = "Molly";
 	}
 	[0x0000]
 	{
 		from = "Milly";
-		to = "Millie";
+		to = "Milly";
 	}
 	[0x0000]
 	{
 		from = "Mary";
-		to = "Marie";
+		to = "Mary";
 	}
 	[0x0000]
 	{
@@ -138,12 +138,12 @@
 	[0x0000]
 	{
 		from = "Piggy Strange";
-		to = "Piggy Strange";
+		to = "Cochon étrange";
 	}
 	[0x0000]
 	{
 		from = "Porky";
-		to = "Schinken";
+		to = "Porky";
 	}
 	[0x0000]
 	{
@@ -153,11 +153,11 @@
 	[0x0000]
 	{
 		from = "Old Fartie";
-		to = "Alter Furzer";
+		to = "Vieux péteur";
 	}
 	[0x0000]
 	{
 		from = "Hello Piggy";
-		to = "Hello Piggy";
+		to = "Bonjour Piggy";
 	}
 }
