@@ -25,7 +25,7 @@ if not "%mode%"=="light" (
   if "%mode%"=="release" (
     set checks=all
   )
-  venv\Scripts\python -m build.pre_build_checks %map% --check !checks! --bits DS1
+  venv\Scripts\python -m build.pre_build_checks %map% --check !checks! --bits "%bits%"
   if !errorlevel! neq 0 pause
 )
 endlocal
@@ -35,7 +35,7 @@ popd
 rmdir /S /Q "%tmp%\Bits"
 robocopy "%bits%\world\maps\%map%" "%tmp%\Bits\world\maps\%map%" /E
 pushd %gaspy%
-venv\Scripts\python -m build.fix_start_positions_required_levels %map% "%tmp%\Bits"
+venv\Scripts\python -m build.fix_start_positions_required_levels %map% --bits "%tmp%\Bits"
 if %errorlevel% neq 0 pause
 setlocal EnableDelayedExpansion
 if "%mode%"=="release" (
