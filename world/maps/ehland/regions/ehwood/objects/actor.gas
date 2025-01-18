@@ -416,7 +416,7 @@
 	  p position = -1.71536,-0.227953,1.18012,0x686c2acf;
 	}
 }
-[t:phrak_large,n:0x00200250]
+[t:eos_phrak_large,n:0x00200250]
 {
 	[aspect]
 	{
@@ -985,7 +985,7 @@
 	  p position = -0.377567,4,3.15146,0x7bede1f6;
 	}
 }
-[t:phrak_large,n:0x0020025e]
+[t:eos_phrak_large,n:0x0020025e]
 {
 	[aspect]
 	{
