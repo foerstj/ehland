@@ -109,4 +109,30 @@
 [t:template,n:2W_eh_spider_base]
 {
     specializes = 2W_spider_base;
+
+    // stats from 2W_snapper
+	[actor]
+	{
+		[skills]
+		{
+			strength = 	15.8, 0;
+			intelligence = 	2.9, 0;
+			dexterity = 	7, 0;
+			melee =  		54,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 6740;
+		life = 109;
+		max_life = 109;
+		mana = 108;
+		max_mana = 108;
+	}
+	[attack]
+	{
+		damage_max = 98.2;
+		damage_min = 72.9;
+	}
+	[defend] { defense=351; }
 }

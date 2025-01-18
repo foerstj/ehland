@@ -109,4 +109,30 @@
 [t:template,n:3W_eh_spider_base]
 {
     specializes = 3W_spider_base;
+
+    // stats from 3W_snapper
+	[actor]
+	{
+		[skills]
+		{
+			strength = 	23.7, 0;
+			intelligence = 	3.5, 0;
+			dexterity = 	9.7, 0;
+			melee =  		89,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 330815;
+		life = 211.5;
+		max_life = 211.5;
+		mana = 178;
+		max_mana = 178;
+	}
+	[attack]
+	{
+		damage_max = 153.7;
+		damage_min = 120.2;
+	}
+	[defend] { defense=528.5; }
 }

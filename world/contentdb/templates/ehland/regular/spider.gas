@@ -109,4 +109,30 @@
 [t:template,n:eh_spider_base]
 {
     specializes = spider_base;
+
+    // stats from snapper
+	[actor]
+	{
+		[skills]
+		{
+			strength = 	4, 0;
+			intelligence = 	2, 0;
+			dexterity = 	3, 0;
+			melee =  		1,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 5;
+		life = 7;
+		max_life = 7;
+		mana = 4;
+		max_mana = 4;
+	}
+	[attack]
+	{
+		damage_max = 6;
+		damage_min = 3;
+	}
+	[defend] { defense=12; }
 }
