@@ -47,6 +47,7 @@
 	  i order = 0;
 		screen_text = "Empty your mind. Be formless, shapeless. Like water.";
 	  f scroll_rate = 20.000000;
+        sample = s_v_eh_bwmf_1;
 	}
 	[text*]
 	{
@@ -55,11 +56,13 @@
 		screen_text = "Now, you put water into a cup - it becomes the cup. You put water into a bottle and it becomes the bottle. You put in a teapot, it becomes the teapot.
 Water can flow, or it can crash.";
 	  f scroll_rate = 20.000000;
+        sample = s_v_eh_bwmf_2;
 	}
 	[text*]
 	{
 		screen_text = "Be water, my friend!";
 	  f scroll_rate = 20.000000;
+        sample = s_v_eh_bwmf_3;
 	}
 }
 [meg_guide]
