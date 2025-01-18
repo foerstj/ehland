@@ -1,0 +1,86 @@
+[t:template,n:mage_trianna_lelaine_talk]  // = mage_trianna_lelaine but derived from base_npc_fg_talk
+{
+	specializes = base_npc_fg_talk;
+
+	category_name = "1W_shopkeep";
+	doc = "mage, elddim (MP)";
+	[actor]	{portrait_icon = b_gui_ig_i_ic_c_jewlynna;}
+	[aspect]
+	{
+		draw_selection_indicator = TRUE;
+		is_ghost_usable = TRUE;
+		model = m_c_gah_fg_pos_b1;
+		use_range = 1;
+		[textures]
+		{
+			0 = b_c_gah_fg_skin_14;
+			1 = b_c_pos_b1_007;
+		}
+	}
+	[common]
+	{
+		screen_name = "Mage Trianna Lelaine";
+	}
+	[conversation]
+	{
+	}
+	[inventory]
+	{
+		[equipment]
+		{
+			[other]
+			{
+			}
+		}
+		[store_pcontent]
+		{
+			full_ratio = 0.8;
+			[magic]
+			{
+				[all*]
+				{
+					il_main = #spell/0-7;
+					max = 5;
+					min = 3;
+				}
+				[all*]
+				{
+					il_main = spell_resurrect;
+					il_main = spell_revive;
+					il_main = spell_healing_hands;
+					il_main = scroll_resurrect;
+					max = 1;
+					min = 1;
+				}
+			}
+			[misc]
+			{
+				[all*]
+				{
+					il_main = book_glb_magic_01;
+					max = 5;
+					min = 3;
+				}
+			}
+		}
+	}
+	[respawn_shrine]
+	{
+	}
+	[store]
+	{
+		item_markup = 2;
+		[item_restock]
+		{
+			potion_health_medium = 1;
+			potion_health_small = 9;
+			potion_mana_medium = 1;
+			potion_mana_small = 9;
+			potion_rejuvenation_small = 3;
+			potion_rejuvenation_medium = 1;
+
+			spell_fireshot = 8;
+			spell_zap = 8;
+		}
+	}
+}

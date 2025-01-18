@@ -1,4 +1,4 @@
-[t:jewlynna,n:0x001001c2]
+[t:jewlynna_talk,n:0x001001c2]
 {
 	[common]
 	{
@@ -306,7 +306,7 @@
 	  p position = 1.03944,-0.299999,3.90107,0x1cfac4eb;
 	}
 }
-[t:mage_trianna_lelaine,n:0x001001cb]
+[t:mage_trianna_lelaine_talk,n:0x001001cb]
 {
 	[common]
 	{
@@ -2258,7 +2258,7 @@
 	  p position = -3.36093,9.53674e-007,0.541348,0x5fa52c99;
 	}
 }
-[t:smith_jerena_strongblade,n:0x001001cd]
+[t:smith_jerena_strongblade_talk,n:0x001001cd]
 {
 	[common]
 	{
