@@ -1526,7 +1526,7 @@
 	  p position = 0.0980377,0,-1.53509,0x7ec25b45;
 	}
 }
-[t:lord_hovart,n:0x0010055c]
+[t:eh_lord_hovart,n:0x0010055c]
 {
 	[common]
 	{
@@ -1547,17 +1547,6 @@
 			  b single_shot = true;
 			  b start_active = true;
 			}
-		}
-	}
-	[inventory]
-	{
-		[equipment]
-		{
-			es_chest = bd_un_bl_f_g_c_blood;
-			es_feet = bo_ra_bo_le_f_g_c_fin;
-			es_head = he_ca_ro_slope_03;
-			es_shield_hand = sh_w_g_c_r_s_fun;
-			es_weapon_hand = ss_g_c_bl_1h_avg;
 		}
 	}
 	[placement]
@@ -2225,6 +2214,31 @@
 	  p position = 1.12121,-1.75,-2.74549,0x4366deb8;
 	}
 }
+[t:merchant_shopkeeper,n:0x0010028d]
+{
+	[common]
+	{
+		dev_instance_text = "MP";
+	  b is_single_player = false;
+		screen_name = "Barney";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = barney_mp;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit?talk_anim=;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,-0.707107;
+	  p position = 0.958981,-1.75,-2.82185,0x4366deb8;
+	}
+}
 [t:blacksmith_zabar_treseck,n:0x001001cf]
 {
 	[common]
@@ -2331,30 +2345,5 @@
 	{
 	  q orientation = 0,0.92388,0,0.382683;
 	  p position = 3.02644,9.53674e-007,-0.897203,0x54f740e1;
-	}
-}
-[t:merchant_shopkeeper,n:0x0010028d]
-{
-	[common]
-	{
-		dev_instance_text = "MP";
-	  b is_single_player = false;
-		screen_name = "Barney";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = barney_mp;
-		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit?talk_anim=;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,-0.707107;
-	  p position = 0.958981,-1.75,-2.82185,0x4366deb8;
 	}
 }
