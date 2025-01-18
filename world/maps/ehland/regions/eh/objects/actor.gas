@@ -943,7 +943,7 @@
 	  p position = -3.10017,7.62939e-006,-0.0216904,0xf81298f8;
 	}
 }
-[t:spider,n:0x0010058a]
+[t:eh_spider,n:0x0010058a]
 {
 	[placement]
 	{
@@ -1362,7 +1362,7 @@
 	  p position = -2.00826,0,0.818291,0x9230cd4e;
 	}
 }
-[t:spider,n:0x0010058c]
+[t:eh_spider,n:0x0010058c]
 {
 	[placement]
 	{
@@ -1664,7 +1664,7 @@
 	  p position = 1.1765,0,-1.97827,0x75e40109;
 	}
 }
-[t:spider,n:0x0010058b]
+[t:eh_spider,n:0x0010058b]
 {
 	[placement]
 	{
@@ -1696,7 +1696,7 @@
 	  p position = 0.623451,0,-1.16921,0x21786554;
 	}
 }
-[t:spider,n:0x00100589]
+[t:eh_spider,n:0x00100589]
 {
 	[placement]
 	{
@@ -1844,7 +1844,7 @@
 	  p position = -1.63873,7.62939e-006,-1.00054,0x206a6c37;
 	}
 }
-[t:spider,n:0x00100588]
+[t:eh_spider,n:0x00100588]
 {
 	[placement]
 	{
