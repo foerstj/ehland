@@ -60,3 +60,10 @@ Changes in 1.4:
 - Added French translation
 - Same naming convention for translation files as in my other projects
 - Internal: installed minibits, de-duped mesh ranges
+
+Changes in 1.4.1:
+- Proper stats for spider & large phrak, esp. in Veteran & Elite
+- HD textures for giant flowers
+- Fix Hovart dropping double armor
+- Polished talk animations, esp. of female NPCs
+- Bruce Lee voice samples for the Happy Hippie
