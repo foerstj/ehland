@@ -1865,7 +1865,7 @@
 	  p position = -2.88906,0,0.418015,0x206a6c37;
 	}
 }
-[t:mp_village_idiot,n:0x001000a3]
+[t:eh_village_idiot_andi,n:0x001000a3]
 {
 	[common]
 	{
@@ -1880,7 +1880,7 @@
 	}
 	[mind]
 	{
-		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit;
+		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_npc.skrit?talk_anim=andi;
 	}
 	[placement]
 	{
