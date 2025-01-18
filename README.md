@@ -14,7 +14,7 @@ The map is NOT intended to fit into DS lore. It makes no sense that Lord Hovart 
 - This map does not require LoA.
 - To install, simply put the .dsmap file in the Maps folder and the .dsres files in the Resources folder.\
   Or put them all in the DSLOA folder if you use DSLOA.
-- The "de" and "es" .dsres files are optional and contain translations into German and Spanish, which will be picked up if you have a German or Spanish installation.
+- The "de"/"fr"/"es" .dsres files are optional and contain translations into German/French/Spanish, which will be picked up if you have a corresponding installation.
 - To uninstall, simply remove the files again :)
 - No known incompatibilities.
 
