@@ -21,6 +21,7 @@ The map is NOT intended to fit into DS lore. It makes no sense that Lord Hovart 
 ## Attribution
 - Spanish translation by Nekurrot25.
 - French translation by Jayijato.
+- "Be water, my friend" quote & voice by Bruce Lee.
 
 ## Changelog
 Changes in 1.1:
