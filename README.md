@@ -22,6 +22,7 @@ The map is NOT intended to fit into DS lore. It makes no sense that Lord Hovart 
 - Spanish translation by Nekurrot25.
 - French translation by Jayijato.
 - "Be water, my friend" quote & voice by Bruce Lee.
+- Hi-res textures of giant flowers by Antonio R. (HRT mod).
 
 ## Changelog
 Changes in 1.1:
