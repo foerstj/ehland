@@ -1,0 +1,107 @@
+// Hook file so that xmas mod can override these
+
+[t:template,n:tree_ice_pine_02_base]  // = tree_ice_pine_02
+{
+	category_name = "trees";
+	doc = "ice_pine_12m";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.7;
+		model = m_i_glb_tree-01;
+		[textures]
+		{
+			0 = b_i_ice_tree-pine;
+		}
+	}
+}
+[t:template,n:tree_ice_pine_04_base]  // = tree_ice_pine_04
+{
+	category_name = "trees";
+	doc = "ice_pine_6m";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.7;
+		model = m_i_glb_tree-02;
+		[textures]
+		{
+			0 = b_i_ice_tree-pine;
+		}
+	}
+}
+[t:template,n:tree_grs_pine_02_base]  // = tree_grs_pine_02
+{
+	category_name = "trees";
+	doc = "grs_pine_12m";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.1;
+		lodfi_upper = 0.6;
+		model = m_i_glb_tree-01;
+	}
+}
+[t:template,n:tree_grs_pine_04_base]  // = tree_grs_pine_04
+{
+	category_name = "trees";
+	doc = "grs_pine_6m";
+	specializes = base_tree;
+	[aspect]
+	{
+		lodfi_lower = 0.05;
+		lodfi_upper = 0.7;
+		model = m_i_glb_tree-02;
+	}
+}
+
+
+[t:template,n:tree_ice_xmas] { specializes = tree_ice_xmas_base; }
+[t:template,n:tree_ice_xmas_base]
+{
+    specializes = tree_ice_pine_04_base;
+}
+
+[t:template,n:tree_ice_xmas_lg] { specializes = tree_ice_xmas_lg_base; }
+[t:template,n:tree_ice_xmas_lg_base]
+{
+    specializes = tree_ice_pine_02_base;
+}
+
+[t:template,n:tree_ice_xmas_white] { specializes = tree_ice_xmas_white_base; }
+[t:template,n:tree_ice_xmas_white_base]
+{
+    specializes = tree_ice_pine_04_base;
+}
+
+[t:template,n:tree_ice_xmas_white_lg] { specializes = tree_ice_xmas_white_lg_base; }
+[t:template,n:tree_ice_xmas_white_lg_base]
+{
+    specializes = tree_ice_pine_02_base;
+}
+
+[t:template,n:tree_grs_xmas] { specializes = tree_grs_xmas_base; }
+[t:template,n:tree_grs_xmas_base]
+{
+    specializes = tree_grs_pine_04_base;
+}
+
+[t:template,n:tree_grs_xmas_lg] { specializes = tree_grs_xmas_lg_base; }
+[t:template,n:tree_grs_xmas_lg_base]
+{
+    specializes = tree_grs_pine_02_base;
+}
+
+[t:template,n:tree_grs_xmas_white] { specializes = tree_grs_xmas_white_base; }
+[t:template,n:tree_grs_xmas_white_base]
+{
+    specializes = tree_grs_pine_04_base;
+}
+
+[t:template,n:tree_grs_xmas_white_lg] { specializes = tree_grs_xmas_white_lg_base; }
+[t:template,n:tree_grs_xmas_white_lg_base]
+{
+    specializes = tree_grs_pine_02_base;
+}
