@@ -69,3 +69,8 @@ Changes in 1.4.1:
 - Fix Hovart dropping double armor
 - Polished talk animations, esp. of female NPCs
 - Bruce Lee voice samples for the Happy Hippie
+
+Changes in 1.5:
+- Fixed floating ferns
+- Louder voice samples for the Bruce Lee quote
+- Added Christmas tree next to well that appears when Christmas mod is used
