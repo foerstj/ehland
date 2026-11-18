@@ -1,0 +1,8 @@
+wolf_gray = wolf_black
+wolf_gray_boss_01 = wolf_black_boss_01
+
+eh_spider = kill_bot
+spider_adolescent = hunter
+
+phrak = copter
+phrak_piercer = copter
