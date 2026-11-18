@@ -3,6 +3,7 @@
 	description = "A nice little patch of land in the middle of nowhere.";
   b dev_only = false;
 	screen_name = "Ehland 2 Electric Boogaloo";
+  b multiplayer_only = true;
 	timeofday = 6h0m;
   b use_node_mesh_index = true;
   f world_frustum_radius = 45.000000;
