@@ -3094,6 +3094,22 @@
 	  p position = -2.35245,0,1.52605,0xca4e87cb;
 	}
 }
+[t:pupod_01,n:0x00200037]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -0.336201,0,-1.08913,0xfd231dd5;
+	}
+}
+[t:pupod_02,n:0x00200038]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -1.28092,0,0.986763,0xfd231dd5;
+	}
+}
 [t:groundcover_grs_07,n:0x002001bf]
 {
 	[aspect]

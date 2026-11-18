@@ -729,6 +729,20 @@
 	  p position = -3.79469,4.29102,-34.3911,0xccfc1167;
 	}
 }
+[t:pupod_01,n:0x0010020d]
+{
+	[placement]
+	{
+	  p position = -2.28019,5.98671,-23.539,0xccfc1167;
+	}
+}
+[t:pupod_01,n:0x0010020e]
+{
+	[placement]
+	{
+	  p position = 0.215429,5.39911,-24.536,0xccfc1167;
+	}
+}
 [t:tree_glb_sway_03,n:0x00100212]
 {
 	[aspect]
@@ -787,6 +801,13 @@
 	{
 	  q orientation = 0,0.990788,0,0.13542;
 	  p position = 16.873,5.60001,-53.0012,0xccfc1167;
+	}
+}
+[t:pupod_02,n:0x00100253]
+{
+	[placement]
+	{
+	  p position = 2.35102,5.91373,-23.2373,0xccfc1167;
 	}
 }
 [t:mushroom_eh_red_xlg,n:0x001002a2]
@@ -2855,6 +2876,13 @@
 	  p position = 8.38496,5.39906,-27.8775,0x16869576;
 	}
 }
+[t:pupod_01,n:0x0010025c]
+{
+	[placement]
+	{
+	  p position = 0.488784,4.97505,-36.8479,0x16869576;
+	}
+}
 [t:mushroom_eh_prpl_lg,n:0x00100286]
 {
 	[aspect]
@@ -4332,6 +4360,20 @@
 	  p position = 3.59453,5.50781,-42.4686,0x4dac709f;
 	}
 }
+[t:pupod_01,n:0x0010025d]
+{
+	[placement]
+	{
+	  p position = -10.7686,5.80452,-31.3112,0x4dac709f;
+	}
+}
+[t:pupod_02,n:0x0010025e]
+{
+	[placement]
+	{
+	  p position = -12.5104,6.07381,-32.6293,0x4dac709f;
+	}
+}
 [t:mushroom_eh_white_delicate_lg,n:0x001002e7]
 {
 	[aspect]
@@ -5635,6 +5677,22 @@
 	{
 	  q orientation = 0,0.5,0,0.866025;
 	  p position = -3.42199,7.62939e-006,1.35411,0x42f0e476;
+	}
+}
+[t:pupod_01,n:0x001000e0]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -5.27833,4.49699,-30.5207,0x83e9afa9;
+	}
+}
+[t:pupod_02,n:0x001001a6]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,2.98023e-008;
+	  p position = -4.64016,4.29766,-28.715,0x83e9afa9;
 	}
 }
 [t:tree_grs_pine_trunk_03,n:0x001001e8]
@@ -7323,6 +7381,27 @@
 	{
 	  q orientation = 0,0.822043,0,-0.569425;
 	  p position = -18.5874,3.84154,-35.0187,0x95dc2275;
+	}
+}
+[t:pupod_01,n:0x0010020a]
+{
+	[placement]
+	{
+	  p position = -27.4278,4.51501,-25.4828,0x95dc2275;
+	}
+}
+[t:pupod_02,n:0x0010020b]
+{
+	[placement]
+	{
+	  p position = -25.8524,4.57553,-25.9914,0x95dc2275;
+	}
+}
+[t:pupod_02,n:0x0010020c]
+{
+	[placement]
+	{
+	  p position = -27.6687,6.23204,-28.8693,0x95dc2275;
 	}
 }
 [t:mushroom_eh_red_med,n:0x00100297]

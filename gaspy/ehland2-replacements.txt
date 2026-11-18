@@ -3,6 +3,27 @@ wolf_gray_boss_01 = wolf_black_boss_01
 
 eh_spider = kill_bot
 spider_adolescent = hunter
+spider_adolescent_yellow = kill_bot
 
 phrak = copter
 phrak_piercer = copter
+eos_phrak_large = copter
+
+gremal_killer = proxo
+
+giant_rat = spiked_dweller
+
+deer_doe = pupod_01
+deer_fawn = pupod_02
+
+mucosa = heater
+mucosa_large = blaster
+mucosa_small = perforator
+
+snapper = mangler
+
+skrubb_farm = coil_gob_01
+skrubb_small = coil_gob_01
+
+gargoyle = gargoyle_bronze
+gargoyle_ranged = gargoyle_bronze
