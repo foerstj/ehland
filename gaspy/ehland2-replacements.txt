@@ -8,6 +8,7 @@ spider_adolescent_yellow = kill_bot
 phrak = copter
 phrak_piercer = copter
 eos_phrak_large = copter
+phrak_piercer_boss_01 = copter
 
 gremal_killer = proxo
 
@@ -27,3 +28,12 @@ skrubb_small = coil_gob_01
 
 gargoyle = gargoyle_bronze
 gargoyle_ranged = gargoyle_bronze
+
+darkling_reveal = darkling_forest_reveal
+
+skeleton = gobbot_flamethrower
+skeleton_archer = gobbot_lightning
+skeleton_guard = gobbot_minigun
+skeleton_guard_boss_01 = gobbot_grenade
+
+eh_lord_hovart = goblin_robo_suit

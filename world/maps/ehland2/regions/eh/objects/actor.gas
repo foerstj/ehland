@@ -893,7 +893,7 @@
 	  p position = -1.41714,0,-1.23939,0xdfc2046a;
 	}
 }
-[t:skeleton_guard,n:0x00100561]
+[t:gobbot_minigun,n:0x00100561]
 {
 	[placement]
 	{
@@ -901,7 +901,7 @@
 	  p position = 0.869278,0,-0.0792618,0xd6b0e69f;
 	}
 }
-[t:skeleton_guard,n:0x00100562]
+[t:gobbot_minigun,n:0x00100562]
 {
 	[placement]
 	{
@@ -909,7 +909,7 @@
 	  p position = 1.70305,0,1.6132,0xd6b0e69f;
 	}
 }
-[t:skeleton,n:0x0010057a]
+[t:gobbot_flamethrower,n:0x0010057a]
 {
 	[placement]
 	{
@@ -917,7 +917,7 @@
 	  p position = -0.0062561,0,1.3915,0xd6b0e69f;
 	}
 }
-[t:skeleton,n:0x00100581]
+[t:gobbot_flamethrower,n:0x00100581]
 {
 	[placement]
 	{
@@ -925,7 +925,7 @@
 	  p position = 1.62895,0,1.02836,0xd6b0e69f;
 	}
 }
-[t:skeleton,n:0x00100582]
+[t:gobbot_flamethrower,n:0x00100582]
 {
 	[placement]
 	{
@@ -955,7 +955,7 @@
 	  p position = -3.48995,-1.2,1.01572,0x0d256522;
 	}
 }
-[t:skeleton_archer,n:0x00100576]
+[t:gobbot_lightning,n:0x00100576]
 {
 	[placement]
 	{
@@ -963,7 +963,7 @@
 	  p position = -3.33537,-1.2,-1.97449,0x0d256522;
 	}
 }
-[t:skeleton_archer,n:0x00100575]
+[t:gobbot_lightning,n:0x00100575]
 {
 	[placement]
 	{
@@ -1089,7 +1089,7 @@
 	  p position = -12.9716,6.53895,-38.6672,0xf4d07f34;
 	}
 }
-[t:skeleton,n:0x0010057b]
+[t:gobbot_flamethrower,n:0x0010057b]
 {
 	[placement]
 	{
@@ -1097,7 +1097,7 @@
 	  p position = 15.9826,5.60304,-42.3502,0xf4d07f34;
 	}
 }
-[t:skeleton,n:0x0010057c]
+[t:gobbot_flamethrower,n:0x0010057c]
 {
 	[placement]
 	{
@@ -1105,7 +1105,7 @@
 	  p position = 17.7837,5.60004,-40.4282,0xf4d07f34;
 	}
 }
-[t:skeleton,n:0x0010057d]
+[t:gobbot_flamethrower,n:0x0010057d]
 {
 	[placement]
 	{
@@ -1113,7 +1113,7 @@
 	  p position = 15.1068,5.75411,-40.3695,0xf4d07f34;
 	}
 }
-[t:skeleton,n:0x0010057e]
+[t:gobbot_flamethrower,n:0x0010057e]
 {
 	[placement]
 	{
@@ -1121,7 +1121,7 @@
 	  p position = 16.8372,5.60003,-42.2944,0xf4d07f34;
 	}
 }
-[t:skeleton,n:0x0010057f]
+[t:gobbot_flamethrower,n:0x0010057f]
 {
 	[placement]
 	{
@@ -1321,7 +1321,7 @@
 	  p position = -3.19315,0,-1.10877,0x2b8ff766;
 	}
 }
-[t:skeleton_archer,n:0x00100574]
+[t:gobbot_lightning,n:0x00100574]
 {
 	[placement]
 	{
@@ -1329,7 +1329,7 @@
 	  p position = 3.17024,0,0.548759,0x2b8ff766;
 	}
 }
-[t:skeleton_archer,n:0x00100577]
+[t:gobbot_lightning,n:0x00100577]
 {
 	[placement]
 	{
@@ -1359,7 +1359,7 @@
 	  p position = -3.1788,13,0.696032,0x9043b6e8;
 	}
 }
-[t:skeleton_archer,n:0x0010056f]
+[t:gobbot_lightning,n:0x0010056f]
 {
 	[placement]
 	{
@@ -1367,7 +1367,7 @@
 	  p position = 2.81426,13,0.0280838,0x9043b6e8;
 	}
 }
-[t:skeleton_archer,n:0x00100572]
+[t:gobbot_lightning,n:0x00100572]
 {
 	[placement]
 	{
@@ -1375,7 +1375,7 @@
 	  p position = 1.2457,13,-0.235634,0x9043b6e8;
 	}
 }
-[t:skeleton_archer,n:0x0010056e]
+[t:gobbot_lightning,n:0x0010056e]
 {
 	[placement]
 	{
@@ -1383,7 +1383,7 @@
 	  p position = -3.54835,13,0.415565,0xf6762159;
 	}
 }
-[t:skeleton_guard_boss_01,n:0x0010055e]
+[t:gobbot_grenade,n:0x0010055e]
 {
 	[placement]
 	{
@@ -1391,7 +1391,7 @@
 	  p position = -0.776207,0,-0.482056,0xd77f3dd0;
 	}
 }
-[t:skeleton_guard,n:0x00100563]
+[t:gobbot_minigun,n:0x00100563]
 {
 	[placement]
 	{
@@ -1399,7 +1399,7 @@
 	  p position = -3.64082,0,0.0461197,0xd77f3dd0;
 	}
 }
-[t:skeleton_guard,n:0x00100565]
+[t:gobbot_minigun,n:0x00100565]
 {
 	[placement]
 	{
@@ -1407,7 +1407,7 @@
 	  p position = -2.04539,0,0.827568,0xd77f3dd0;
 	}
 }
-[t:skeleton_archer,n:0x0010056d]
+[t:gobbot_lightning,n:0x0010056d]
 {
 	[placement]
 	{
@@ -1423,7 +1423,7 @@
 	  p position = -1.86501,0,-2.92124,0xd77f3dd0;
 	}
 }
-[t:skeleton_guard_boss_01,n:0x0010055f]
+[t:gobbot_grenade,n:0x0010055f]
 {
 	[placement]
 	{
@@ -1439,7 +1439,7 @@
 	  p position = -1.8136,0,-0.115738,0x7ec25b45;
 	}
 }
-[t:darkling_reveal,n:0x001005b4]
+[t:darkling_forest_reveal,n:0x001005b4]
 {
 	[placement]
 	{
@@ -1447,7 +1447,7 @@
 	  p position = 0.0980377,0,-1.53509,0x7ec25b45;
 	}
 }
-[t:eh_lord_hovart,n:0x0010055c]
+[t:goblin_robo_suit,n:0x0010055c]
 {
 	[common]
 	{
@@ -1476,14 +1476,14 @@
 	  p position = -2.40166,-2.00272e-005,-0.803604,0xd6599989;
 	}
 }
-[t:skeleton_guard,n:0x00100564]
+[t:gobbot_minigun,n:0x00100564]
 {
 	[placement]
 	{
 	  p position = 1.21249,0,-0.971237,0xd6599989;
 	}
 }
-[t:skeleton_archer,n:0x00100569]
+[t:gobbot_lightning,n:0x00100569]
 {
 	[placement]
 	{
@@ -1491,7 +1491,7 @@
 	  p position = -3.41396,0,3.70116,0xd6599989;
 	}
 }
-[t:skeleton_archer,n:0x0010056a]
+[t:gobbot_lightning,n:0x0010056a]
 {
 	[placement]
 	{
@@ -1534,7 +1534,7 @@
 	  p position = -3.252,0,-3.25948,0x75e40109;
 	}
 }
-[t:skeleton_guard_boss_01,n:0x00100560]
+[t:gobbot_grenade,n:0x00100560]
 {
 	[placement]
 	{
@@ -1542,7 +1542,7 @@
 	  p position = -0.142738,0,-3.36237,0x75e40109;
 	}
 }
-[t:skeleton_archer,n:0x00100566]
+[t:gobbot_lightning,n:0x00100566]
 {
 	[placement]
 	{
@@ -1550,7 +1550,7 @@
 	  p position = -2.69542,0,3.83534,0x75e40109;
 	}
 }
-[t:skeleton_archer,n:0x00100567]
+[t:gobbot_lightning,n:0x00100567]
 {
 	[placement]
 	{
@@ -1558,7 +1558,7 @@
 	  p position = -1.04043,0,3.66052,0x75e40109;
 	}
 }
-[t:skeleton_archer,n:0x00100568]
+[t:gobbot_lightning,n:0x00100568]
 {
 	[placement]
 	{
@@ -1582,7 +1582,7 @@
 	  p position = -1.42197,0,-0.706879,0xd853b413;
 	}
 }
-[t:skeleton,n:0x00100578]
+[t:gobbot_flamethrower,n:0x00100578]
 {
 	[placement]
 	{
@@ -1590,7 +1590,7 @@
 	  p position = -1.18599,0,0.443817,0x21786554;
 	}
 }
-[t:skeleton,n:0x00100579]
+[t:gobbot_flamethrower,n:0x00100579]
 {
 	[placement]
 	{
@@ -1598,7 +1598,7 @@
 	  p position = -1.34071,0,-0.69862,0x21786554;
 	}
 }
-[t:skeleton,n:0x00100580]
+[t:gobbot_flamethrower,n:0x00100580]
 {
 	[placement]
 	{
