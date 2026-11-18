@@ -1,7 +1,9 @@
 :: map name
 set map=ehland
+set map2=%map%2
 :: map name, case sensitive
 set map_cs=Ehland
+set map2_cs=Ehland 2 Electric Boogaloo
 
 :: path of Bits dir
 set bits=%~dp0.
@@ -28,6 +30,8 @@ if not "%mode%"=="light" (
   )
   venv\Scripts\python -m build.pre_build_checks %map% --check !checks! --bits "%bits%"
   if !errorlevel! neq 0 pause
+  venv\Scripts\python -m build.pre_build_checks %map2% --check !checks! --bits "%bits%"
+  if !errorlevel! neq 0 pause
 )
 endlocal
 popd
@@ -46,6 +50,22 @@ if "%mode%"=="release" (
 endlocal
 popd
 "%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\Maps\%map_cs%.dsmap" -copyright "%copyright%" -title "%map_cs%" -author "%author%"
+if %errorlevel% neq 0 pause
+
+:: Compile map2 file
+rmdir /S /Q "%tmp%\Bits"
+robocopy "%bits%\world\maps\%map2%" "%tmp%\Bits\world\maps\%map2%" /E
+pushd %gaspy%
+venv\Scripts\python -m build.fix_start_positions_required_levels %map2% --bits "%tmp%\Bits"
+if %errorlevel% neq 0 pause
+setlocal EnableDelayedExpansion
+if "%mode%"=="release" (
+  venv\Scripts\python -m build.add_world_levels %map2% --bits "%tmp%\Bits" --template-bits "%bits%"
+  if !errorlevel! neq 0 pause
+)
+endlocal
+popd
+"%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\Maps\%map2_cs%.dsmap" -copyright "%copyright%" -title "%map2_cs%" -author "%author%"
 if %errorlevel% neq 0 pause
 
 :: Compile main resource file
