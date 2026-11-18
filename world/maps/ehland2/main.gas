@@ -27,22 +27,22 @@
 		[regular]
 		{
 			screen_name = "Regular";
-			description = "Players of all levels can play here.";
-			required_level = 0;
+			description = "Players of level 25 or higher can play here.";
+			required_level = 25;
 		}
 
 		[veteran]
 		{
 			screen_name = "Veteran";
-			description = "Must be level 54 or higher to accept this challenge.";
-			required_level = 54;
+			description = "Must be level 70 or higher to accept this challenge.";
+			required_level = 70;
 		}
 
 		[elite]
 		{
 			screen_name = "Elite";
-			description = "You must be level 83 or higher to attempt this feat.";
-			required_level = 83;
+			description = "You must be level 94 or higher to attempt this feat.";
+			required_level = 94;
 		}
 	}
 }

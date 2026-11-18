@@ -107,11 +107,15 @@
 		{
 			[elite]
 			{
-			  i required_level = 83;
+			  i required_level = 94;
+			}
+			[regular]
+			{
+			  i required_level = 25;
 			}
 			[veteran]
 			{
-			  i required_level = 54;
+			  i required_level = 70;
 			}
 		}
 	}

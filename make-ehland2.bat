@@ -5,4 +5,4 @@ set map=ehland
 set bits=%~dp0.
 
 
-robocopy "%bits%\world\maps\%map%" "%bits%\world\maps\%map%2" /S /xf main.gas
+robocopy "%bits%\world\maps\%map%" "%bits%\world\maps\%map%2" /S /xf main.gas start_positions.gas
