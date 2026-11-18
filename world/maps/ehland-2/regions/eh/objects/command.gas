@@ -1,0 +1,26 @@
+[t:cmd_animation_command,n:0x0010006e]
+{
+	[cmd_animation_command]
+	{
+	  i animation = 1752130865;
+	  x client_scid = 0x001001CC;
+	  b initially_active = true;
+	}
+	[placement]
+	{
+	  p position = 17.3836,5.74544,-45.8523,0x4d3f24b7;
+	}
+}
+[t:cmd_animation_command,n:0x0010006d]
+{
+	[cmd_animation_command]
+	{
+	  i animation = 1752130865;
+	  x client_scid = 0x001001CE;
+	  b initially_active = true;
+	}
+	[placement]
+	{
+	  p position = -0.712461,-3.91006e-005,0.841519,0x0c87fa71;
+	}
+}
