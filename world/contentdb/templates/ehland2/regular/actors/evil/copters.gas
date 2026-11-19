@@ -150,9 +150,46 @@
 	}
 }
 
-[t:template,n:copter_boss_01]
+[t:template,n:copter_large] { specializes = copter_large_base; }
+[t:template,n:copter_large_base]
 {
 	specializes = copter_base;
+
+	common:screen_name = "Large Copter";
+	aspect:scale_base = 1.5;
+
+	// balancing
+	// values same
+	[actor]
+	{
+		[skills]
+		{
+			strength =  	4, 0;
+			intelligence =  	6, 0;
+			dexterity =  	12, 0;
+			ranged =  	12,  0;
+		}
+	}
+	// values roughly *= 1.5
+	[aspect]
+	{
+		experience_value = 3600;
+		life = 450;
+		max_life = 450;
+		mana = 150;
+		max_mana = 150;
+	}
+	[attack]
+	{
+		damage_max = 	130;
+		damage_min = 	125;
+	}
+	[defend] { defense=285; }
+}
+
+[t:template,n:copter_boss_01]
+{
+	specializes = copter_large_base;
 
 	[common]
 	{
@@ -177,7 +214,6 @@
 			}
 		}
 	}
-	aspect:scale_base = 1.5;
 
 	// balancing
 	// values same

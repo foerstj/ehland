@@ -378,7 +378,7 @@
 	  p position = -1.71536,-0.227953,1.18012,0x686C2ACF;
 	}
 }
-[t:copter,n:0x00200250]
+[t:copter_large,n:0x00200250]
 {
 	[placement]
 	{
@@ -937,7 +937,7 @@
 	  p position = -0.377567,4.0,3.15146,0x7BEDE1F6;
 	}
 }
-[t:copter,n:0x0020025e]
+[t:copter_large,n:0x0020025e]
 {
 	[placement]
 	{

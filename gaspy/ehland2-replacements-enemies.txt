@@ -7,7 +7,7 @@ spider_adolescent_yellow = kill_bot_mini
 
 phrak = copter
 phrak_piercer = copter
-eos_phrak_large = copter
+eos_phrak_large = copter_large
 phrak_piercer_boss_01 = copter_boss_01
 
 gremal_killer = proxo
