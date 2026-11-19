@@ -6,19 +6,12 @@
 	  p position = -1.03608,0,-1.87324,0x394a10bb;
 	}
 }
-[t:ulora,n:0x00200015]
+[t:eh_ulora,n:0x00200015]
 {
-	[aspect]
-	{
-	  f max_life = 49;
-	  f max_mana = 30;
-	  f scale_multiplier = 0.8;
-	}
 	[common]
 	{
 		dev_instance_text = "SP";
 	  b is_multi_player = false;
-		screen_name = "Lauryn";
 	}
 	[conversation]
 	{
@@ -32,18 +25,6 @@
 			* = lauryn_rejoin;
 		}
 	}
-	[inventory]
-	{
-		[equipment]
-		{
-			es_chest = bd_sl_f_g_c_fun;
-			es_feet = bo_bo_le_f_g_c_avg;
-		}
-		[other]
-		{
-			il_main = he_ca_le_avg;
-		}
-	}
 	[mind]
 	{
 		jat_talk = world\ai\jobs\minibits\generic-talk-skrits\job_talk_companion.skrit?namespace=lauryn&oid=0x200015;
@@ -54,37 +35,18 @@
 	  p position = 1.04125,0,-1.16601,0x992e7012;
 	}
 }
-[t:ulora,n:0x002003b0]
+[t:eh_ulora,n:0x002003b0]
 {
-	[aspect]
-	{
-	  f max_life = 49;
-	  f max_mana = 30;
-	  f scale_multiplier = 0.8;
-	}
 	[common]
 	{
 		dev_instance_text = "MP";
 	  b is_single_player = false;
-		screen_name = "Lauryn";
 	}
 	[conversation]
 	{
 		[conversations]
 		{
 			* = lauryn_mp;
-		}
-	}
-	[inventory]
-	{
-		[equipment]
-		{
-			es_chest = bd_sl_f_g_c_fun;
-			es_feet = bo_bo_le_f_g_c_avg;
-		}
-		[other]
-		{
-			il_main = he_ca_le_avg;
 		}
 	}
 	[mind]
