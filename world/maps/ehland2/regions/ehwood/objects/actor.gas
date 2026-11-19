@@ -8,17 +8,10 @@
 }
 [t:andiemus,n:0x00200015]
 {
-	[aspect]
-	{
-	  f max_life = 49;
-	  f max_mana = 30;
-	  f scale_multiplier = 0.8;
-	}
 	[common]
 	{
 		dev_instance_text = "SP";
 	  b is_multi_player = false;
-		screen_name = "Lauryn";
 	}
 	[conversation]
 	{
@@ -30,18 +23,6 @@
 			* = lauryn_join;
 			* = lauryn_reject;
 			* = lauryn_rejoin;
-		}
-	}
-	[inventory]
-	{
-		[equipment]
-		{
-			es_chest = bd_sl_f_g_c_fun;
-			es_feet = bo_bo_le_f_g_c_avg;
-		}
-		[other]
-		{
-			il_main = he_ca_le_avg;
 		}
 	}
 	[mind]
@@ -56,35 +37,16 @@
 }
 [t:andiemus,n:0x002003b0]
 {
-	[aspect]
-	{
-	  f max_life = 49;
-	  f max_mana = 30;
-	  f scale_multiplier = 0.8;
-	}
 	[common]
 	{
 		dev_instance_text = "MP";
 	  b is_single_player = false;
-		screen_name = "Lauryn";
 	}
 	[conversation]
 	{
 		[conversations]
 		{
 			* = lauryn_mp;
-		}
-	}
-	[inventory]
-	{
-		[equipment]
-		{
-			es_chest = bd_sl_f_g_c_fun;
-			es_feet = bo_bo_le_f_g_c_avg;
-		}
-		[other]
-		{
-			il_main = he_ca_le_avg;
 		}
 	}
 	[mind]
