@@ -3,6 +3,8 @@ tree_glb_sway_04 = tree_glb_pine_sequoia_04
 tree_glb_sway_05 = tree_glb_pine_sequoia_01
 tree_glb_sway_06 = tree_glb_pine_sequoia_03
 
+tree_grs_pine_trunk_01 = tree_grs_hemlock_01
+tree_grs_pine_trunk_02 = tree_grs_hemlock_01
 tree_grs_pine_trunk_03 = tree_grs_sequoia_01
 
 tree_grs_deciduous_sway_15 = tree_grs_deciduous_sway_16
