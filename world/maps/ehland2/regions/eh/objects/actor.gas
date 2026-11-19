@@ -1455,9 +1455,25 @@
 		{
 			[*]
 			{
+				action* = change_quest_state("hovart","active",0);
 				action* = change_quest_state("hovart","completed",0);
 			  b can_self_destruct = true;
 				condition* = receive_world_message("we_killed",0,"on_first_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+			[*]
+			{
+				action* = send_world_message("we_req_activate",0x0010055C,0f,"default","every",0);
+			  b can_self_destruct = true;
+				condition* = party_member_within_sphere(50.000000,"on_first_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
