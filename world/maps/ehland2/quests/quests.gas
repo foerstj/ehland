@@ -2,13 +2,13 @@
 {
 	[hovart]
 	{
-		screen_name = "Kill Lord Hovart (again)";
-		quest_image = b_gui_ig_mnu_jnl_quest_24;
+		screen_name = "Destroy the Blasted Goblin Robo Suit";
+		quest_image = b_gui_ig_mnu_jnl_quest_41;
 		victory_sample = s_e_level_up_quest;
 		[*]
 		{
 		  i order = 0;
-			description = "Make Hovart dead again! Hint: Go west through Ehwood forest and find money for equipment in the Old Tunnel. Find Hovart in the southeast of Eh.";
+			description = "Destroy the evil machinations of the Blasted Goblin! Hint: Go west through Ehwood forest and find money for equipment in the Old Tunnel. Find the Robo Suit in the southeast of Eh.";
 		  b required_update = true;
 			speaker = "Old Man";
 			address = eh:conversations:quest_activate;
