@@ -103,8 +103,8 @@ You want to do some shopping? Well, there's the Smiths (or Smitties, if you want
 		choice = more;
 	  i order = 1;
 		sample = s_v_xp_eh2_mr_smith_2;
-		screen_text = "Do you know the history of Lord Hovart?
-He was Lord of Ehland back in the old days, and reigned brutally until our grandparents revolted and overthrew him. He was hanged on the little hill southeast from here, and then buried there...
+		screen_text = "Do you know the history of the Blasted Goblin?
+He was Lord of Ehland back in the old days, and reigned mechanically until our grandparents revolted and overthrew him. He was hanged on the little hill southeast from here, and then buried there...
 The Old Man was alive back then.";
 	  f scroll_rate = 20.000000;
 	}
@@ -123,7 +123,7 @@ The Old Man was alive back then.";
 	{
 		choice = shop;
 		sample = s_v_xp_eh2_mrs_smith_1;
-		screen_text = "Did my old dad tell you about old Lord Hovart? Oh dear.
+		screen_text = "Did my old dad tell you about the old Blasted Goblin? Oh dear.
 And even if it's true - I got a business to run here! Quality has its price. Have a look!
 ...My hubby might have things more suitable for you tho...";
 	  f scroll_rate = 20.000000;
@@ -166,7 +166,7 @@ If you want to buy something, have a look at the armor & weaponry store of my da
 		choice = more;
 	  i order = 2;
 		sample = s_v_xp_eh2_old_man_3;
-		screen_text = "But don't go out too far - it's not safe! The dead are walking out there... I fear the old Lord Hovart himself has risen! Stay away from his grave hill!";
+		screen_text = "But don't go out too far - it's not safe! The machines are walking out there... I fear the old Goblin Robo Suit itself has risen! Stay away from the Blasted Hill!";
 	  f scroll_rate = 20.000000;
 	}
 	[text*]
@@ -193,7 +193,7 @@ Should be doable for a strong adventurer like you are. I'd recommend take a good
 		activate_quest* = hovart;
 		quest_dialog = true;
 		sample = s_v_xp_eh2_old_man_6;
-		screen_text = "If you want to help an old man sleep in peace again... I would be very happy if you could bring old Hovart back to the dead where he belongs.";
+		screen_text = "If you want to help an old man sleep in peace again... I would be very happy if you could switch those robots off again as they're supposed to.";
 	  f scroll_rate = 20.000000;
 	}
 }
@@ -214,8 +214,8 @@ I'm collecting colours, of course!";
 		choice = more;
 	  i order = 1;
 		sample = s_v_xp_eh2_trisha_2;
-		screen_text = "I had a dream last night - of the old Lord Hovart rising from his grave - and there were spiders and worse - and a creature of darkness...
-I saw them all walking around on Hovart hill.
+		screen_text = "I had a dream last night - of the Blasted Goblin stirring in his grave - and there were Kill Bots and worse - and a creature of darkness...
+I saw them all walking around on the Blasted Hill.
 
 Maybe the Old Man is right!
 Or maybe his stories have just confused me...
