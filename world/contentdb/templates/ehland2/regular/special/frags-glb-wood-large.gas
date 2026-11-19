@@ -1,0 +1,36 @@
+[t:template,n:frag_glb_wood_large_01]
+{
+	doc = "Wood fragment";
+	specializes = fragment;
+	[aspect] { model=m_i_glb_frag-wood-01; scale_base = 1.5; }
+}
+[t:template,n:frag_glb_wood_large_02]
+{
+	doc = "Wood fragment";
+	specializes = fragment;
+	[aspect] { model=m_i_glb_frag-wood-02; scale_base = 1.5; }
+}
+[t:template,n:frag_glb_wood_large_03]
+{
+	doc = "Wood fragment";
+	specializes = fragment;
+	[aspect] { model=m_i_glb_frag-wood-03; scale_base = 1.5; }
+}
+[t:template,n:frag_glb_wood_large_04]
+{
+	doc = "Wood fragment";
+	specializes = fragment;
+	[aspect] { model=m_i_glb_frag-wood-04; scale_base = 1.5; }
+}
+[t:template,n:frag_glb_wood_large_05]
+{
+	doc = "Wood fragment";
+	specializes = fragment;
+	[aspect] { model=m_i_glb_frag-wood-05; scale_base = 1.5; }
+}
+[t:template,n:frag_glb_wood_large_06]
+{
+	doc = "Wood fragment";
+	specializes = fragment;
+	[aspect] { model=m_i_glb_frag-wood-06; scale_base = 1.5; }
+}

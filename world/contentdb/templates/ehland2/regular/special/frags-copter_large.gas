@@ -1,0 +1,30 @@
+[t:template,n:frag_glb_copter_large_01]
+{
+	doc = "copter fragment";
+	specializes = fragment;
+	[aspect] { model=m_i_glb_frag-copter-01; scale_base = 1.5; }
+}
+[t:template,n:frag_glb_copter_large_02]
+{
+	doc = "copter fragment";
+	specializes = fragment;
+	[aspect] { model=m_i_glb_frag-copter-02; scale_base = 1.5; }
+}
+[t:template,n:frag_glb_copter_large_03]
+{
+	doc = "copter fragment";
+	specializes = fragment;
+	[aspect] { model=m_i_glb_frag-copter-03; scale_base = 1.5; }
+}
+[t:template,n:frag_glb_copter_large_04]
+{
+	doc = "copter fragment";
+	specializes = fragment;
+	[aspect] { model=m_i_glb_frag-copter-04; scale_base = 1.5; }
+}
+[t:template,n:frag_glb_copter_large_05]
+{
+	doc = "copter fragment";
+	specializes = fragment;
+	[aspect] { model=m_i_glb_frag-copter-05; scale_base = 1.5; }
+}

@@ -157,6 +157,28 @@
 
 	common:screen_name = "Large Copter";
 	aspect:scale_base = 1.5;
+	[physics]
+	{
+		[break_particulate]
+		{
+			frag_glb_copter_large_01 = 1;
+			frag_glb_copter_large_02 = 1;
+			frag_glb_copter_large_03 = 1;
+			frag_glb_copter_large_04 = 1;
+			frag_glb_copter_large_05 = 1;
+			frag_glb_metal_large_01 = 1;
+			frag_glb_metal_large_03 = 1;
+			frag_glb_metal_large_04 = 1;
+			frag_glb_metal_large_05 = 2;
+			frag_glb_metal_large_06 = 2;
+			frag_glb_wood_large_01 = 1;
+			frag_glb_wood_large_02 = 1;
+			frag_glb_wood_large_03 = 1;
+			frag_glb_wood_large_04 = 2;
+			frag_glb_wood_large_05 = 2;
+			frag_glb_wood_large_06 = 3;
+		}
+	}
 
 	// balancing
 	// values same
