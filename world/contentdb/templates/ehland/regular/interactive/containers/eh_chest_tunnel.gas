@@ -1,0 +1,35 @@
+[t:template,n:chest_grs_02_base]  // = chest_grs_02
+{
+	category_name = "container";
+	doc = "chest_mossy";
+	specializes = base_chest;
+	[common] { screen_name="Chest"; }
+	[aspect]
+	{
+		material = steel;
+		model = m_i_glb_chest-04;
+		[textures]		{ 0 = b_i_glb_chest-open-02; }
+	}
+	[body]
+	{
+		[chore_dictionary]
+		{
+			chore_prefix = a_i_ice;
+			[chore_open]
+			{
+				skrit = transition;
+				[anim_files] { 00=chest-open; }
+			}
+		}
+	}
+}
+
+[t:template,n:eh_chest_tunnel]
+{
+	specializes = chest_grs_02_base;
+
+	[inventory]
+	{
+	  i gold = 500;
+	}
+}

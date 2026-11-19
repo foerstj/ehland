@@ -194,12 +194,8 @@
 	  p position = 2.19156,3.98639,3.55672,0x75b18428;
 	}
 }
-[t:chest_grs_02,n:0x0020019c]
+[t:eh_chest_tunnel,n:0x0020019c]
 {
-	[inventory]
-	{
-	  i gold = 500;
-	}
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
@@ -227,12 +223,8 @@
 	  p position = -3.12967,-0.179568,1.06522,0xc2adfa87;
 	}
 }
-[t:chest_grs_02,n:0x0020019e]
+[t:eh_chest_tunnel,n:0x0020019e]
 {
-	[inventory]
-	{
-	  i gold = 500;
-	}
 	[placement]
 	{
 	  q orientation = 0,1,0,4.76837e-007;
