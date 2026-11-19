@@ -63,6 +63,7 @@ robocopy "%bits%\art" "%tmp%\Bits\art" /E
 robocopy "%bits%\sound" "%tmp%\Bits\sound" /E
 robocopy "%bits%\world\ai\jobs\minibits" "%tmp%\Bits\world\ai\jobs\minibits" /E
 robocopy "%bits%\world\contentdb\templates\%map%" "%tmp%\Bits\world\contentdb\templates\%map%" /E
+robocopy "%bits%\world\contentdb\templates\%map2%" "%tmp%\Bits\world\contentdb\templates\%map2%" /E
 robocopy "%bits%\world\contentdb\templates\minibits" "%tmp%\Bits\world\contentdb\templates\minibits" /E
 robocopy "%bits%\world\global" "%tmp%\Bits\world\global" /E
 "%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\Resources\%map_cs%.dsres" -copyright "%copyright%" -title "%map_cs%" -author "%author%"

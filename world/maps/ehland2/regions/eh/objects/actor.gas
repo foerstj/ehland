@@ -306,7 +306,7 @@
 	  p position = 1.03944,-0.299999,3.90107,0x1CFAC4EB;
 	}
 }
-[t:mage_trianna_lelaine_talk,n:0x001001cb]
+[t:wise_woman_ninale_talk,n:0x001001cb]
 {
 	[common]
 	{
@@ -2255,7 +2255,7 @@
 	  p position = 0.958981,-1.75,-2.82185,0x4366DEB8;
 	}
 }
-[t:blacksmith_zabar_treseck,n:0x001001cf]
+[t:merchant_blacksmith_glacern,n:0x001001cf]
 {
 	[common]
 	{
