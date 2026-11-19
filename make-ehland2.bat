@@ -12,4 +12,6 @@ venv\Scripts\python -m landscaping.replace_objs --bits "%bits%" %map2% --replace
 if %errorlevel% neq 0 pause
 venv\Scripts\python -m landscaping.change_nodeset --bits "%bits%" %map2% ehwood dgn03=dgn09 for01=for02
 if %errorlevel% neq 0 pause
+venv\Scripts\python -m region_import.replace_strs "%bits%\world\maps\%map2%" "Hovart hill=Blasted Hill" "Here lieth Hovart, ye olde bag of dirte. Rest in peace, but rest!=Here lieth ye Blasted Goblin. Rest in peace, but keep your machines turned off!"
+if %errorlevel% neq 0 pause
 popd
