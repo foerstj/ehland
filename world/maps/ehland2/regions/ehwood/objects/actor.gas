@@ -944,7 +944,7 @@
 	  p position = -1.33915,-0.25,-1.94131,0xAE43A797;
 	}
 }
-[t:copter,n:0x00200261]
+[t:copter_boss_01,n:0x00200261]
 {
 	[placement]
 	{

@@ -1,0 +1,246 @@
+[t:template,n:copter_base]  // = copter
+{
+	category_name = "1W_evil_d";
+	doc = "robot_copter";
+	specializes = actor_evil;
+	[actor]
+	{
+		[skills]
+		{
+			strength =  	4, 0;
+			intelligence =  	6, 0;
+			dexterity =  	12, 0;
+			ranged =  	12,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 2483;
+		life = 300;
+		max_life = 300;
+		mana = 100;
+		max_mana = 100;
+		model = m_c_edm_cp_pos_1;
+		material = wood;
+		[voice]
+		{
+			[die]			{ priority = high; * = s_e_die_copter; }
+			[enemy_spotted]	{ priority = high; * = s_e_call_mechanoid_small_SED;	}
+		}
+	}
+	[attack]
+	{
+		attack_range = 	0.5;
+		damage_max = 	97;
+		damage_min = 	93;
+	}
+	[body]
+	{
+		min_move_velocity = 3.75;
+		avg_move_velocity = 5.990000;
+		[bone_translator]
+		{
+			body_anterior = bone01;
+			body_mid = bone01;
+			body_posterior = bone01;
+			kill_bone = bone01;
+			shield_bone = bone01;
+			weapon_bone = bone01;
+		}
+		[chore_dictionary]
+		{
+			chore_prefix = a_c_edm_cp_fs;
+			[chore_attack]
+			{
+				chore_stances = 0;
+				skrit = select_attack;
+				[anim_files] { 00=at; }
+			}
+			[chore_default]
+			{
+				chore_stances = 0;
+				skrit = infinite_loop;
+				[anim_files] { 00=ds; }
+			}
+			[chore_die]
+			{
+				chore_stances = 0;
+				skrit = select_transition;
+				[anim_files] { 00=dsf; }
+			}
+			[chore_fidget]
+			{
+				chore_stances = 0;
+				skrit = select_fidget;
+				[anim_files] { 00=fl; }
+			}
+			[chore_magic]
+			{
+				chore_stances = 0;
+				skrit = select_transition;
+				[anim_files] { 00=at; }
+			}
+			[chore_walk]
+			{
+				chore_stances = 0;
+				skrit = select_walk;
+				[anim_files] { 00=fl; }
+			}
+		}
+	}
+
+	[inventory]
+	{
+		selected_active_location = il_active_primary_spell;
+		[other] { il_active_primary_spell=spell_copter_lightning; }
+	}
+
+	[common]
+	{
+		screen_name="Copter";
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				action* = call_sfx_script("tailpipe_steam_copter");
+
+			}
+		}
+	}
+	[defend] { defense=190; }
+	[mind]
+	{
+		actor_weapon_preference			= WP_MAGIC;
+		actor_auto_switches_to_magic	= true;
+		actor_auto_switches_to_karate	= false;
+		actor_auto_switches_to_melee	= false;
+
+		melee_engage_range = 12;
+		personal_space_range = 0.7;
+		ranged_engage_range = 13.0;
+		sight_range = 14.0;
+	}
+	[physics]
+	{
+		break_effect = generic_explosion;
+		explode_when_killed = true;
+		explosion_magnitude = 3.0;
+		gib_gore_good = true;
+		[break_particulate]
+		{
+			frag_glb_copter_01 = 1;
+			frag_glb_copter_02 = 1;
+			frag_glb_copter_03 = 1;
+			frag_glb_copter_04 = 1;
+			frag_glb_copter_05 = 1;
+			frag_glb_metal_01 = 1;
+			frag_glb_metal_03 = 1;
+			frag_glb_metal_04 = 1;
+			frag_glb_metal_05 = 2;
+			frag_glb_metal_06 = 2;
+			frag_glb_wood_01 = 1;
+			frag_glb_wood_02 = 1;
+			frag_glb_wood_03 = 1;
+			frag_glb_wood_04 = 2;
+			frag_glb_wood_05 = 2;
+			frag_glb_wood_06 = 3;
+		}
+	}
+}
+
+[t:template,n:copter_boss_01]
+{
+	specializes = copter_base;
+
+	[common]
+	{
+		membership = monster,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;
+		screen_name = "Copter Ballista";
+		[template_triggers]
+		{
+			// existing
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				action* = call_sfx_script("tailpipe_steam_copter");
+			}
+			// added
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_ray_purple(sgx)");
+			}
+		}
+	}
+	aspect:scale_base = 1.5;
+
+	// balancing
+	// values same
+	[actor]
+	{
+		[skills]
+		{
+			strength =  	4, 0;
+			intelligence =  	6, 0;
+			dexterity =  	12, 0;
+			ranged =  	12,  0;
+		}
+	}
+	// values roughly doubled
+	[aspect]
+	{
+		experience_value = 4800;
+		life = 600;
+		max_life = 600;
+		mana = 200;
+		max_mana = 200;
+	}
+	[attack]
+	{
+		damage_max = 	194;
+		damage_min = 	186;
+	}
+	[defend] { defense=380; }
+	// loot from swamp_creature_boss_01
+   	[inventory]
+	{
+    	[pcontent]
+		{
+			[all*]
+			{
+				[oneof*]
+				{
+					il_main = #*/75-80;
+					il_main = #armor/255-290;
+	                il_main = #weapon/75-80;
+				}
+				[oneof*]
+				{
+	            	chance = 0.004;
+	                il_main = #weapon/-rare(1)/82-96;
+	                il_main = #armor/-rare(1)/266-310;
+                    il_main = #*/-rare(1)/82-96;
+                }
+				[oneof*]
+				{
+                	chance = 0.002;
+	                il_main = #weapon/-unique(2)/82-96;
+	                il_main = #armor/-unique(2)/266-310;
+                    il_main = #*/-unique(2)/82-96;
+	            }
+				[gold*]
+				{
+					max = 4655;
+					min = 2211;
+					min_pile = 225;
+					piles = 5 - 7;
+				}
+			}
+		}
+	}
+}
