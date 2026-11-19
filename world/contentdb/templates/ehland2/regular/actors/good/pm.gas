@@ -1,0 +1,74 @@
+[t:template,n:andiemus_base]  // = andiemus
+{
+	doc = "Andiemus";
+	specializes = base_pm_fb;
+	[actor]
+	{
+		portrait_icon = b_gui_ig_i_ic_c_andiemus;
+		[skills]
+		{
+			dexterity 		= 4.08, 0, 10;
+			intelligence 	= 16.8, 0, 10;
+			strength 		= 3.12, 0, 10;
+			nature_magic 	= 24,0,	0;
+			uber		 	= 24,0,	0;
+		}
+	}
+	[aspect]
+	{
+		gold_value = 98880;
+		model = m_c_gah_fb_pos_a1;
+		[textures]
+		{
+			0 = b_c_gah_fb_skin_15;
+			1 = b_c_pos_a1_064;
+		}
+	}
+	[common]
+	{
+		screen_name = "Andiemus";
+	}
+	[inventory]
+	{
+		selected_active_location = il_active_primary_spell;
+		[equipment]
+		{
+			es_chest = #body,m/120-130;
+			es_feet = #boots/20-25;
+		}
+		[other]
+		{
+			il_active_primary_spell = #nmagic/22-24;
+			il_main = #nmagic/8-16;
+			il_main = #nmagic/15-19;
+			il_main = #nmagic/20-22;
+			il_main = #nmagic/20-22;
+			il_main = #nmagic/22-24;
+            il_main = #staff/45-58;
+            il_main = book_glb_lore_castle;
+		}
+	}
+}
+
+[t:template,n:eh_andiemus]
+{
+	specializes = andiemus_base;
+
+	aspect:gold_value = 0;
+	aspect:scale_multiplier = 0.9;
+	common:screen_name = "Lauryemus";
+	[inventory]
+	{
+		[other]
+		{
+			il_active_primary_spell = #nmagic/22-24;
+			il_main = #nmagic/8-16;
+			il_main = #nmagic/15-19;
+			il_main = #nmagic/20-22;
+			il_main = #nmagic/20-22;
+			il_main = #nmagic/22-24;
+            il_main = #staff/45-58;
+            //il_main = book_glb_lore_castle;
+		}
+	}
+}

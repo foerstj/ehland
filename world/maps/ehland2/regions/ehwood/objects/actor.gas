@@ -6,7 +6,7 @@
 	  p position = -1.03608,0.0,-1.87324,0x394A10BB;
 	}
 }
-[t:andiemus,n:0x00200015]
+[t:eh_andiemus,n:0x00200015]
 {
 	[common]
 	{
@@ -35,7 +35,7 @@
 	  p position = 1.04125,0.0,-1.16601,0x992E7012;
 	}
 }
-[t:andiemus,n:0x002003b0]
+[t:eh_andiemus,n:0x002003b0]
 {
 	[common]
 	{

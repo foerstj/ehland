@@ -1,4 +1,4 @@
-eh_ulora = andiemus
+eh_ulora = eh_andiemus
 
 blacksmith_zabar_treseck = merchant_blacksmith_glacern
 mage_trianna_lelaine_talk = wise_woman_ninale_talk
