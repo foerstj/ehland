@@ -1,0 +1,13 @@
+tree_glb_sway_03 = tree_glb_pine_sequoia_02
+tree_glb_sway_04 = tree_glb_pine_sequoia_04
+tree_glb_sway_05 = tree_glb_pine_sequoia_01
+tree_glb_sway_06 = tree_glb_pine_sequoia_03
+
+tree_grs_pine_trunk_03 = tree_grs_sequoia_01
+
+tree_grs_deciduous_sway_15 = tree_grs_deciduous_sway_16
+
+groundcover_grs_05 = groundcover_swp_01
+groundcover_grs_06 = groundcover_swp_02
+groundcover_grs_07 = groundcover_swp_03
+groundcover_grs_08 = groundcover_swp_04
