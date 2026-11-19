@@ -1,2 +1,3 @@
 crate_glb_path2crypts = crate_glb_gi_r1
 barrel_glb_path2crypts = barrel_glb_gi_r1
+eh_chest_tunnel = eh2_chest_tunnel

@@ -1,0 +1,35 @@
+[t:template,n:chest_gob_01_base]  // = chest_gob_01
+{
+	category_name = "container";
+	doc = "chest_metal";
+	specializes = base_chest;
+	[common] { screen_name="Chest"; }
+	[aspect]
+	{
+		material = steel;
+		model = m_i_glb_chest-05;
+		[textures]		{ 0 = b_i_gob_chest-01; }
+	}
+	[body]
+	{
+		[chore_dictionary]
+		{
+			chore_prefix = a_i_ice;
+			[chore_open]
+			{
+				skrit = transition;
+				[anim_files] { 00=chest-open; }
+			}
+		}
+	}
+}
+
+[t:template,n:eh2_chest_tunnel]
+{
+	specializes = chest_gob_01_base;
+
+	[inventory]
+	{
+	  i gold = 20000;
+	}
+}

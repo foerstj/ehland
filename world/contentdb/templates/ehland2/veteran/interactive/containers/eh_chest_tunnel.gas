@@ -1,0 +1,9 @@
+[t:template,n:2W_eh2_chest_tunnel]
+{
+	specializes = chest_gob_01_base;
+
+	[inventory]
+	{
+	  i gold = 5000000;
+	}
+}
