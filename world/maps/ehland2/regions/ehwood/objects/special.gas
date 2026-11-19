@@ -6,7 +6,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("ehwood_1");
+				action* = mood_change("ehland2_ehwood_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(20.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -34,7 +34,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("ehwood_1");
+				action* = mood_change("ehland2_ehwood_1");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(10.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -62,7 +62,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("ehwood_2");
+				action* = mood_change("ehland2_ehwood_2");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(5.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -90,7 +90,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("ehwood_2");
+				action* = mood_change("ehland2_ehwood_2");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(5.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -118,7 +118,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("ehwood_3");
+				action* = mood_change("ehland2_ehwood_3");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(10.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -147,7 +147,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("ehwood_3");
+				action* = mood_change("ehland2_ehwood_3");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(10.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -206,7 +206,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("ehwood_4");
+				action* = mood_change("ehland2_ehwood_4");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(5.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -235,7 +235,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("ehwood_5_tunnel");
+				action* = mood_change("ehland2_ehwood_5_tunnel");
 				action* = fade_nodes(0x00000002,2,2,-1,"in");
 				action* = fade_nodes(0x00000002,1,-1,-1,"out:black");
 			  b can_self_destruct = true;
@@ -266,7 +266,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("ehwood_4");
+				action* = mood_change("ehland2_ehwood_4");
 				action* = fade_nodes(0x00000002,2,2,-1,"out:black");
 				action* = fade_nodes(0x00000002,1,-1,-1,"in");
 			  b can_self_destruct = true;
@@ -334,7 +334,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("ehwood_6");
+				action* = mood_change("ehland2_ehwood_6");
 				action* = fade_nodes(0x00000002,2,2,-1,"out:black");
 				action* = fade_nodes(0x00000002,1,-1,-1,"in");
 			  b can_self_destruct = true;
@@ -365,7 +365,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("ehwood_5_tunnel");
+				action* = mood_change("ehland2_ehwood_5_tunnel");
 				action* = fade_nodes(0x00000002,1,-1,-1,"out:black");
 				action* = fade_nodes(0x00000002,2,2,-1,"in");
 			  b can_self_destruct = true;
@@ -404,7 +404,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("ehwood_6");
+				action* = mood_change("ehland2_ehwood_6");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(5.000000,"on_every_enter");
 			  f delay = 0.000000;

@@ -209,7 +209,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("eh");
+				action* = mood_change("ehland2_eh");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(10.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -237,7 +237,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("eh");
+				action* = mood_change("ehland2_eh");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(30.000000,10.000000,1.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -265,7 +265,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("eh_hovart");
+				action* = mood_change("ehland2_eh_hovart");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(30.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -293,7 +293,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("eh");
+				action* = mood_change("ehland2_eh");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(1.000000,10.000000,30.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -321,7 +321,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("eh");
+				action* = mood_change("ehland2_eh");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(10.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -541,7 +541,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("eh");
+				action* = mood_change("ehland2_eh");
 			  b can_self_destruct = true;
 				condition* = party_member_within_sphere(10.000000,"on_every_enter");
 			  f delay = 0.000000;

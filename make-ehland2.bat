@@ -14,4 +14,6 @@ venv\Scripts\python -m landscaping.change_nodeset --bits "%bits%" %map2% ehwood 
 if %errorlevel% neq 0 pause
 venv\Scripts\python -m region_import.replace_strs "%bits%\world\maps\%map2%" "Hovart hill=Blasted Hill" "Here lieth Hovart, ye olde bag of dirte. Rest in peace, but rest!=Here lieth ye Blasted Goblin. Rest in peace, but keep your machines turned off!"
 if %errorlevel% neq 0 pause
+venv\Scripts\python -m landscaping.replace_moods --bits "%bits%" %map2% --replace eh=ehland2_eh eh_hovart=ehland2_eh_hovart ehwood_1=ehland2_ehwood_1 ehwood_2=ehland2_ehwood_2 ehwood_3=ehland2_ehwood_3 ehwood_4=ehland2_ehwood_4 ehwood_5_tunnel=ehland2_ehwood_5_tunnel ehwood_6=ehland2_ehwood_6
+if %errorlevel% neq 0 pause
 popd
