@@ -1,0 +1,36 @@
+[t:template,n:frag_glb_metal_mini_01]
+{
+	doc = "metal fragment";
+	specializes = fragment;
+	[aspect] { model=m_i_glb_frag-metal-01; scale_base = 0.5; }
+}
+[t:template,n:frag_glb_metal_mini_02]
+{
+	doc = "metal fragment";
+	specializes = fragment;
+	[aspect] { model=m_i_glb_frag-metal-02; scale_base = 0.5; }
+}
+[t:template,n:frag_glb_metal_mini_03]
+{
+	doc = "metal fragment";
+	specializes = fragment;
+	[aspect] { model=m_i_glb_frag-metal-03; scale_base = 0.5; }
+}
+[t:template,n:frag_glb_metal_mini_04]
+{
+	doc = "metal fragment";
+	specializes = fragment;
+	[aspect] { model=m_i_glb_frag-metal-04; scale_base = 0.5; }
+}
+[t:template,n:frag_glb_metal_mini_05]
+{
+	doc = "metal fragment";
+	specializes = fragment;
+	[aspect] { model=m_i_glb_frag-metal-05; scale_base = 0.5; }
+}
+[t:template,n:frag_glb_metal_mini_06]
+{
+	doc = "metal fragment";
+	specializes = fragment;
+	[aspect] { model=m_i_glb_frag-metal-06; scale_base = 0.5; }
+}

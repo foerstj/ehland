@@ -1,0 +1,40 @@
+[t:template,n:frag_glb_kill_bot_mini_01]
+{
+	doc = "frag_glb_kill_bot_01";
+	specializes 	= fragment;
+	aspect:model 	= m_i_glb_frag-picker-01;
+	aspect:textures:0 = b_c_edm_pr-02;
+	aspect:scale_base = 0.5;
+}
+[t:template,n:frag_glb_kill_bot_mini_02]
+{
+	doc = "frag_glb_kill_bot_02";
+	specializes 	= fragment;
+	aspect:model 	= m_i_glb_frag-picker-02;
+	aspect:textures:0 = b_c_edm_pr-02;
+	aspect:scale_base = 0.5;
+}
+[t:template,n:frag_glb_kill_bot_mini_03]
+{
+	doc = "frag_glb_kill_bot_03";
+	specializes 	= fragment;
+	aspect:model 	= m_i_glb_frag-picker-03;
+	aspect:textures:0 = b_c_edm_pr-02;
+	aspect:scale_base = 0.5;
+}
+[t:template,n:frag_glb_kill_bot_mini_04]
+{
+	doc = "frag_glb_kill_bot_04";
+	specializes 	= fragment;
+	aspect:model 	= m_i_glb_frag-picker-04;
+	aspect:textures:0 = b_c_edm_pr-02;
+	aspect:scale_base = 0.5;
+}
+[t:template,n:frag_glb_kill_bot_mini_05]
+{
+	doc = "frag_glb_kill_bot_05";
+	specializes 	= fragment;
+	aspect:model 	= m_i_glb_frag-picker-05;
+	aspect:textures:0 = b_c_edm_pr-02;
+	aspect:scale_base = 0.5;
+}

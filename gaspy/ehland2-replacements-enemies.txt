@@ -1,9 +1,9 @@
 wolf_gray = wolf_black
 wolf_gray_boss_01 = wolf_black_boss_01
 
-eh_spider = kill_bot
-spider_adolescent = hunter
-spider_adolescent_yellow = kill_bot
+eh_spider = hunter
+spider_adolescent = kill_bot
+spider_adolescent_yellow = kill_bot_mini
 
 phrak = copter
 phrak_piercer = copter

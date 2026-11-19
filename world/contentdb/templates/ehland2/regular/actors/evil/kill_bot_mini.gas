@@ -1,0 +1,118 @@
+[t:template,n:kill_bot_base]  // = kill_bot
+{
+	category_name = "1W_evil_d";
+	doc = "kill_bot";
+	specializes = base_picker;
+	[actor]
+	{
+		[skills]
+		{
+			strength =  12, 0;
+			intelligence =  3, 0;
+			dexterity =  10, 0;
+            melee       = 25, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 2177;
+		life = 400;
+		max_life = 400;
+		mana = 10;
+		max_mana = 10;
+		textures:0 = b_c_edm_pr-02;
+		material = steel;
+		[voice]
+		{
+			[die]			{ priority = high; * = s_e_die_copter; }
+			[enemy_spotted]	{ priority = high; * = s_e_call_mechanoid_small_SED;	}
+		}
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 115;
+		damage_min = 105;
+		reload_delay = 0;
+	}
+	[common] { screen_name="Kill Bot"; }
+	[defend] { defense=280; }
+	[mind]
+	{
+		jat_fidget	= world\ai\jobs\common\job_fidget.skrit
+			?curious	= 0.65
+			&interest	= interest
+			&meander	= false
+			&still		= false;
+	}
+	[physics]
+	{
+		explode_when_killed = true;
+		gib_gore_good = true;
+		[break_particulate]
+		{
+			frag_glb_kill_bot_01 = 1;
+			frag_glb_kill_bot_02 = 1;
+			frag_glb_kill_bot_03 = 3;
+			frag_glb_kill_bot_04 = 2;
+			frag_glb_kill_bot_05 = 3;
+			frag_glb_metal_01 = 3;
+			frag_glb_metal_03 = 1;
+			frag_glb_metal_05 = 3;
+			frag_glb_metal_06 = 4;
+		}
+	}
+}
+
+[t:template,n:kill_bot_mini]
+{
+	specializes = kill_bot;
+
+	[common] { screen_name="Mini Kill Bot"; }
+
+	// scaling
+	aspect:scale_base = 0.5;
+	[physics]
+	{
+		[break_particulate]
+		{
+			frag_glb_kill_bot_mini_01 = 1;
+			frag_glb_kill_bot_mini_02 = 1;
+			frag_glb_kill_bot_mini_03 = 3;
+			frag_glb_kill_bot_mini_04 = 2;
+			frag_glb_kill_bot_mini_05 = 3;
+			frag_glb_metal_mini_01 = 3;
+			frag_glb_metal_mini_03 = 1;
+			frag_glb_metal_mini_05 = 3;
+			frag_glb_metal_mini_06 = 4;
+		}
+	}
+
+	// balancing
+	// values /= 2
+	[actor]
+	{
+		[skills]
+		{
+			strength =  6, 0;
+			intelligence =  1, 0;
+			dexterity =  5, 0;
+            melee       = 12, 0;
+		}
+	}
+	// values /= 10
+	[aspect]
+	{
+		experience_value = 217;
+		life = 40;
+		max_life = 40;
+		mana = 1;
+		max_mana = 1;
+	}
+	[attack]
+	{
+		damage_max = 11;
+		damage_min = 10;
+	}
+	[defend] { defense=28; }
+}
