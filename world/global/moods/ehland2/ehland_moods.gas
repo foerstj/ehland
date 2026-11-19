@@ -28,7 +28,7 @@
 		room_type = rt_forest;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 30.000000;
-		standard_track = s_m_credits;
+		standard_track = s_m_goblininventor_02;
 	}
 	[wind]
 	{
@@ -66,7 +66,7 @@
 		room_type = rt_forest;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 0.000000;
-		standard_track = s_m_maintheme;
+		standard_track = s_m_goblininventor_06;
 	}
 	[wind]
 	{
@@ -99,7 +99,7 @@
 		room_type = rt_forest;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 0.000000;
-		standard_track = s_m_maintheme;
+		standard_track = s_m_goblininventor_06;
 	}
 	[rain]
 	{
@@ -137,7 +137,7 @@
 		room_type = rt_cave;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 0.000000;
-		standard_track = s_m_drums_03;
+		standard_track = s_m_goblininventor_08;
 	}
 	[rain]
 	{
@@ -175,7 +175,7 @@
 		room_type = rt_forest;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 30.000000;
-		standard_track = s_m_maintheme_02;
+		standard_track = s_m_goblininventor_01;
 	}
 	[rain]
 	{
@@ -213,7 +213,7 @@
 		room_type = rt_stoneroom;
 	  f standard_intro_delay = 10.000000;
 	  f standard_repeat_delay = 0.000000;
-		standard_track = s_m_drums_02;
+		standard_track = s_m_goblininventor_04;
 	}
 }
 [mood_setting*]
@@ -241,7 +241,7 @@
 		room_type = rt_forest;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 30.000000;
-		standard_track = s_m_maintheme_02;
+		standard_track = s_m_goblininventor_07;
 	}
 	[wind]
 	{
@@ -274,7 +274,7 @@
 		room_type = rt_forest;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 0.000000;
-		standard_track = s_m_maintheme_03;
+		standard_track = s_m_goblininventor_09;
 	}
 	[rain]
 	{
