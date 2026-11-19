@@ -1534,6 +1534,7 @@
 		{
 			[*]
 			{
+				action* = change_quest_state("hovart","active",0);
 				action* = change_quest_state("hovart","completed",0);
 			  b can_self_destruct = true;
 				condition* = receive_world_message("we_killed",0,"on_first_message");
