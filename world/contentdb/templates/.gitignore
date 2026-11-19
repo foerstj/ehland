@@ -1,5 +1,5 @@
 # ignore stuff in all subfolders...
 /*/
 # ...except Ehland & minibits
-!/ehland/
+!/ehland*/
 !/minibits/
