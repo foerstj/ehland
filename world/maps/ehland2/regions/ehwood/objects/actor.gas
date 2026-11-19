@@ -6,7 +6,7 @@
 	  p position = -1.03608,0,-1.87324,0x394a10bb;
 	}
 }
-[t:ulora,n:0x00200015]
+[t:andiemus,n:0x00200015]
 {
 	[aspect]
 	{
@@ -54,7 +54,7 @@
 	  p position = 1.04125,0,-1.16601,0x992e7012;
 	}
 }
-[t:ulora,n:0x002003b0]
+[t:andiemus,n:0x002003b0]
 {
 	[aspect]
 	{
