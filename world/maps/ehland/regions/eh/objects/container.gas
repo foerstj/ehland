@@ -566,6 +566,13 @@
 }
 [t:barrel_glb_floating_04,n:0x001004e5]
 {
+	[inventory]
+	{
+		[other]
+		{
+			il_main = potion_health_small;
+		}
+	}
 	[placement]
 	{
 	  p position = -27.6665,4.10955,-3.06351,0x1010c087;
@@ -577,7 +584,6 @@
 	{
 		[other]
 		{
-			il_main = potion_health_small;
 			il_main = potion_mana_small;
 		}
 	}
