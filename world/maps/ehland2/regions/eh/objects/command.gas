@@ -8,7 +8,7 @@
 	}
 	[placement]
 	{
-	  p position = 17.3836,5.74544,-45.8523,0x4d3f24b7;
+	  p position = 17.3836,5.74544,-45.8523,0x4D3F24B7;
 	}
 }
 [t:cmd_animation_command,n:0x0010006d]
@@ -21,6 +21,6 @@
 	}
 	[placement]
 	{
-	  p position = -0.712461,-3.91006e-005,0.841519,0x0c87fa71;
+	  p position = -0.712461,-3.91006e-05,0.841519,0x0C87FA71;
 	}
 }
