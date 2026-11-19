@@ -66,7 +66,7 @@
 
 [t:template,n:kill_bot_mini]
 {
-	specializes = kill_bot;
+	specializes = kill_bot_base;
 
 	[common] { screen_name="Mini Kill Bot"; }
 

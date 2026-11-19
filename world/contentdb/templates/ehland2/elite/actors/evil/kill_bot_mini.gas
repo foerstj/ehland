@@ -1,0 +1,118 @@
+[t:template,n:3W_kill_bot_base]  // = 3W_kill_bot
+{
+	category_name = "3W_evil_d";
+	doc = "3W_kill_bot";
+	specializes = 3W_base_picker;
+	[actor]
+	{
+		[skills]
+		{
+			strength =  32.8, 0;
+			intelligence =  4.7, 0;
+			dexterity =  21.8, 0;
+            melee       = 104, 0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 2268434;
+		life = 1453.3;
+		max_life = 1453.3;
+		mana = 36.3;
+		max_mana = 36.3;
+		textures:0 = b_c_edm_pr-02;
+		material = steel;
+		[voice]
+		{
+			[die]			{ priority = high; * = s_e_die_copter; }
+			[enemy_spotted]	{ priority = high; * = s_e_call_mechanoid_small_SED;	}
+		}
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 459.6;
+		damage_min = 343.4;
+		reload_delay = 0;
+	}
+	[common] { screen_name="Kill Bot"; }
+	[defend] { defense=1050; }
+	[mind]
+	{
+		jat_fidget	= world\ai\jobs\common\job_fidget.skrit
+			?curious	= 0.65
+			&interest	= interest
+			&meander	= false
+			&still		= false;
+	}
+	[physics]
+	{
+		explode_when_killed = true;
+		gib_gore_good = true;
+		[break_particulate]
+		{
+			frag_glb_kill_bot_01 = 1;
+			frag_glb_kill_bot_02 = 1;
+			frag_glb_kill_bot_03 = 3;
+			frag_glb_kill_bot_04 = 2;
+			frag_glb_kill_bot_05 = 3;
+			frag_glb_metal_01 = 3;
+			frag_glb_metal_03 = 1;
+			frag_glb_metal_05 = 3;
+			frag_glb_metal_06 = 4;
+		}
+	}
+}
+
+[t:template,n:3W_kill_bot_mini]
+{
+	specializes = 3W_kill_bot_base;
+
+	[common] { screen_name="Mini Kill Bot"; }
+
+	// scaling
+	aspect:scale_base = 0.5;
+	[physics]
+	{
+		[break_particulate]
+		{
+			frag_glb_kill_bot_mini_01 = 1;
+			frag_glb_kill_bot_mini_02 = 1;
+			frag_glb_kill_bot_mini_03 = 3;
+			frag_glb_kill_bot_mini_04 = 2;
+			frag_glb_kill_bot_mini_05 = 3;
+			frag_glb_metal_mini_01 = 3;
+			frag_glb_metal_mini_03 = 1;
+			frag_glb_metal_mini_05 = 3;
+			frag_glb_metal_mini_06 = 4;
+		}
+	}
+
+	// balancing
+	// values /= 2
+	[actor]
+	{
+		[skills]
+		{
+			strength =  16, 0;
+			intelligence =  2, 0;
+			dexterity =  11, 0;
+            melee       = 52, 0;
+		}
+	}
+	// values /= 10
+	[aspect]
+	{
+		experience_value = 226843;
+		life = 145;
+		max_life = 145;
+		mana = 3;
+		max_mana = 3;
+	}
+	[attack]
+	{
+		damage_max = 45;
+		damage_min = 34;
+	}
+	[defend] { defense=105; }
+}

@@ -1,0 +1,312 @@
+[t:template,n:3W_copter_base]  // = 3W_copter
+{
+	category_name = "3W_evil_d";
+	doc = "3W_robot_copter";
+	specializes = actor_evil;
+	[actor]
+	{
+		[skills]
+		{
+			strength =  	10.8, 0;
+			intelligence =  	9.3, 0;
+			dexterity =  	25.9, 0;
+			ranged =  	91,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 1954121;
+		life = 1064.5;
+		max_life = 1064.5;
+		mana = 354.8;
+		max_mana = 354.8;
+		model = m_c_edm_cp_pos_1;
+		material = wood;
+		[voice]
+		{
+			[die]			{ priority = high; * = s_e_die_copter; }
+			[enemy_spotted]	{ priority = high; * = s_e_call_mechanoid_small_SED;	}
+		}
+	}
+	[attack]
+	{
+		attack_range = 	0.5;
+		damage_max = 	378.6;
+		damage_min = 	297;
+		damage_bonus_min_cmagic = 188;
+		damage_bonus_max_cmagic = 247;
+	}
+	[body]
+	{
+		min_move_velocity = 3.75;
+		avg_move_velocity = 5.990000;
+		[bone_translator]
+		{
+			body_anterior = bone01;
+			body_mid = bone01;
+			body_posterior = bone01;
+			kill_bone = bone01;
+			shield_bone = bone01;
+			weapon_bone = bone01;
+		}
+		[chore_dictionary]
+		{
+			chore_prefix = a_c_edm_cp_fs;
+			[chore_attack]
+			{
+				chore_stances = 0;
+				skrit = select_attack;
+				[anim_files] { 00=at; }
+			}
+			[chore_default]
+			{
+				chore_stances = 0;
+				skrit = infinite_loop;
+				[anim_files] { 00=ds; }
+			}
+			[chore_die]
+			{
+				chore_stances = 0;
+				skrit = select_transition;
+				[anim_files] { 00=dsf; }
+			}
+			[chore_fidget]
+			{
+				chore_stances = 0;
+				skrit = select_fidget;
+				[anim_files] { 00=fl; }
+			}
+			[chore_magic]
+			{
+				chore_stances = 0;
+				skrit = select_transition;
+				[anim_files] { 00=at; }
+			}
+			[chore_walk]
+			{
+				chore_stances = 0;
+				skrit = select_walk;
+				[anim_files] { 00=fl; }
+			}
+		}
+	}
+
+	[inventory]
+	{
+		selected_active_location = il_active_primary_spell;
+		[other] { il_active_primary_spell=spell_copter_lightning; }
+	}
+
+	[common]
+	{
+		screen_name="Copter";
+		[template_triggers]
+		{
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				action* = call_sfx_script("tailpipe_steam_copter");
+
+			}
+		}
+	}
+	[defend] { defense=731; }
+	[mind]
+	{
+		actor_weapon_preference			= WP_MAGIC;
+		actor_auto_switches_to_magic	= true;
+		actor_auto_switches_to_karate	= false;
+		actor_auto_switches_to_melee	= false;
+
+		melee_engage_range = 12;
+		personal_space_range = 0.7;
+		ranged_engage_range = 13.0;
+		sight_range = 14.0;
+	}
+	[physics]
+	{
+		break_effect = generic_explosion;
+		explode_when_killed = true;
+		explosion_magnitude = 3.0;
+		gib_gore_good = true;
+		[break_particulate]
+		{
+			frag_glb_copter_01 = 1;
+			frag_glb_copter_02 = 1;
+			frag_glb_copter_03 = 1;
+			frag_glb_copter_04 = 1;
+			frag_glb_copter_05 = 1;
+			frag_glb_metal_01 = 1;
+			frag_glb_metal_03 = 1;
+			frag_glb_metal_04 = 1;
+			frag_glb_metal_05 = 2;
+			frag_glb_metal_06 = 2;
+			frag_glb_wood_01 = 1;
+			frag_glb_wood_02 = 1;
+			frag_glb_wood_03 = 1;
+			frag_glb_wood_04 = 2;
+			frag_glb_wood_05 = 2;
+			frag_glb_wood_06 = 3;
+		}
+	}
+}
+
+[t:template,n:3W_copter_large] { specializes = 3W_copter_large_base; }
+[t:template,n:3W_copter_large_base]
+{
+	specializes = 3W_copter_base;
+
+	common:screen_name = "Large Copter";
+	aspect:scale_base = 1.5;
+	[physics]
+	{
+		[break_particulate]
+		{
+			frag_glb_copter_large_01 = 1;
+			frag_glb_copter_large_02 = 1;
+			frag_glb_copter_large_03 = 1;
+			frag_glb_copter_large_04 = 1;
+			frag_glb_copter_large_05 = 1;
+			frag_glb_metal_large_01 = 1;
+			frag_glb_metal_large_03 = 1;
+			frag_glb_metal_large_04 = 1;
+			frag_glb_metal_large_05 = 2;
+			frag_glb_metal_large_06 = 2;
+			frag_glb_wood_large_01 = 1;
+			frag_glb_wood_large_02 = 1;
+			frag_glb_wood_large_03 = 1;
+			frag_glb_wood_large_04 = 2;
+			frag_glb_wood_large_05 = 2;
+			frag_glb_wood_large_06 = 3;
+		}
+	}
+
+	// balancing
+	// values same
+	[actor]
+	{
+		[skills]
+		{
+			strength =  	10.8, 0;
+			intelligence =  	9.3, 0;
+			dexterity =  	25.9, 0;
+			ranged =  	91,  0;
+		}
+	}
+	// values roughly *= 1.5
+	[aspect]
+	{
+		experience_value = 3000000;
+		life = 1500;
+		max_life = 1500;
+		mana = 500;
+		max_mana = 500;
+	}
+	[attack]
+	{
+		damage_max = 	567;
+		damage_min = 	446;
+		damage_bonus_min_cmagic = 282;
+		damage_bonus_max_cmagic = 370;
+	}
+	[defend] { defense=1095; }
+}
+
+[t:template,n:3W_copter_boss_01]
+{
+	specializes = 3W_copter_large_base;
+
+	[common]
+	{
+		membership = monster,immune_charm,immune_control,immune_freeze,immune_polymorph,immune_align_change,immune_explode;
+		screen_name = "Copter Ballista";
+		[template_triggers]
+		{
+			// existing
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				action* = call_sfx_script("tailpipe_steam_copter");
+			}
+			// added
+			[*]
+			{
+				condition* = receive_world_message("WE_ENTERED_WORLD");
+				single_shot = true;
+				no_trig_bits = true;
+				action* = call_sfx_script("unique_ray_purple(sgx)");
+			}
+		}
+	}
+
+	// balancing
+	// values same
+	[actor]
+	{
+		[skills]
+		{
+			strength =  	10.8, 0;
+			intelligence =  	9.3, 0;
+			dexterity =  	25.9, 0;
+			ranged =  	91,  0;
+		}
+	}
+	// values roughly doubled
+	[aspect]
+	{
+		experience_value = 4000000;
+		life = 2000;
+		max_life = 2000;
+		mana = 700;
+		max_mana = 700;
+	}
+	[attack]
+	{
+		damage_max = 	756;
+		damage_min = 	600;
+		damage_bonus_min_cmagic = 376;
+		damage_bonus_max_cmagic = 500;
+	}
+	[defend] { defense=1460; }
+	// loot from 3W_swamp_creature_boss_01
+   	[inventory]
+	{
+    	[pcontent]
+		{
+			[oneof*]
+			{
+				[oneof*]
+				{
+					chance = 0.794;
+					il_main = #*/294-314;
+					il_main = #armor/1020-1160;
+	                il_main = #weapon/294-314;
+				}
+				[oneof*]
+				{
+	            	chance = 0.004;
+	                il_main = #weapon/-rare(1)/322-377;
+	                il_main = #armor/-rare(1)/1064-1240;
+                    il_main = #*/-rare(1)/322-377;
+                }
+				[oneof*]
+				{
+                	chance = 0.002;
+	                il_main = #weapon/-unique(2)/322-377;
+	                il_main = #armor/-unique(2)/1064-1240;
+                    il_main = #*/-unique(2)/322-377;
+	            }
+				[gold*]
+				{
+					chance = 0.2;
+					max = 637015;
+					min = 302565;
+					min_pile = 225;
+					piles = 5 - 7;
+				}
+			}
+		}
+	}
+}
