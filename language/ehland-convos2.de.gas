@@ -1,0 +1,67 @@
+[t:0x0407,n:text]
+{
+    // Mr Smith shop
+	[0x0000]
+	{
+		from = "Do you know the history of the Blasted Goblin?
+He was Lord of Ehland back in the old days, and reigned mechanically until our grandparents revolted and overthrew him. He was hanged on the little hill southeast from here, and then buried there...
+The Old Man was alive back then.";
+		to = "Kennst du die Geschichte vom Verfluchten Goblin?
+Er war Herr von Ehland in früheren Tagen, und regierte maschinell bis unsere Großeltern revoltierten und ihn stürzten. Er wurde auf dem kleinen Hügel südöstlich von hier gehängt, und dann dort begraben...
+Der Alte Mann hat es noch miterlebt.";
+	}
+
+    // Mrs Smith shop
+	[0x0000]
+	{
+		from = "Did my old dad tell you about the old Blasted Goblin? Oh dear.
+And even if it's true - I got a business to run here! Quality has its price. Have a look!
+...My hubby might have things more suitable for you tho...";
+		to = "Hat dir mein alter Vati vom Verfluchten Goblin erzählt? Oh je.
+Und selbst wenn es stimmt - ich habe hier ein Geschäft zu führen! Qualität hat ihren Preis. Schau es dir gerne an!
+...Mein Männe hat allerdings wahrscheinlich eher passendere Dinge für dich...";
+	}
+
+    // Old Man quest char
+	[0x0000]
+	{
+		from = "But don't go out too far - it's not safe! The machines are walking out there... I fear the old Goblin Robo Suit itself has risen! Stay away from the Blasted Hill!";
+		to = "Doch geht nicht zu weit hinaus - es ist nicht sicher! Die Maschinen laufen dort draußen herum... Ich fürchte, der alte Goblin-Robotanzug selbst ist wieder auf den Beinen! Haltet euch vom Verfluchten Hügel fern!";
+	}
+	[0x0000]
+	{
+		from = "If you want to help an old man sleep in peace again... I would be very happy if you could switch those robots off again as they're supposed to.";
+		to = "Wenn Ihr einem alten Mann helfen mögt, wieder ruhig schlafen zu können... Ich wäre sehr glücklich, wenn ihr die alten Roboter wieder ausschalten könntet wie es sich gehört.";
+	}
+
+    // Trisha the village hag
+	[0x0000]
+	{
+		from = "I had a dream last night - of the Blasted Goblin stirring in his grave - and there were Kill Bots and worse - and a creature of darkness...
+I saw them all walking around on the Blasted Hill.
+
+Maybe the Old Man is right!
+Or maybe his stories have just confused me...
+Anyways I'm not going there.";
+		to = "Ich hatte einen Traum letzte Nacht - vom Verfluchten Goblin wie er sich im Grabe rührte - und da waren Kill-Bots und Schlimmeres - und eine Kreatur der Dunkelheit...
+Ich sah sie alle auf dem Verfluchten Hügel herumlaufen.
+
+Vielleicht hat der Alte Mann recht!
+Oder seine Geschichten haben mich nur verwirrt...
+Ich geh da jedenfalls nicht hin.";
+	}
+
+    // Lauryn companion
+	[0x0000]
+	{
+		from = "Hello, traveller!
+Are you an adventurer, looking for fame and fortune? Perfect timing, the Blasted Goblin has turned around in his grave and his machinations have once again reassembled to take revenge on our peaceful village - it's true, I've seen them at his grave on the Blasted Hill! That tightwad Mrs. Smith won't lend me any of her good armors, and my pocket money isn't enough, so I want to find the money hidden in the Old Tunnel. It's a secret the Old Man has told me about once.";
+		to = "Hallo da, Reisender!
+Bist du ein Abenteurer auf der Suche nach Ruhm und Reichtum? Perfektes Timing, der Verfluchte Goblin hat sich im Grabe herumgedreht und seine bösen Maschinen sind wieder zusammengekommen um Rache an unserem friedlichen Dorf zu nehmen - es ist wahr, ich habe sie an seinem Grab auf dem Verfluchten Hügel gesehen! Diese geizige Frau Schmied leiht mir keine ihrer guten Rüstungen, und mein Taschengeld reicht dafür nicht, also will ich den Schatz finden, der im Alten Tunnel versteckt ist. Es ist ein Geheimnis, von dem mir der Alte Mann einmal erzählt hat.";
+	}
+	[0x0000]
+	{
+		from = "Wanna go together? To be honest, I'm afraid of Kill Bots... and the woods are full of them!";
+		to = "Sollen wir zusammen gehen? Um ehrlich zu sein, habe ich Angst vor Kill-Bots... und der Wald ist voll davon!";
+	}
+}

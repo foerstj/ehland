@@ -1,0 +1,21 @@
+[t:0x0407,n:text]
+{
+    // Places / signs
+	[0x0000]
+	{
+		from = "Blasted Hill";
+		to = "Verfluchter Hügel";
+	}
+	[0x0000]
+	{
+		from = "Here lieth ye Blasted Goblin. Rest in peace, but keep your machines turned off!";
+		to = "Hier lieget der Verfluchte Goblin. Ruhet in Frieden, aber lasset die Maschinen aus!";
+	}
+
+    // Characters
+	[0x0000]
+	{
+		from = "Lauryemus";
+		to = "Lauryemus";
+	}
+}

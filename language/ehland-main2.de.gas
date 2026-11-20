@@ -1,0 +1,21 @@
+[t:0x0407,n:text]
+{
+    // Map
+	[0x0000]
+	{
+		from = "Ehland 2 Electric Boogaloo";
+		to = "Ehland 2 Electric Boogaloo";
+	}
+
+    // Quest
+	[0x0000]
+	{
+		from = "Destroy the Blasted Goblin Robo Suit";
+		to = "Zerstöre den Verfluchten Goblin-Robotanzug";
+	}
+    [0x0000]
+	{
+		from = "Destroy the evil machinations of the Blasted Goblin! Hint: Go west through Ehwood forest and find money for equipment in the Old Tunnel. Find the Robo Suit in the southeast of Eh.";
+		to = "Zerstöre die bösen Maschinen des Verfluchten Goblins! Tipp: Geh nach Westen durch den Ehwald und finde Geld für Ausrüstung im Alten Tunnel. Finde den Robotanzug im Südosten von Eh.";
+	}
+}
