@@ -36,25 +36,36 @@ if not "%mode%"=="light" (
 endlocal
 popd
 
-:: Compile map(s) file
+:: Compile map file
 rmdir /S /Q "%tmp%\Bits"
 robocopy "%bits%\world\maps\%map%" "%tmp%\Bits\world\maps\%map%" /E
-robocopy "%bits%\world\maps\%map2%" "%tmp%\Bits\world\maps\%map2%" /E
 pushd %gaspy%
 venv\Scripts\python -m build.fix_start_positions_required_levels %map% --bits "%tmp%\Bits"
-if %errorlevel% neq 0 pause
-venv\Scripts\python -m build.fix_start_positions_required_levels %map2% --bits "%tmp%\Bits"
 if %errorlevel% neq 0 pause
 setlocal EnableDelayedExpansion
 if "%mode%"=="release" (
   venv\Scripts\python -m build.add_world_levels %map% --bits "%tmp%\Bits" --template-bits "%bits%"
   if !errorlevel! neq 0 pause
+)
+endlocal
+popd
+"%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\Maps\%map_cs%.dsmap" -copyright "%copyright%" -title "%map_cs%" -author "%author%"
+if %errorlevel% neq 0 pause
+
+:: Compile map2 file
+rmdir /S /Q "%tmp%\Bits"
+robocopy "%bits%\world\maps\%map2%" "%tmp%\Bits\world\maps\%map2%" /E
+pushd %gaspy%
+venv\Scripts\python -m build.fix_start_positions_required_levels %map2% --bits "%tmp%\Bits"
+if %errorlevel% neq 0 pause
+setlocal EnableDelayedExpansion
+if "%mode%"=="release" (
   venv\Scripts\python -m build.add_world_levels %map2% --bits "%tmp%\Bits" --template-bits "%bits%"
   if !errorlevel! neq 0 pause
 )
 endlocal
 popd
-"%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\Maps\%map_cs%.dsmap" -copyright "%copyright%" -title "%map_cs%" -author "%author%"
+"%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\Maps\%map2_cs%.dsmap" -copyright "%copyright%" -title "%map2_cs%" -author "%author%"
 if %errorlevel% neq 0 pause
 
 :: Compile main resource file
