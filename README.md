@@ -10,9 +10,12 @@ The map is set in Ehland, a handful of islands floating in the sky. Lord Hovart 
 
 The map is NOT intended to fit into DS lore. It makes no sense that Lord Hovart is buried in Ehland. Please ignore.
 
+### Ehland 2 Electric Boogaloo
+This is a bonus map that's a variant of the first one. It requires level 25 (multiplayer-only) and features robot enemies from the Goblin Lair. Plants, terrain textures, music, fog color, loot, NPCs & texts were altered.
+
 ## Installation & Compatibility
-- This map does not require LoA.
-- To install, simply put the .dsmap file in the Maps folder and the .dsres files in the Resources folder.\
+- This map does not require LoA. (Also not Ehland 2.)
+- To install, simply put the .dsmap files in the Maps folder and the .dsres files in the Resources folder.\
   Or put them all in the DSLOA folder if you use DSLOA.
 - The "de"/"fr"/"es" .dsres files are optional and contain translations into German/French/Spanish, which will be picked up if you have a corresponding installation.
 - To uninstall, simply remove the files again :)
@@ -74,3 +77,9 @@ Changes in 1.5:
 - Fixed floating ferns
 - Louder voice samples for the Bruce Lee quote
 - Added Christmas tree next to well that appears when Christmas mod is used
+
+Changes in 1.6:
+- Added Ehland 2 Electric Boogaloo
+- Fixed quest unfulfillable when killing Hovart before talking to the Old Man
+- Old Tunnel provides more treasure in Veteran & Elite
+- Increased support for Thrillvilled's Voices mod
