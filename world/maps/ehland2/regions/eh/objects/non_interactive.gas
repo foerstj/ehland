@@ -262,7 +262,6 @@
 	  f lodfi_lower = 0.000000;
 	  f lodfi_upper = 0.000000;
 		megamap_icon = b_gui_ig_mnu_arrow;
-	  b megamap_orient = true;
 	  b megamap_override = true;
 	  f use_range = 2.000000;
 	}
@@ -596,7 +595,6 @@
 	  f lodfi_lower = 0.000000;
 	  f lodfi_upper = 0.000000;
 		megamap_icon = b_gui_ig_mnu_arrow;
-	  b megamap_orient = true;
 	  b megamap_override = true;
 	  f use_range = 2.000000;
 	}
@@ -656,7 +654,6 @@
 	  f lodfi_lower = 0.000000;
 	  f lodfi_upper = 0.000000;
 		megamap_icon = b_gui_ig_mnu_arrow;
-	  b megamap_orient = true;
 	  b megamap_override = true;
 	  f use_range = 2.000000;
 	}
@@ -9014,7 +9011,6 @@
 	  f lodfi_lower = 0.000000;
 	  f lodfi_upper = 0.000000;
 		megamap_icon = b_gui_ig_mnu_arrow;
-	  b megamap_orient = true;
 	  b megamap_override = true;
 	  f use_range = 2.000000;
 	}
@@ -9743,7 +9739,6 @@
 	  f lodfi_lower = 0.000000;
 	  f lodfi_upper = 0.000000;
 		megamap_icon = b_gui_ig_mnu_arrow;
-	  b megamap_orient = true;
 	  b megamap_override = true;
 	  f use_range = 2.000000;
 	}
@@ -11142,7 +11137,6 @@
 	  f lodfi_lower = 0.000000;
 	  f lodfi_upper = 0.000000;
 		megamap_icon = b_gui_ig_mnu_arrow;
-	  b megamap_orient = true;
 	  b megamap_override = true;
 	  f use_range = 2.000000;
 	}
@@ -11693,7 +11687,6 @@
 	  f lodfi_lower = 0.000000;
 	  f lodfi_upper = 0.000000;
 		megamap_icon = b_gui_ig_mnu_arrow;
-	  b megamap_orient = true;
 	  b megamap_override = true;
 	  f use_range = 2.000000;
 	}
