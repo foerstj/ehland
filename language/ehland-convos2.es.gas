@@ -1,0 +1,57 @@
+[t:0x0c0a,n:text]
+{
+    // Mr Smith shop
+	[0x0000]
+	{
+		from = "Do you know the history of the Blasted Goblin?
+He was Lord of Ehland back in the old days, and reigned mechanically until our grandparents revolted and overthrew him. He was hanged on the little hill southeast from here, and then buried there...
+The Old Man was alive back then.";
+		to = "";
+	}
+
+    // Mrs Smith shop
+	[0x0000]
+	{
+		from = "Did my old dad tell you about the old Blasted Goblin? Oh dear.
+And even if it's true - I got a business to run here! Quality has its price. Have a look!
+...My hubby might have things more suitable for you tho...";
+		to = "";
+	}
+
+    // Old Man quest char
+	[0x0000]
+	{
+		from = "But don't go out too far - it's not safe! The machines are walking out there... I fear the old Goblin Robo Suit itself has risen! Stay away from the Blasted Hill!";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "If you want to help an old man sleep in peace again... I would be very happy if you could switch those robots off again as they're supposed to.";
+		to = "";
+	}
+
+    // Trisha the village hag
+	[0x0000]
+	{
+		from = "I had a dream last night - of the Blasted Goblin stirring in his grave - and there were Kill Bots and worse - and a creature of darkness...
+I saw them all walking around on the Blasted Hill.
+
+Maybe the Old Man is right!
+Or maybe his stories have just confused me...
+Anyways I'm not going there.";
+		to = "";
+	}
+
+    // Lauryn companion
+	[0x0000]
+	{
+		from = "Hello, traveller!
+Are you an adventurer, looking for fame and fortune? Perfect timing, the Blasted Goblin has turned around in his grave and his machinations have once again reassembled to take revenge on our peaceful village - it's true, I've seen them at his grave on the Blasted Hill! That tightwad Mrs. Smith won't lend me any of her good armors, and my pocket money isn't enough, so I want to find the money hidden in the Old Tunnel. It's a secret the Old Man has told me about once.";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Wanna go together? To be honest, I'm afraid of Kill Bots... and the woods are full of them!";
+		to = "";
+	}
+}
