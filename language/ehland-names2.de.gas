@@ -18,4 +18,21 @@
 		from = "Lauryemus";
 		to = "Lauryemus";
 	}
+
+	// Enemies
+	[0x0000]
+	{
+		from = "Mini Kill Bot";
+		to = "Mini-Kill-Bot";
+	}
+	[0x0000]
+	{
+		from = "Large Copter";
+		to = "Großer Copter";
+	}
+	[0x0000]
+	{
+		from = "Copter Ballista";
+		to = "Copter-Balliste";
+	}
 }
