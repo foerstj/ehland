@@ -23,16 +23,16 @@
 	[0x0000]
 	{
 		from = "Mini Kill Bot";
-		to = "";
+		to = "Larva Asesina Miniatura";
 	}
 	[0x0000]
 	{
 		from = "Large Copter";
-		to = "";
+		to = "Copter Gigante";
 	}
 	[0x0000]
 	{
 		from = "Copter Ballista";
-		to = "";
+		to = "Copter Balista";
 	}
 }
