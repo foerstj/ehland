@@ -11,11 +11,11 @@
 	[0x0000]
 	{
 		from = "Destroy the Blasted Goblin Robo Suit";
-		to = "";
+		to = "Destruye la Roboprenda del Maldito Goblin";
 	}
     [0x0000]
 	{
 		from = "Destroy the evil machinations of the Blasted Goblin! Hint: Go west through Ehwood forest and find money for equipment in the Old Tunnel. Find the Robo Suit in the southeast of Eh.";
-		to = "";
+		to = "¡Destruye las malvadas maquinaciones del Maldito Goblin! Pista: dirígete hacia el oeste a través del bosque de Ehwood y consigue dinero para equipamiento en el Viejo Túnel. Encuentra la Roboprenda en la zona sureste de Eh.";
 	}
 }

@@ -4,12 +4,12 @@
 	[0x0000]
 	{
 		from = "Blasted Hill";
-		to = "";
+		to = "La Colina Maldita";
 	}
 	[0x0000]
 	{
 		from = "Here lieth ye Blasted Goblin. Rest in peace, but keep your machines turned off!";
-		to = "";
+		to = "Aquí yace el Maldito Goblin. ¡Descansa en paz, pero mantén tus máquinas apagadas!";
 	}
 
     // Characters
