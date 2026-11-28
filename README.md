@@ -23,7 +23,7 @@ This is a bonus map that's a variant of the first one. It requires level 25 (mul
 
 ## Attribution
 - Spanish translation by Nekurrot25.
-- French translation by Jayijato.
+- French translation by Jayijato and m3ltphace6.
 - "Be water, my friend" quote & voice by Bruce Lee.
 - Hi-res textures of giant flowers by Antonio R. (HRT mod).
 
