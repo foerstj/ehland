@@ -1,0 +1,38 @@
+[t:0x040c,n:text]
+{
+    // Places / signs
+	[0x0000]
+	{
+		from = "Blasted Hill";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Here lieth ye Blasted Goblin. Rest in peace, but keep your machines turned off!";
+		to = "";
+	}
+
+    // Characters
+	[0x0000]
+	{
+		from = "Lauryemus";
+		to = "Lauryemus";
+	}
+
+	// Enemies
+	[0x0000]
+	{
+		from = "Mini Kill Bot";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Large Copter";
+		to = "";
+	}
+	[0x0000]
+	{
+		from = "Copter Ballista";
+		to = "";
+	}
+}
