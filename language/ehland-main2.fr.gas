@@ -11,11 +11,11 @@
 	[0x0000]
 	{
 		from = "Destroy the Blasted Goblin Robo Suit";
-		to = "";
+		to = "Détruire l'armure robotisée du Gobelin Maudit";
 	}
     [0x0000]
 	{
 		from = "Destroy the evil machinations of the Blasted Goblin! Hint: Go west through Ehwood forest and find money for equipment in the Old Tunnel. Find the Robo Suit in the southeast of Eh.";
-		to = "";
+		to = "Détruisez les machinations maléfiques du Gobelin Maudit ! Astuce : traversez la forêt d'Ehwood vers l'ouest et trouvez de l'argent dans le vieux tunnel pour vous équiper. Trouvez l'armure robotisée au sud-est d'Eh.";
 	}
 }

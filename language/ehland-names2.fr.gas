@@ -4,12 +4,12 @@
 	[0x0000]
 	{
 		from = "Blasted Hill";
-		to = "";
+		to = "Colline Maudite";
 	}
 	[0x0000]
 	{
 		from = "Here lieth ye Blasted Goblin. Rest in peace, but keep your machines turned off!";
-		to = "";
+		to = "Ici repose le Gobelin Maudit. Repose en paix, mais laisse tes machines éteintes !";
 	}
 
     // Characters
@@ -23,16 +23,16 @@
 	[0x0000]
 	{
 		from = "Mini Kill Bot";
-		to = "";
+		to = "Mini-robot tueur";
 	}
 	[0x0000]
 	{
 		from = "Large Copter";
-		to = "";
+		to = "Grand hélicoptère";
 	}
 	[0x0000]
 	{
 		from = "Copter Ballista";
-		to = "";
+		to = "Hélicoptère Ballista";
 	}
 }

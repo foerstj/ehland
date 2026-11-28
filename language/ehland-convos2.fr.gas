@@ -6,7 +6,9 @@
 		from = "Do you know the history of the Blasted Goblin?
 He was Lord of Ehland back in the old days, and reigned mechanically until our grandparents revolted and overthrew him. He was hanged on the little hill southeast from here, and then buried there...
 The Old Man was alive back then.";
-		to = "";
+		to = "Vous connaissez l'histoire du Gobelin Maudit ?
+Autrefois, il était seigneur d'Ehland et régnait comme une machine, jusqu'à ce que nos grands-parents se révoltent et le renversent. Il a été pendu sur la petite colline au sud-est d'ici, puis enterré là-bas...
+Le vieillard vivait déjà à l'époque.";
 	}
 
     // Mrs Smith shop
@@ -15,19 +17,21 @@ The Old Man was alive back then.";
 		from = "Did my old dad tell you about the old Blasted Goblin? Oh dear.
 And even if it's true - I got a business to run here! Quality has its price. Have a look!
 ...My hubby might have things more suitable for you tho...";
-		to = "";
+		to = "Mon vieux père vous a parlé du vieux Gobelin Maudit ? Oh là là.
+Et même si c'est vrai, j'ai un commerce à faire tourner ! La qualité a son prix. Jetez un œil !
+...Mon mari a peut-être des articles qui vous conviendraient mieux, cela dit...";
 	}
 
     // Old Man quest char
 	[0x0000]
 	{
 		from = "But don't go out too far - it's not safe! The machines are walking out there... I fear the old Goblin Robo Suit itself has risen! Stay away from the Blasted Hill!";
-		to = "";
+		to = "Mais ne vous éloignez pas trop, c'est dangereux ! Des machines rôdent là-dehors... Je crains que la vieille armure robotisée de Gobelin elle-même ne se soit réveillée ! Éloignez-vous de la colline Maudite !";
 	}
 	[0x0000]
 	{
 		from = "If you want to help an old man sleep in peace again... I would be very happy if you could switch those robots off again as they're supposed to.";
-		to = "";
+		to = "Si vous voulez aider un vieil homme à retrouver des nuits paisibles... je serais très heureux que vous éteigniez à nouveau ces robots, comme il se doit.";
 	}
 
     // Trisha the village hag
@@ -39,7 +43,12 @@ I saw them all walking around on the Blasted Hill.
 Maybe the Old Man is right!
 Or maybe his stories have just confused me...
 Anyways I'm not going there.";
-		to = "";
+		to = "La nuit dernière, j'ai rêvé que le Gobelin Maudit remuait dans sa tombe. Il y avait des robots tueurs et pire encore... une créature des ténèbres...
+Je les ai tous vus rôder sur la colline Maudite.
+
+Peut-être que le vieillard a raison !
+Ou peut-être que ses histoires m'ont simplement embrouillée...
+En tout cas, je n'irai pas là-bas.";
 	}
 
     // Lauryn companion
@@ -47,11 +56,12 @@ Anyways I'm not going there.";
 	{
 		from = "Hello, traveller!
 Are you an adventurer, looking for fame and fortune? Perfect timing, the Blasted Goblin has turned around in his grave and his machinations have once again reassembled to take revenge on our peaceful village - it's true, I've seen them at his grave on the Blasted Hill! That tightwad Mrs. Smith won't lend me any of her good armors, and my pocket money isn't enough, so I want to find the money hidden in the Old Tunnel. It's a secret the Old Man has told me about once.";
-		to = "";
+		to = "Bonjour, voyageur !
+Vous êtes aventurier, en quête de gloire et de fortune ? Vous tombez à pic ! Le Gobelin Maudit s'est retourné dans sa tombe, et ses machinations se sont de nouveau assemblées pour se venger de notre paisible village ! C'est vrai, je les ai vues près de sa tombe, sur la colline Maudite ! Cette radine de Mme Smith refuse de me prêter une seule de ses bonnes armures, et mon argent de poche ne suffit pas. Alors je veux trouver l'argent caché dans le vieux tunnel. Le vieillard m'a confié ce secret un jour.";
 	}
 	[0x0000]
 	{
 		from = "Wanna go together? To be honest, I'm afraid of Kill Bots... and the woods are full of them!";
-		to = "";
+		to = "On y va ensemble ? À vrai dire, les robots tueurs me font peur... et il y en a partout dans la forêt !";
 	}
 }
